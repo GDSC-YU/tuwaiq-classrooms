@@ -20,3 +20,8 @@ pnpm-debug.log*
 
 # user-specific files
 .vscode
+
+# playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/
