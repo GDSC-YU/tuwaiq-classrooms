@@ -1,14 +1,23 @@
 ---
+import Layout from "../layouts/Layout.astro";
+import { Icon } from "astro-icon";
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Tuwaiq Classrooms</title>
-  </head>
-  <body>
-    <h1>Tuwaiq Classrooms</h1>
-  </body>
-</html>
+<Layout title="Tuwaiq Classrooms">
+  <div
+    class="h-screen text-center flex flex-col justify-center"
+    style="background: linear-gradient(93.48deg, #BBDEFB -28.39%, #FFECB3 137.15%);"
+  >
+    <p class="font-cairo font-bold text-4xl">Tuwaiq Classrooms Availability</p>
+    <p class="text-2xl">
+      <span class="font-bold">Find</span> empty classrooms easily!
+    </p>
+    <div class="self-center absolute bottom-0 flex flex-col">
+      <p class="font-light">scroll down</p>
+      <Icon name="ic:round-keyboard-arrow-down" class="opacity-30 h-10" />
+    </div>
+  </div>
+  <main class="flex flex-col mt-10 mb-10">
+    <p class="font-cairo font-black text-4xl text-center">Classrooms Letters</p>
+  </main>
+</Layout>
