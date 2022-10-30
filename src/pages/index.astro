@@ -34,25 +34,27 @@ import ClassroomButton, {
     <p class="font-cairo font-black text-4xl text-center mb-5">
       Classrooms Letters
     </p>
-    <ClassroomButton
-      text="E Classrooms"
-      color={ClassroomButtonColor.paleBlue}
-      href="/E"
-    />
-    <ClassroomButton
-      text="F Classrooms"
-      color={ClassroomButtonColor.paleRed}
-      href="/F"
-    />
-    <ClassroomButton
-      text="G Classrooms"
-      color={ClassroomButtonColor.paleYellow}
-      href="/G"
-    />
-    <ClassroomButton
-      text="H Classrooms"
-      color={ClassroomButtonColor.paleGreen}
-      href="/H"
-    />
+    <div class="grid md:grid-cols-2">
+      <ClassroomButton
+        text="E Classrooms"
+        color={ClassroomButtonColor.paleBlue}
+        href="/E"
+      />
+      <ClassroomButton
+        text="F Classrooms"
+        color={ClassroomButtonColor.paleRed}
+        href="/F"
+      />
+      <ClassroomButton
+        text="G Classrooms"
+        color={ClassroomButtonColor.paleYellow}
+        href="/G"
+      />
+      <ClassroomButton
+        text="H Classrooms"
+        color={ClassroomButtonColor.paleGreen}
+        href="/H"
+      />
+    </div>
   </main>
 </Layout>
