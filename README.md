@@ -16,7 +16,6 @@ To run tests:
 
 - Icons library: https://icones.js.org
 - Tailwind CSS docs: https://tailwindcss.com
-- Playwright docs: https://playwright.dev
 - Asto docs: https://astro.build
 
 ## Contributing
