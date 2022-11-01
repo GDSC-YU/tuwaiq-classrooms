@@ -8,10 +8,6 @@ To run the app:
 
 - `npm run dev`
 
-To run tests:
-
-- `npx playwright install --with-deps`
-
 ## Useful Resources
 
 - Icons library: https://icones.js.org
