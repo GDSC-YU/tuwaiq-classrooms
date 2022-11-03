@@ -1,0 +1,69 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { rooms } from "../../misc/rooms";
+import ClassroomButton, {
+  ClassroomButtonColor,
+} from "../../components/ClassroomButton.astro";
+
+const { corner } = Astro.params;
+
+interface Props {
+  corner: string;
+}
+
+export function getStaticPaths() {
+  return [
+    { params: { corner: "E" } },
+    { params: { corner: "F" } },
+    { params: { corner: "G" } },
+    { params: { corner: "H" } },
+  ];
+}
+
+let color: ClassroomButtonColor;
+let bgColor: string = "";
+switch (corner) {
+  case "E":
+    color = ClassroomButtonColor.paleBlue;
+    bgColor = "bg-pale-blue";
+    break;
+  case "F":
+    color = ClassroomButtonColor.paleRed;
+    bgColor = "bg-pale-red";
+    break;
+  case "G":
+    color = ClassroomButtonColor.paleYellow;
+    bgColor = "bg-pale-yellow";
+    break;
+  case "H":
+    color = ClassroomButtonColor.paleGreen;
+    bgColor = "bg-pale-green";
+    break;
+}
+
+let chosenRooms: Array<string> = [];
+for (const key in rooms) {
+  if (key.charAt(0) == corner) {
+    chosenRooms.push(key);
+  }
+}
+---
+
+<Layout>
+  <header class={bgColor + " p-5 rounded-b-[16px]"}>
+    <p class="font-bold font-cairo text-3xl">{corner} Classrooms</p>
+  </header>
+  <div class="grid grid-cols-3 lg:grid-cols-5 min-h-full">
+    {
+      chosenRooms.map((chosenRoomName) => {
+        return (
+          <ClassroomButton
+            text={chosenRoomName}
+            color={color}
+            href={`/classrooms/s/${chosenRoomName}`}
+          />
+        );
+      })
+    }
+  </div>
+</Layout>

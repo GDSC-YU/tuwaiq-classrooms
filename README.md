@@ -12,7 +12,7 @@ To run the app:
 
 - Icons library: https://icones.js.org
 - Tailwind CSS docs: https://tailwindcss.com
-- Asto docs: https://astro.build
+- Astro docs: https://astro.build
 
 ## Contributing
 
