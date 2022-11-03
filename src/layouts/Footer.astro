@@ -1,0 +1,32 @@
+---
+import { Icon } from "astro-icon";
+---
+
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&family=Roboto:wght@300;400;700&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+  .footer-sentence {
+    font-family: "Poppins", cairo;
+    font-weight: bold;
+  }
+  footer a {
+    transition: color 0.3s;
+  }
+
+  footer a:hover {
+    color: orange;
+  }
+</style>
+
+<footer class="text-center mt-5">
+  <div class="flex justify-center mb-2">
+    <a href="https://twitter.com/gdsc_yu" target="_blank">
+      <Icon name="mdi:twitter" class="w-8 mr-2" />
+    </a>
+    <a href="https://www.instagram.com/gdsc_yu/" target="_blank">
+      <Icon name="mdi:instagram" class="w-8" />
+    </a>
+  </div>
+  <p class="footer-sentence">Made With ❤️ By The GDSC Team</p>
+</footer>
