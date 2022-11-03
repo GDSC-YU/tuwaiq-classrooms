@@ -1,0 +1,36 @@
+---
+export enum ClassroomButtonColor {
+  paleYellow,
+  paleRed,
+  paleGreen,
+  paleBlue,
+}
+
+interface Props {
+  text: string;
+  color: ClassroomButtonColor;
+  href: string;
+}
+
+const { text, color, href } = Astro.props;
+
+let colorClass: string;
+switch (color) {
+  case ClassroomButtonColor.paleYellow:
+    colorClass = "bg-pale-yellow";
+    break;
+  case ClassroomButtonColor.paleRed:
+    colorClass = "bg-pale-red";
+    break;
+  case ClassroomButtonColor.paleGreen:
+    colorClass = "bg-pale-green";
+    break;
+  case ClassroomButtonColor.paleBlue:
+    colorClass = "bg-pale-blue";
+    break;
+}
+---
+
+<a href={href} class={colorClass + " rounded-[16px] mx-4 my-5 py-8"}>
+  <p class="font-bold text-2xl text-center">{text}</p>
+</a>
