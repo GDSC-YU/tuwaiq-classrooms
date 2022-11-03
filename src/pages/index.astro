@@ -1,14 +1,60 @@
 ---
+import Layout from "../layouts/Layout.astro";
+import { Icon } from "astro-icon";
+import ClassroomButton, {
+  ClassroomButtonColor,
+} from "../components/ClassroomButton.astro";
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Tuwaiq Classrooms</title>
-  </head>
-  <body>
-    <h1>Tuwaiq Classrooms</h1>
-  </body>
-</html>
+<Layout title="Tuwaiq Classrooms">
+  <div
+    class="h-screen text-center flex flex-col justify-center"
+    style="background: linear-gradient(93.48deg, #BBDEFB -28.39%, #FFECB3 137.15%);"
+  >
+    <p
+      class="transition-all duration-700 ease-in-out font-cairo font-bold text-4xl lg:text-6xl"
+    >
+      Tuwaiq Classrooms Availability
+    </p>
+    <p
+      class="transition-all duration-700 ease-in-out text-2xl lg:text-4xl mt-2 lg:mt-6"
+    >
+      <span class="font-bold">Find</span> empty classrooms easily!
+    </p>
+    <div class="self-center absolute bottom-0 flex flex-col">
+      <p
+        class="transition-all duration-700 ease-in-out font-light text-md lg:text-xl"
+      >
+        scroll down
+      </p>
+      <Icon name="ic:round-keyboard-arrow-down" class="opacity-30 h-10" />
+    </div>
+  </div>
+  <main class="flex flex-col mt-10 mb-10">
+    <p class="font-cairo font-black text-4xl text-center mb-5">
+      Classrooms Letters
+    </p>
+    <div class="grid md:grid-cols-2">
+      <ClassroomButton
+        text="E Classrooms"
+        color={ClassroomButtonColor.paleBlue}
+        href="/E"
+      />
+      <ClassroomButton
+        text="F Classrooms"
+        color={ClassroomButtonColor.paleRed}
+        href="/F"
+      />
+      <ClassroomButton
+        text="G Classrooms"
+        color={ClassroomButtonColor.paleYellow}
+        href="/G"
+      />
+      <ClassroomButton
+        text="H Classrooms"
+        color={ClassroomButtonColor.paleGreen}
+        href="/H"
+      />
+    </div>
+  </main>
+</Layout>
