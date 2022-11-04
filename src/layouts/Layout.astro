@@ -13,21 +13,27 @@ const { title } = Astro.props;
     <title>{title}</title>
 
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&family=Roboto:wght@300;400;700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&family=Roboto:wght@300;400;700;900&display=swap");
     </style>
   </head>
-  <body>
+  <body class="flex min-h-screen flex-col">
     <slot />
-    <footer class="text-center mt-5">
+    <footer class="text-center mt-auto">
       <div class="flex justify-center mb-2">
         <a href="https://twitter.com/gdsc_yu" target="_blank">
-          <Icon name="mdi:twitter" class="w-8 mr-2" />
+          <Icon
+            name="mdi:twitter"
+            class="w-8 mr-2 transition-all duration-400 hover:text-twitter-color"
+          />
         </a>
         <a href="https://www.instagram.com/gdsc_yu/" target="_blank">
-          <Icon name="mdi:instagram" class="w-8" />
+          <Icon
+            name="mdi:instagram"
+            class="w-8 transition-all duration-400 hover:text-dark-pink"
+          />
         </a>
       </div>
-      <p>Made with ❤️ by GDSC Team</p>
+      <p class="text-xl font-cairo">Made With ❤️ By The GSDC Team</p>
     </footer>
   </body>
 </html>

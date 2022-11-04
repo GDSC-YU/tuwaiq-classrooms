@@ -22,38 +22,38 @@ import ClassroomButton, {
       <span class="font-bold">Find</span> empty classrooms easily!
     </p>
     <div class="self-center absolute bottom-0 flex flex-col">
-      <p
-        class="transition-all duration-700 ease-in-out font-light text-md lg:text-xl"
+      <a
+        href="#main-section"
+        class="transition-all duration-400 hover:text-orange ease-in-out font-semibold text-md lg:text-xl"
+        >Scroll Down</a
       >
-        scroll down
-      </p>
       <Icon name="ic:round-keyboard-arrow-down" class="opacity-30 h-10" />
     </div>
   </div>
-  <main class="flex flex-col mt-10 mb-10">
+  <main class="flex flex-col mt-10 mb-10" id="main-section">
     <p class="font-cairo font-black text-4xl text-center mb-5">
-      Classrooms Letters
+      The Corners of Tuwaiq
     </p>
     <div class="grid md:grid-cols-2">
       <ClassroomButton
-        text="E Classrooms"
+        text="E Corner"
         color={ClassroomButtonColor.paleBlue}
-        href="/E"
+        href="/corners/E"
       />
       <ClassroomButton
-        text="F Classrooms"
+        text="F Corner"
         color={ClassroomButtonColor.paleRed}
-        href="/F"
+        href="/corners/F"
       />
       <ClassroomButton
-        text="G Classrooms"
+        text="G Corner"
         color={ClassroomButtonColor.paleYellow}
-        href="/G"
+        href="/corners/G"
       />
       <ClassroomButton
-        text="H Classrooms"
+        text="H Corner"
         color={ClassroomButtonColor.paleGreen}
-        href="/H"
+        href="/corners/H"
       />
     </div>
   </main>

@@ -7,10 +7,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "pale-blue": "#BBDEFB",
-        "pale-red": "#FFCDD2",
-        "pale-yellow": "#FFECB3",
-        "pale-green": "#C8E6C9",
+        "pale-blue": "#90CAF9",
+        "pale-red": "#EF9A9A",
+        "pale-yellow": "#FFE082",
+        "pale-green": "#A5D6A7",
+        "twitter-color": "#00acee",
+        "dark-pink": "#C13584",
       },
       fontFamily: {
         sans: ["Roboto", "sans-serif", ...defaultTheme.fontFamily.sans],
