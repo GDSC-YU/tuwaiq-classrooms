@@ -4,6 +4,7 @@ import { Icon } from "astro-icon";
 import ClassroomButton, {
   ClassroomButtonColor,
 } from "../components/ClassroomButton.astro";
+import AstroConfig from "../../astro.config.mjs";
 ---
 
 <Layout title="Tuwaiq Classrooms">
@@ -38,22 +39,22 @@ import ClassroomButton, {
       <ClassroomButton
         text="E Corner"
         color={ClassroomButtonColor.paleBlue}
-        href="/corners/E"
+        href={`${AstroConfig.base}/corners/E`}
       />
       <ClassroomButton
         text="F Corner"
         color={ClassroomButtonColor.paleRed}
-        href="/corners/F"
+        href={`${AstroConfig.base}/corners/F`}
       />
       <ClassroomButton
         text="G Corner"
         color={ClassroomButtonColor.paleYellow}
-        href="/corners/G"
+        href={`${AstroConfig.base}/corners/G`}
       />
       <ClassroomButton
         text="H Corner"
         color={ClassroomButtonColor.paleGreen}
-        href="/corners/H"
+        href={`${AstroConfig.base}/corners/H`}
       />
     </div>
   </main>
