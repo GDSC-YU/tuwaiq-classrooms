@@ -7,16 +7,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "pale-blue": "#BBDEFB",
-        "pale-red": "#FFCDD2",
-        "pale-yellow": "#FFECB3",
-        "pale-green": "#C8E6C9",
-        orange: "#FFA500",
-        "google-red": "#EA4335",
-        "google-blue": "#4285F4",
-        "google-yellow": "#FBBC04",
-        "google-green": "#34A853",
-        "pale-beige": "#FFF4E6",
+        "pale-blue": "#90CAF9",
+        "pale-red": "#EF9A9A",
+        "pale-yellow": "#FFE082",
+        "pale-green": "#A5D6A7",
+        "twitter-color": "#00acee",
+        "dark-pink": "#C13584",
       },
       fontFamily: {
         sans: ["Roboto", "sans-serif", ...defaultTheme.fontFamily.sans],

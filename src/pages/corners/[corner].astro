@@ -5,24 +5,24 @@ import ClassroomButton, {
   ClassroomButtonColor,
 } from "../../components/ClassroomButton.astro";
 
-const { clazz } = Astro.params;
+const { corner } = Astro.params;
 
 interface Props {
-  clazz: string;
+  corner: string;
 }
 
 export function getStaticPaths() {
   return [
-    { params: { clazz: "E" } },
-    { params: { clazz: "F" } },
-    { params: { clazz: "G" } },
-    { params: { clazz: "H" } },
+    { params: { corner: "E" } },
+    { params: { corner: "F" } },
+    { params: { corner: "G" } },
+    { params: { corner: "H" } },
   ];
 }
 
 let color: ClassroomButtonColor;
 let bgColor: string = "";
-switch (clazz) {
+switch (corner) {
   case "E":
     color = ClassroomButtonColor.paleBlue;
     bgColor = "bg-pale-blue";
@@ -43,7 +43,7 @@ switch (clazz) {
 
 let chosenRooms: Array<string> = [];
 for (const key in rooms) {
-  if (key.charAt(0) == clazz) {
+  if (key.charAt(0) == corner) {
     chosenRooms.push(key);
   }
 }
@@ -51,7 +51,7 @@ for (const key in rooms) {
 
 <Layout>
   <header class={bgColor + " p-5 rounded-b-[16px]"}>
-    <p class="font-bold font-cairo text-3xl">{clazz} Classrooms</p>
+    <p class="font-bold font-cairo text-3xl">{corner} Classrooms</p>
   </header>
   <div class="grid grid-cols-3 lg:grid-cols-5 min-h-full">
     {

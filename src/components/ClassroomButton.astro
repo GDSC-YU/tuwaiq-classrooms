@@ -13,34 +13,30 @@ interface Props {
 }
 
 const { text, color, href } = Astro.props;
-let colorHover: string;
+
 let colorClass: string;
-/* hover colors to be changed*/
 switch (color) {
   case ClassroomButtonColor.paleYellow:
     colorClass = "bg-pale-yellow ";
-    colorHover = "hover:text-orange ";
     break;
   case ClassroomButtonColor.paleRed:
     colorClass = "bg-pale-red ";
-    colorHover = "hover:text-orange ";
     break;
   case ClassroomButtonColor.paleGreen:
     colorClass = "bg-pale-green ";
-    colorHover = "hover:text-orange ";
     break;
   case ClassroomButtonColor.paleBlue:
     colorClass = "bg-pale-blue ";
-    colorHover = "hover:text-orange ";
     break;
 }
 ---
 
-<a href={href} class={colorClass + "rounded-[16px] mx-4 my-5 py-8"}>
-  <p
-    class={colorHover +
-      "transition-all duration-400 font-bold text-2xl text-center"}
-  >
+<a
+  href={href}
+  class={colorClass +
+    "rounded-[16px] mx-4 my-5 py-8 hover:scale-90 transition-all duration-400"}
+>
+  <p class="font-bold text-2xl text-center">
     {text}
   </p>
 </a>
