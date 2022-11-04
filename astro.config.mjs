@@ -6,5 +6,6 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind()],
-  site: "http://tc.gdscyu.com",
+  site: "https://gdsc-yu.github.io",
+  base: "/tuwaiq-classrooms",
 });
