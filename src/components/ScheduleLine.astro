@@ -1,0 +1,12 @@
+---
+interface Props {
+  time: string;
+}
+
+const { time } = Astro.props;
+---
+
+<div class="flex flex-row items-center">
+  <p class="text-black/40 font-cairo font-bold">{time}</p>
+  <div class="grow border border-black/40 h-0 ml-5"></div>
+</div>

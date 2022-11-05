@@ -1,0 +1,20 @@
+---
+export enum HeaderColor {
+  paleYellow = "bg-pale-yellow",
+  paleRed = "bg-pale-red",
+  paleGreen = "bg-pale-green",
+  paleBlue = "bg-pale-blue",
+}
+
+interface Props {
+  title: string;
+  color: HeaderColor;
+}
+
+const { title, color } = Astro.props;
+---
+
+<header class={`${color} p-5 rounded-b-[16px]`}>
+  <p class="font-bold font-cairo text-3xl">{title}</p>
+  <slot />
+</header>
