@@ -1,12 +1,11 @@
 ---
-import Header, { HeaderColor } from "../../components/Header.astro";
-import ScheduleLine from "../../components/ScheduleLine.astro";
+import ClassroomSchedulePage from "../../components/ClassroomSchedulePage";
 import Layout from "../../layouts/Layout.astro";
-import { rooms } from "../../misc/rooms";
+import { Room, rooms } from "../../misc/rooms";
 
 const { roomName } = Astro.params;
 const roomNameString = roomName!.toString();
-const chosenRoom = rooms[roomNameString];
+const chosenRoom: Room = rooms[roomNameString];
 
 export function getStaticPaths() {
   const roomKeys = Object.keys(rooms);
@@ -15,50 +14,8 @@ export function getStaticPaths() {
     params: { roomName: key },
   }));
 }
-
-let headerColor: HeaderColor;
-switch (roomNameString.charAt(0)) {
-  case "E":
-    headerColor = HeaderColor.paleBlue;
-    break;
-  case "F":
-    headerColor = HeaderColor.paleRed;
-    break;
-  case "G":
-    headerColor = HeaderColor.paleYellow;
-    break;
-  case "H":
-    headerColor = HeaderColor.paleGreen;
-    break;
-}
 ---
 
 <Layout>
-  <Header title={roomNameString} color={headerColor!}>
-    Sunday Monday Tuesday
-  </Header>
-  <div class="grid">
-    <div class="flex flex-col space-y-10 p-4" style="grid-area: 1 / 1 / 2 / 2;">
-      <ScheduleLine time="07 am" />
-      <ScheduleLine time="08 am" />
-      <ScheduleLine time="09 am" />
-      <ScheduleLine time="10 am" />
-      <ScheduleLine time="11 am" />
-      <ScheduleLine time="12 am" />
-      <ScheduleLine time="01 pm" />
-      <ScheduleLine time="02 pm" />
-      <ScheduleLine time="03 pm" />
-      <ScheduleLine time="04 pm" />
-      <ScheduleLine time="05 pm" />
-    </div>
-    <div
-      class="flex flex-col ml-[5rem] mr-2 spacing-y-0"
-      style="grid-area: 1 / 1 / 2 / 2;"
-    >
-      <!-- build schedule from rooms Record -->
-      <p>FREE</p>
-      <p>OCCUPIED</p>
-      <p>FREE</p>
-    </div>
-  </div>
+  <ClassroomSchedulePage client:load room={chosenRoom} />
 </Layout>
