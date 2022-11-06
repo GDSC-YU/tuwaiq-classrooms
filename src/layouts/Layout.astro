@@ -1,6 +1,10 @@
 ---
 import { Icon } from "astro-icon";
 
+interface Props {
+  title: string;
+}
+
 const { title } = Astro.props;
 ---
 
@@ -11,6 +15,89 @@ const { title } = Astro.props;
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
+
+    <link rel="shortcut icon" href="/favicons/favicon.ico" />
+    <link rel="icon" sizes="16x16 32x32 64x64" href="/favicons/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="196x196"
+      href="/favicons/favicon-192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="160x160"
+      href="/favicons/favicon-160.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="/favicons/favicon-96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="64x64"
+      href="/favicons/favicon-64.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicons/favicon-32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicons/favicon-16.png"
+    />
+    <link rel="apple-touch-icon" href="/favicons/favicon-57.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/favicons/favicon-114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/favicons/favicon-72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/favicons/favicon-144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/favicons/favicon-60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/favicons/favicon-120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/favicons/favicon-76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/favicons/favicon-152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicons/favicon-180.png"
+    />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/favicons/favicon-144.png" />
+    <meta name="msapplication-config" content="//faviconsbrowserconfig.xml" />
 
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&family=Roboto:wght@300;400;700;900&display=swap");
@@ -33,7 +120,7 @@ const { title } = Astro.props;
           />
         </a>
       </div>
-      <p class="text-xl font-cairo">Made With ❤️ By The GSDC Team</p>
+      <p class="text-xl font-cairo">Made With ❤️ By The GDSC Team</p>
     </footer>
   </body>
 </html>
