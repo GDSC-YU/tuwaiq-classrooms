@@ -47,7 +47,7 @@ export default function ClassroomSchedulePage({ room }: Props) {
   return (
     <div>
       <Header title={room.name} color={headerColor!}>
-        <div className="flex flex-row flex-nowrap space-x-4 overflow-x-auto overflow-y-hidden">
+        <div className="flex flex-row flex-nowrap space-x-4 overflow-x-auto overflow-y-hidden mt-4">
           <TextChip
             text="Sunday"
             isSelected={selectedDay == Day.sunday}
@@ -77,7 +77,7 @@ export default function ClassroomSchedulePage({ room }: Props) {
       </Header>
       <div className="grid">
         <div
-          className="flex flex-col space-y-10 p-4"
+          className="flex flex-col space-y-12 p-4"
           style={{ gridArea: "1 / 1 / 2 / 2" }}
         >
           <ScheduleLine time="07 am" />
