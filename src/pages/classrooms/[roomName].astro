@@ -1,0 +1,21 @@
+---
+import ClassroomSchedulePage from "../../components/ClassroomSchedulePage";
+import Layout from "../../layouts/Layout.astro";
+import { Room, rooms } from "../../misc/rooms";
+
+const { roomName } = Astro.params;
+const roomNameString = roomName!.toString();
+const chosenRoom: Room = rooms[roomNameString];
+
+export function getStaticPaths() {
+  const roomKeys = Object.keys(rooms);
+
+  return roomKeys.map((key) => ({
+    params: { roomName: key },
+  }));
+}
+---
+
+<Layout title={roomNameString}>
+  <ClassroomSchedulePage client:load room={chosenRoom} />
+</Layout>

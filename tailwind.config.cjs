@@ -13,6 +13,7 @@ module.exports = {
         "pale-green": "#A5D6A7",
         "twitter-color": "#00acee",
         "dark-pink": "#C13584",
+        "light-grey": "#D9D9D9",
       },
       fontFamily: {
         sans: ["Roboto", "sans-serif", ...defaultTheme.fontFamily.sans],
