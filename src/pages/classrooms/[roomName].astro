@@ -16,6 +16,6 @@ export function getStaticPaths() {
 }
 ---
 
-<Layout>
+<Layout title={roomNameString}>
   <ClassroomSchedulePage client:load room={chosenRoom} />
 </Layout>
