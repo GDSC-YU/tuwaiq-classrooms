@@ -46,7 +46,7 @@ export default function ClassroomSchedulePage({ room }: Props) {
 
   return (
     <div>
-      <Header title={room.name} color={headerColor!}>
+      <Header title={room.name} color={headerColor!} aria-label="{room.name} header">
         <div
           className="flex flex-row flex-nowrap space-x-4 overflow-x-auto overflow-y-hidden mt-4"
           style={{
@@ -58,26 +58,31 @@ export default function ClassroomSchedulePage({ room }: Props) {
             text="Sunday"
             isSelected={selectedDay == Day.sunday}
             onClick={() => setSelectedDay(Day.sunday)}
+            aria-label="Sunday schedule"
           />
           <TextChip
             text="Monday"
             isSelected={selectedDay == Day.monday}
             onClick={() => setSelectedDay(Day.monday)}
+            aria-label="Monday schedule"
           />
           <TextChip
             text="Tuesday"
             isSelected={selectedDay == Day.tuesday}
             onClick={() => setSelectedDay(Day.tuesday)}
+            aria-label="Tuesday schedule"
           />
           <TextChip
             text="Wednesday"
             isSelected={selectedDay == Day.wednesday}
             onClick={() => setSelectedDay(Day.wednesday)}
+            aria-label="Wednesday schedule"
           />
           <TextChip
             text="Thursday"
             isSelected={selectedDay == Day.thursday}
             onClick={() => setSelectedDay(Day.thursday)}
+            aria-label="Thursday schedule"
           />
         </div>
       </Header>
@@ -86,17 +91,19 @@ export default function ClassroomSchedulePage({ room }: Props) {
           className="flex flex-col space-y-12 p-4"
           style={{ gridArea: "1 / 1 / 2 / 2" }}
         >
-          <ScheduleLine time="07 am" />
-          <ScheduleLine time="08 am" />
-          <ScheduleLine time="09 am" />
-          <ScheduleLine time="10 am" />
-          <ScheduleLine time="11 am" />
-          <ScheduleLine time="12 am" />
-          <ScheduleLine time="01 pm" />
-          <ScheduleLine time="02 pm" />
-          <ScheduleLine time="03 pm" />
-          <ScheduleLine time="04 pm" />
-          <ScheduleLine time="05 pm" />
+          <ScheduleLine time="07 am" aria-label="7 AM"/>
+          <ScheduleLine time="08 am" aria-label="8 AM"/>
+          <ScheduleLine time="09 am" aria-label="9 AM"/>
+          <ScheduleLine time="10 am" aria-label="10 AM"/>
+          <ScheduleLine time="11 am" aria-label="11 AM"/>
+          <ScheduleLine time="12 am" aria-label="12 AM"/>
+          <ScheduleLine time="01 pm" aria-label="01 PM"/>
+          <ScheduleLine time="02 pm" aria-label="02 PM"/>
+          <ScheduleLine time="03 pm" aria-label="03 PM"/>
+          <ScheduleLine time="04 pm" aria-label="04 PM"/>
+          <ScheduleLine time="05 pm" aria-label="05 PM"/>
+          <ScheduleLine time="06 pm" aria-label="06 PM"/>
+          <ScheduleLine time="07 pm" aria-label="07 PM"/>
         </div>
         <ScheduleDayTimeSlots
           key={Day.sunday}
