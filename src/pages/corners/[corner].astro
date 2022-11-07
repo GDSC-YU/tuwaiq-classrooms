@@ -4,12 +4,13 @@ import { rooms } from "../../misc/rooms";
 import ClassroomButton, {
   ClassroomButtonColor,
 } from "../../components/ClassroomButton.astro";
-
-const { corner } = Astro.params;
+import Header, { HeaderColor } from "../../components/Header";
 
 interface Props {
   corner: string;
 }
+
+const { corner } = Astro.params;
 
 export function getStaticPaths() {
   return [
@@ -21,23 +22,23 @@ export function getStaticPaths() {
 }
 
 let color: ClassroomButtonColor;
-let bgColor: string = "";
+let headerColor: HeaderColor;
 switch (corner) {
   case "E":
     color = ClassroomButtonColor.paleBlue;
-    bgColor = "bg-pale-blue";
+    headerColor = HeaderColor.paleBlue;
     break;
   case "F":
     color = ClassroomButtonColor.paleRed;
-    bgColor = "bg-pale-red";
+    headerColor = HeaderColor.paleRed;
     break;
   case "G":
     color = ClassroomButtonColor.paleYellow;
-    bgColor = "bg-pale-yellow";
+    headerColor = HeaderColor.paleYellow;
     break;
   case "H":
     color = ClassroomButtonColor.paleGreen;
-    bgColor = "bg-pale-green";
+    headerColor = HeaderColor.paleGreen;
     break;
 }
 
@@ -50,9 +51,7 @@ for (const key in rooms) {
 ---
 
 <Layout>
-  <header class={bgColor + " p-5 rounded-b-[16px]"}>
-    <p class="font-bold font-cairo text-3xl">{corner} Classrooms</p>
-  </header>
+  <Header title={`${corner} Classrooms`} color={headerColor!} />
   <div class="grid grid-cols-3 lg:grid-cols-5 min-h-full">
     {
       chosenRooms.map((chosenRoomName) => {
@@ -60,7 +59,7 @@ for (const key in rooms) {
           <ClassroomButton
             text={chosenRoomName}
             color={color}
-            href={`/classrooms/s/${chosenRoomName}`}
+            href={`/classrooms/${chosenRoomName}`}
           />
         );
       })
