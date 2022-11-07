@@ -36,15 +36,15 @@ export default function ScheduleDayTimeSlots({
 
             const startHour = timeSlot.timeStart.hour;
             const startMinute = timeSlot.timeStart.minute;
-            const startTime = `${startHour}:${startMinute} ${getAmPmFromHours(
-              startHour
-            )}`;
+            const startTime = `${startHour}:${
+              startMinute == 0 ? "00" : startMinute
+            } ${getAmPmFromHours(startHour)}`;
 
             const endHour = timeSlot.timeEnd.hour;
             const endMinute = timeSlot.timeEnd.minute;
-            const endTime = `${endHour}:${endMinute} ${getAmPmFromHours(
-              endHour
-            )}`;
+            const endTime = `${endHour}:${
+              endMinute == 0 ? "00" : endMinute
+            } ${getAmPmFromHours(endHour)}`;
 
             const minutesTotal =
               (endHour - startHour) * 60 + endMinute - startMinute;
@@ -74,10 +74,10 @@ export default function ScheduleDayTimeSlots({
                   marginTop: `${scheduleOffset}rem`,
                 }}
               >
-                <p className="text-cairo text-xl font-bold">
+                <p className="text-cairo text-xl font-bold" aria-label={timeSlot.courseName} >
                   {isFreeSlot ? "" : timeSlot.courseName}
                 </p>
-                <p className="text-cairo text-sm font-bold text-black/50">
+                <p className="text-cairo text-sm font-bold text-black/50" aria-label="{startTime}-{endTime}" >
                   {startTime} - {endTime}
                 </p>
               </div>
