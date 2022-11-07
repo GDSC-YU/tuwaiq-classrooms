@@ -2,6 +2,7 @@
 import ClassroomSchedulePage from "../../components/ClassroomSchedulePage";
 import Layout from "../../layouts/Layout.astro";
 import { Room, rooms } from "../../misc/rooms";
+import { Icon } from "astro-icon";
 
 const { roomName } = Astro.params;
 const roomNameString = roomName!.toString();
@@ -14,8 +15,12 @@ export function getStaticPaths() {
     params: { roomName: key },
   }));
 }
+
 ---
 
 <Layout>
+  <Icon onclick="window.history.back()"
+  name="ei:arrow-left"
+  class="w-12 transition-all duration-400 hover:text-white"/>
   <ClassroomSchedulePage client:load room={chosenRoom} />
 </Layout>
