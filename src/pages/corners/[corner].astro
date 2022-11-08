@@ -23,6 +23,7 @@ export function getStaticPaths() {
 
 let color: ClassroomButtonColor;
 let headerColor: HeaderColor;
+let gridCols: string = " grid-cols-3 ";
 switch (corner) {
   case "E":
     color = ClassroomButtonColor.paleBlue;
@@ -39,6 +40,7 @@ switch (corner) {
   case "H":
     color = ClassroomButtonColor.paleGreen;
     headerColor = HeaderColor.paleGreen;
+    gridCols = " grid-cols-1 ";
     break;
 }
 
@@ -52,7 +54,7 @@ for (const key in rooms) {
 
 <Layout title={`${corner} Classrooms`}>
   <Header title={`${corner} Classrooms`} color={headerColor!} />
-  <div class="grid grid-cols-3 lg:grid-cols-5 min-h-full">
+  <div class={"grid" + gridCols + "lg:grid-cols-5"}>
     {
       chosenRooms.map((chosenRoomName) => {
         return (
