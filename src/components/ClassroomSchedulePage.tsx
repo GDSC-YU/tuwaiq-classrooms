@@ -97,6 +97,8 @@ export default function ClassroomSchedulePage({ room }: Props) {
           <ScheduleLine time="03 pm" />
           <ScheduleLine time="04 pm" />
           <ScheduleLine time="05 pm" />
+          <ScheduleLine time="06 pm" />
+          <ScheduleLine time="07 pm" />
         </div>
         <ScheduleDayTimeSlots
           key={Day.sunday}
