@@ -36,15 +36,15 @@ export default function ScheduleDayTimeSlots({
 
             const startHour = timeSlot.timeStart.hour;
             const startMinute = timeSlot.timeStart.minute;
-            const startTime = `${startHour}:${startMinute} ${getAmPmFromHours(
-              startHour
-            )}`;
+            const startTime = `${startHour}:${
+              startMinute == 0 ? "00" : startMinute
+            } ${getAmPmFromHours(startHour)}`;
 
             const endHour = timeSlot.timeEnd.hour;
             const endMinute = timeSlot.timeEnd.minute;
-            const endTime = `${endHour}:${endMinute} ${getAmPmFromHours(
-              endHour
-            )}`;
+            const endTime = `${endHour}:${
+              endMinute == 0 ? "00" : endMinute
+            } ${getAmPmFromHours(endHour)}`;
 
             const minutesTotal =
               (endHour - startHour) * 60 + endMinute - startMinute;
