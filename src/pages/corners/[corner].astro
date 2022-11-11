@@ -5,6 +5,7 @@ import ClassroomButton, {
   ClassroomButtonColor,
 } from "../../components/ClassroomButton.astro";
 import Header, { HeaderColor } from "../../components/Header";
+import { Icon } from "astro-icon";
 
 interface Props {
   corner: string;
@@ -28,6 +29,7 @@ switch (corner) {
   case "E":
     color = ClassroomButtonColor.paleBlue;
     headerColor = HeaderColor.paleBlue;
+ 
     break;
   case "F":
     color = ClassroomButtonColor.paleRed;
@@ -53,6 +55,9 @@ for (const key in rooms) {
 ---
 
 <Layout title={`${corner} Classrooms`}>
+  <a href="../">
+    <Icon name="ei:arrow-left" class="w-12 transition-all duration-400 hover:text-white"/>
+  </a>
   <Header title={`${corner} Classrooms`} color={headerColor!} />
   <div class={"grid" + gridCols + "lg:grid-cols-5"}>
     {

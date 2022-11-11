@@ -2,6 +2,8 @@
 import ClassroomSchedulePage from "../../components/ClassroomSchedulePage";
 import Layout from "../../layouts/Layout.astro";
 import { Room, rooms } from "../../misc/rooms";
+import {Icon} from "astro-icon";
+
 
 const { roomName } = Astro.params;
 const roomNameString = roomName!.toString();
@@ -14,8 +16,27 @@ export function getStaticPaths() {
     params: { roomName: key },
   }));
 }
+function callback(){
+      let link='';
+        if (roomNameString.charAt(0)=='E') {
+           link='../corners/E';}
+                                        
+        else if (roomNameString.charAt(0)=='F') {
+          link='../corners/F';}
+
+        else if (roomNameString.charAt(0)=='G') {
+          link='../corners/G';
+          }
+
+        else if (roomNameString.charAt(0)=='H') {
+          link='../corners/H';}    
+
+         return link;}
 ---
 
 <Layout title={roomNameString}>
+  <a href={callback()}>
+    <Icon name="ei:arrow-left" class="w-12 transition-all duration-400 hover:text-white"/>
+  </a>
   <ClassroomSchedulePage client:load room={chosenRoom} />
 </Layout>
