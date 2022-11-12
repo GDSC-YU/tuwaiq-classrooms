@@ -74,10 +74,10 @@ export default function ScheduleDayTimeSlots({
                   marginTop: `${scheduleOffset}rem`,
                 }}
               >
-                <p className="text-cairo text-xl font-bold">
+                <p className="text-cairo text-xl font-bold" aria-label={timeSlot.courseName} >
                   {isFreeSlot ? "" : timeSlot.courseName}
                 </p>
-                <p className="text-cairo text-sm font-bold text-black/50">
+                <p className="text-cairo text-sm font-bold text-black/50" aria-label="{startTime}-{endTime}" >
                   {startTime} - {endTime}
                 </p>
               </div>
