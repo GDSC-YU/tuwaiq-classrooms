@@ -55,10 +55,7 @@ for (const key in rooms) {
 ---
 
 <Layout title={`${corner} Classrooms`}>
-  <a href="../">
-    <Icon name="ei:arrow-left" class="w-12 transition-all duration-400 hover:text-white"/>
-  </a>
-  <Header title={`${corner} Classrooms`} color={headerColor!} />
+  <Header title={`${corner} Classrooms`} color={headerColor!} callback={`../`}/>
   <div class={"grid" + gridCols + "lg:grid-cols-5"}>
     {
       chosenRooms.map((chosenRoomName) => {

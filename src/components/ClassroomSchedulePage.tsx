@@ -25,28 +25,34 @@ export default function ClassroomSchedulePage({ room }: Props) {
 
   let headerColor: HeaderColor;
   let occupiedSlotColor: OccupiedSlotColor;
+  let link="";
   switch (room.name.charAt(0)) {
     case "E":
       headerColor = HeaderColor.paleBlue;
       occupiedSlotColor = OccupiedSlotColor.paleBlue;
+      link="../corners/E";
       break;
     case "F":
       headerColor = HeaderColor.paleRed;
       occupiedSlotColor = OccupiedSlotColor.paleRed;
+      link="../corners/F";
       break;
     case "G":
       headerColor = HeaderColor.paleYellow;
       occupiedSlotColor = OccupiedSlotColor.paleYellow;
+      link="../corners/G";
       break;
     case "H":
       headerColor = HeaderColor.paleGreen;
       occupiedSlotColor = OccupiedSlotColor.paleGreen;
+      link="../corners/H";
       break;
   }
-
+ 
   return (
     <div>
-      <Header title={room.name} color={headerColor!}>
+      
+      <Header title={room.name} color={headerColor!} callback={link} >
         <div
           className="flex flex-row flex-nowrap space-x-4 overflow-x-auto overflow-y-hidden mt-4"
           style={{
