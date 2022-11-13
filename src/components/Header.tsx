@@ -1,14 +1,11 @@
-import type Icon from "astro-icon";
 import PropTypes from "prop-types";
-import { Children, SVGProps } from "react";
+import { Children } from "react";
 
-
-export function EiArrowLeft() {
+export function MiArrowLeft() {
   return (
-    <svg  className="w-11 h-11 hover:text-white ">
-      <path fill="currentColor" d="M25 42c-9.4 0-17-7.6-17-17S15.6 8 25 8s17 7.6 17 17s-7.6 17-17 17zm0-32c-8.3 0-15 6.7-15 15s6.7 15 15 15s15-6.7 15-15s-6.7-15-15-15z"/>
-      <path fill="currentColor" d="M25.3 34.7L15.6 25l9.7-9.7l1.4 1.4l-8.3 8.3l8.3 8.3z"/>
-      <path fill="currentColor" d="M17 24h17v2H17z"/>
+    <svg viewBox="0 0 24 24" className="w-9 h-9 hover:text-white mt-1 mx-4 ">
+      <path fill="currentColor" d="M11.707 5.293a1 1 0 0 1 0 1.414L7.414 11H19a1 1 0 1 1 0 2H7.414l4.293 4.293a1 1 0 0 1-1.414 1.414l-6-6a1 1 0 0 1 0-1.414l6-6a1 1 0 0 1 1.414 0z">
+        </path>
     </svg>
   )
 }
@@ -29,7 +26,7 @@ interface Props {
 export default function Header({ title, color, children,callback}: Props) {
   return (
     <header className={`${color} p-5 rounded-b-[16px]`}>
-      <p className="font-black font-cairo text-4xl"><a href={callback}>{EiArrowLeft()}</a>{title}</p>
+      <p className="flex font-black font-cairo text-4xl"><a href={callback}>{MiArrowLeft()}</a>{title}</p>
       {Children.map(children, (child) => child)}
     </header>
   );
