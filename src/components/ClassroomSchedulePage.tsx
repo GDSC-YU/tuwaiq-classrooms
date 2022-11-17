@@ -52,7 +52,7 @@ export default function ClassroomSchedulePage({ room }: Props) {
   return (
     <div>
       
-      <Header title={room.name} color={headerColor!} callback={link} >
+      <Header title={room.name} color={headerColor!} backButtonHref={link} >
         <div
           className="flex flex-row flex-nowrap space-x-4 overflow-x-auto overflow-y-hidden mt-4"
           style={{
