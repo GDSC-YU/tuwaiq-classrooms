@@ -5,8 +5,8 @@ interface Props {
 export default function ScheduleLine({ time }: Props) {
   return (
     <div className="flex flex-row items-center">
-      <p className="text-black/40 font-cairo font-bold">{time}</p>
-      <div className="grow border border-black/40 h-0 ml-5"></div>
+      <p className="font-cairo font-bold text-black/40">{time}</p>
+      <div className="ml-5 h-0 grow border border-black/40"></div>
     </div>
   );
 }

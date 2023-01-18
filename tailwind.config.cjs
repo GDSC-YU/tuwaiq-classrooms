@@ -14,10 +14,11 @@ module.exports = {
         "twitter-color": "#00acee",
         "dark-pink": "#C13584",
         "light-grey": "#D9D9D9",
+        "off-white": "#FFF4E6",
+        orangee: "#FFA500",
       },
       fontFamily: {
-        sans: ["Roboto", "sans-serif", ...defaultTheme.fontFamily.sans],
-        roboto: ["Roboto", "sans-serif"],
+        roboto: ["Roboto", "sans-serif", ...defaultTheme.fontFamily.sans],
         cairo: ["Cairo", "sans-serif"],
       },
     },
