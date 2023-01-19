@@ -53,12 +53,7 @@ for (const key in rooms) {
 ---
 
 <Layout title={`${corner} Classrooms`}>
-  <Header
-    title={`${corner} Classrooms`}
-    color={headerColor!}
-    aria-label={`${corner} Classrooms`}
-    backButtonHref="../"
-  />
+  <Header title={`${corner} Classrooms`} color={headerColor!} aria-label="{corner} Classrooms" />
   <div class={"grid" + gridCols + "lg:grid-cols-5"}>
     {
       chosenRooms.map((chosenRoomName) => {
@@ -67,7 +62,7 @@ for (const key in rooms) {
             text={chosenRoomName}
             color={color}
             href={`/classrooms/${chosenRoomName}`}
-            aria-label={`${chosenRoomName} Class`}
+            aria-label="{chosenRoomName} Class"             
           />
         );
       })
