@@ -23,7 +23,7 @@ export default function ScheduleDayTimeSlots({
     <div
       className={`${
         isVisible ? "visible" : "invisible"
-      } flex flex-col ml-[5rem] mr-2 spacing-y-0 pt-5`}
+      } spacing-y-0 ml-[5rem] mr-2 flex flex-col pt-5`}
       style={{ gridArea: "1 / 1 / 2 / 2" }}
     >
       {timeSlots == null
@@ -64,7 +64,7 @@ export default function ScheduleDayTimeSlots({
             return (
               <div
                 key={Math.random() * 51}
-                className={`flex flex-col text-center justify-center mx-4 ${
+                className={`mx-4 flex flex-col justify-center text-center ${
                   !isFreeSlot ? "bg-light-grey" : occupiedSlotColor
                 } ${isFirst ? "rounded-t-[16px]" : ""} ${
                   isLast ? "rounded-b-[16px]" : ""
@@ -74,10 +74,13 @@ export default function ScheduleDayTimeSlots({
                   marginTop: `${scheduleOffset}rem`,
                 }}
               >
-                <p className="text-cairo text-xl font-bold" aria-label={timeSlot.courseName} >
+                <p
+                  className="text-cairo text-xl font-bold"
+                  aria-label={timeSlot.courseName}
+                >
                   {isFreeSlot ? "" : timeSlot.courseName}
                 </p>
-                <p className="text-cairo text-sm font-bold text-black/50" aria-label="{startTime}-{endTime}" >
+                <p className="text-cairo text-sm font-bold text-black/50">
                   {startTime} - {endTime}
                 </p>
               </div>
