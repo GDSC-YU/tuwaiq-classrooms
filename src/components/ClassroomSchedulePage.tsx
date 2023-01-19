@@ -32,22 +32,22 @@ export default function ClassroomSchedulePage({ room }: Props) {
     case "E":
       headerColor = HeaderColor.paleBlue;
       occupiedSlotColor = OccupiedSlotColor.paleBlue;
-      link = "../corners/E";
+      link = "/corners/E";
       break;
     case "F":
       headerColor = HeaderColor.paleRed;
       occupiedSlotColor = OccupiedSlotColor.paleRed;
-      link = "../corners/F";
+      link = "/corners/F";
       break;
     case "G":
       headerColor = HeaderColor.paleYellow;
       occupiedSlotColor = OccupiedSlotColor.paleYellow;
-      link = "../corners/G";
+      link = "/corners/G";
       break;
     case "H":
       headerColor = HeaderColor.paleGreen;
       occupiedSlotColor = OccupiedSlotColor.paleGreen;
-      link = "../corners/H";
+      link = "/corners/H";
       break;
   }
 
