@@ -8,96 +8,59 @@ import ClassroomButton, {
 
 <Layout title="Tuwaiq Classrooms">
   <div
-    class="flex h-screen flex-col justify-center py-5 text-center"
+    class="h-screen text-center flex flex-col justify-center"
+    style="background: linear-gradient(93.48deg, #BBDEFB -28.39%, #FFECB3 137.15%);"
     aria-label="Tuwaiq's corners buttons"
   >
-    <div class="flex h-screen flex-col items-center justify-center gap-y-6">
-      <h1
-        class="font-cairo text-[42px] font-bold transition-all duration-700 ease-in-out lg:text-7xl"
-      >
-        <span class="text-orangee">Tuwaiq</span> Classrooms<span
-          class="text-orangee"
-        >
-          Availability
-        </span>
-      </h1>
-      <p class="text-2xl transition-all duration-700 ease-in-out lg:text-5xl">
-        <span class="font-bold">Find</span>
-        <span class="text-orangee">Empty Rooms</span> Easily<span
-          class="text-orangee">!</span
-        >
-      </p>
-    </div>
-    <div class="group mt-auto flex flex-col justify-center p-2">
+    <p
+      class="transition-all duration-700 ease-in-out font-cairo font-bold text-4xl lg:text-6xl"
+    >
+      Tuwaiq Classrooms Availability
+    </p>
+    <p
+      class="transition-all duration-700 ease-in-out text-2xl lg:text-4xl mt-2 lg:mt-6"
+    >
+      <span class="font-bold">Find</span> empty classrooms easily!
+    </p>
+    <div class="self-center absolute bottom-0 flex flex-col">
       <a
         href="#main-section"
-        class="text-lg font-semibold transition-all ease-in-out hover:scale-110 group-hover:text-orangee lg:text-2xl"
-        aria-label="scroll down">Scroll Down</a
+        class="transition-all duration-400 hover:text-orange ease-in-out font-semibold text-md lg:text-xl"
+        aria-label="scroll down"
+        >Scroll Down</a
       >
-      <Icon
-        name="ic:round-keyboard-arrow-down"
-        class="h-10 group-hover:text-orangee"
-      />
+      <Icon name="ic:round-keyboard-arrow-down" class="opacity-30 h-10" />
     </div>
   </div>
-  <main class="flex min-h-screen flex-col justify-center p-6" id="main-section">
-    <div class="my-auto">
-      <p class="mb-5 text-center font-cairo text-4xl font-black">
-        The Corners of Tuwaiq
-      </p>
-      <div class="grid md:grid-cols-2">
-        <ClassroomButton
-          text="E Corner"
-          color={ClassroomButtonColor.paleBlue}
-          href="/corners/E"
-          aria-label="Corner E button"
-        />
-        <ClassroomButton
-          text="F Corner"
-          color={ClassroomButtonColor.paleRed}
-          href="/corners/F"
-          aria-label="Corner F button"
-        />
-        <ClassroomButton
-          text="G Corner"
-          color={ClassroomButtonColor.paleYellow}
-          href="/corners/G"
-          aria-label="Corner G button"
-        />
-        <ClassroomButton
-          text="H Corner"
-          color={ClassroomButtonColor.paleGreen}
-          href="/corners/H"
-          aria-label="Corner H button"
-        />
-      </div>
+  <main class="flex flex-col mt-10 mb-10" id="main-section">
+    <p class="font-cairo font-black text-4xl text-center mb-5">
+      The Corners of Tuwaiq
+    </p>
+    <div class="grid md:grid-cols-2">
+      <ClassroomButton
+        text="E Corner"
+        color={ClassroomButtonColor.paleBlue}
+        href="/corners/E"
+        aria-label="Corner E button"
+      />
+      <ClassroomButton
+        text="F Corner"
+        color={ClassroomButtonColor.paleRed}
+        href="/corners/F"
+        aria-label="Corner F button"
+      />
+      <ClassroomButton
+        text="G Corner"
+        color={ClassroomButtonColor.paleYellow}
+        href="/corners/G"
+        aria-label="Corner G button"
+      />
+      <ClassroomButton
+        text="H Corner"
+        color={ClassroomButtonColor.paleGreen}
+        href="/corners/H"
+        aria-label="Corner H button"
+      />
     </div>
-    <footer class="mt-auto text-center">
-      <div class="mb-2 flex justify-center">
-        <a
-          href="https://twitter.com/gdsc_yu"
-          target="_blank"
-          aria-label="Twitter button"
-        >
-          <Icon
-            name="mdi:twitter"
-            class="w-8 mr-2 transition-all duration-400 hover:text-twitter-color"
-          />
-        </a>
-        <a
-          href="https://www.instagram.com/gdsc_yu/"
-          target="_blank"
-          aria-label="Instgram button"
-        >
-          <Icon
-            name="mdi:instagram"
-            class="w-8 transition-all duration-400 hover:text-dark-pink"
-          />
-        </a>
-      </div>
-      <p class="font-cairo text-xl font-semibold hover:scale-110 md:text-2xl">
-        Made With ❤️ By The GDSC Team
-      </p>
-    </footer>
   </main>
 </Layout>
