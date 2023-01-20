@@ -10,7 +10,7 @@ To run the app:
 
 ## Useful Resources
 
-- Icons library: https://icones.js.org
+- Icons library: https://icones.js.org & https://react-icons.github.io/react-icons/search
 - Tailwind CSS docs: https://tailwindcss.com
 - Astro docs: https://astro.build
 
