@@ -1,0 +1,53 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Icon } from "astro-icon";
+---
+
+<Layout title="Credits">
+  <main class="table h-screen overflow-hidden p-4 text-center">
+    <div class="absolute">
+      <a href="/" aria-label="Go Back Button">
+        <Icon
+          name="fa-solid:arrow-left"
+          class="hover:text-orangee w-8 lg:w-11"
+        />
+      </a>
+    </div>
+    <div class="table-cell w-screen space-y-10 align-middle">
+      <h1
+        class="font-cairo text-4xl font-bold transition-all duration-700 ease-in-out"
+      >
+        Big Thanks To The Industrial Engineering Club For Sticking The QR Codes
+        On Walls<span class="text-orangee">!</span>
+      </h1>
+      <p
+        class="text-[26px] transition-all duration-700 ease-in-out lg:text-3xl"
+      >
+        Check Their
+        <span class="font-bold text-orangee">Social Media</span> Accounts Below
+      </p>
+      <div class="flex justify-center gap-x-3">
+        <a
+          href="https://twitter.com/ieclub_yu"
+          target="_blank"
+          aria-label="Twitter button"
+        >
+          <Icon
+            name="uil:twitter-alt"
+            class="w-8 transition-all duration-400 hover:text-twitter-color"
+          />
+        </a>
+        <a
+          href="https://www.instagram.com/ieclub_yu/"
+          target="_blank"
+          aria-label="Instgram button"
+        >
+          <Icon
+            name="mdi:instagram"
+            class="w-8 transition-all duration-400 hover:text-dark-pink"
+          />
+        </a>
+      </div>
+    </div>
+  </main>
+</Layout>
