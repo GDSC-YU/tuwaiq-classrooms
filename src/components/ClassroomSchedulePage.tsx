@@ -20,7 +20,9 @@ enum Day {
 }
 
 export default function ClassroomSchedulePage({ room }: Props) {
-  const now = new Date();
+  const now = new Date(
+    new Date().toLocaleString("en-US", { timeZone: "Asia/Riyadh" })
+  );
   const [selectedDay, setSelectedDay] = useState(now.getDay());
 
   let headerColor: HeaderColor;
