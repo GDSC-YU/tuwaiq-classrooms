@@ -179,7 +179,33 @@ export const rooms: Record<string, Room> = {
         courseName: "135 MKT 311",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 9, minute: 30 },
+        timeEnd: { hour: 10, minute: 20 },
+        courseName: "25 ACC 415",
+      },
+      {
+        timeStart: { hour: 10, minute: 20 },
+        timeEnd: { hour: 10, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "26 ACC 426",
+      },
+      {
+        timeStart: { hour: 11, minute: 20 },
+        timeEnd: { hour: 13, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 13, minute: 30 },
+        timeEnd: { hour: 14, minute: 20 },
+        courseName: "27 ACC 202",
+      },
+    ],
   },
   E104: {
     name: "E104",
@@ -361,7 +387,53 @@ export const rooms: Record<string, Room> = {
         courseName: "285 ENG 101",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 9, minute: 30 },
+        timeEnd: { hour: 10, minute: 20 },
+        courseName: "351 LAW 123 | 533 LAW 230",
+      },
+      {
+        timeStart: { hour: 10, minute: 20 },
+        timeEnd: { hour: 10, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "151 MIS 428",
+      },
+      {
+        timeStart: { hour: 11, minute: 20 },
+        timeEnd: { hour: 11, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 11, minute: 30 },
+        timeEnd: { hour: 12, minute: 20 },
+        courseName: "163 MIS 329",
+      },
+      {
+        timeStart: { hour: 12, minute: 20 },
+        timeEnd: { hour: 12, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 12, minute: 30 },
+        timeEnd: { hour: 13, minute: 20 },
+        courseName: "372 LAW 226 | 536 LAW 314",
+      },
+      {
+        timeStart: { hour: 13, minute: 20 },
+        timeEnd: { hour: 13, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 13, minute: 30 },
+        timeEnd: { hour: 14, minute: 20 },
+        courseName: "575 LAW 231",
+      },
+    ],
   },
   E106: {
     name: "E106",
@@ -493,7 +565,43 @@ export const rooms: Record<string, Room> = {
         courseName: "85 BUS 404",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 9, minute: 30 },
+        timeEnd: { hour: 10, minute: 20 },
+        courseName: "128 MGT 409",
+      },
+      {
+        timeStart: { hour: 10, minute: 20 },
+        timeEnd: { hour: 10, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "81 MGT 441",
+      },
+      {
+        timeStart: { hour: 11, minute: 20 },
+        timeEnd: { hour: 11, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 11, minute: 30 },
+        timeEnd: { hour: 12, minute: 20 },
+        courseName: "82 MGT 416",
+      },
+      {
+        timeStart: { hour: 12, minute: 20 },
+        timeEnd: { hour: 13, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 13, minute: 30 },
+        timeEnd: { hour: 14, minute: 20 },
+        courseName: "129 MGT 312",
+      },
+    ],
   },
   E108: {
     name: "E108",
@@ -645,7 +753,43 @@ export const rooms: Record<string, Room> = {
         courseName: "83 MTH 301",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "141 MKT 411",
+      },
+      {
+        timeStart: { hour: 11, minute: 20 },
+        timeEnd: { hour: 11, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 11, minute: 30 },
+        timeEnd: { hour: 12, minute: 20 },
+        courseName: "142 MKT 411",
+      },
+      {
+        timeStart: { hour: 12, minute: 20 },
+        timeEnd: { hour: 12, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 12, minute: 30 },
+        timeEnd: { hour: 13, minute: 20 },
+        courseName: "69 MTH 301",
+      },
+      {
+        timeStart: { hour: 13, minute: 20 },
+        timeEnd: { hour: 13, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 13, minute: 30 },
+        timeEnd: { hour: 14, minute: 20 },
+        courseName: "72 MTH 101",
+      },
+    ],
   },
   E110: {
     name: "E110",
@@ -757,7 +901,33 @@ export const rooms: Record<string, Room> = {
         courseName: "55 MTH 304",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 8, minute: 30 },
+        timeEnd: { hour: 10, minute: 20 },
+        courseName: "152 CIS 321",
+      },
+      {
+        timeStart: { hour: 10, minute: 20 },
+        timeEnd: { hour: 12, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 12, minute: 30 },
+        timeEnd: { hour: 13, minute: 20 },
+        courseName: "52 STT 102",
+      },
+      {
+        timeStart: { hour: 13, minute: 20 },
+        timeEnd: { hour: 13, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 13, minute: 30 },
+        timeEnd: { hour: 14, minute: 20 },
+        courseName: "54 MTH 304",
+      },
+    ],
   },
   E202: {
     name: "E202",
@@ -879,7 +1049,53 @@ export const rooms: Record<string, Room> = {
         courseName: "131 MGT 202",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 8, minute: 0 },
+        timeEnd: { hour: 9, minute: 20 },
+        courseName: "447 IEG 411",
+      },
+      {
+        timeStart: { hour: 9, minute: 20 },
+        timeEnd: { hour: 9, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 9, minute: 30 },
+        timeEnd: { hour: 10, minute: 20 },
+        courseName: "448 IEG 411",
+      },
+      {
+        timeStart: { hour: 10, minute: 20 },
+        timeEnd: { hour: 10, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "119 MGT 202",
+      },
+      {
+        timeStart: { hour: 11, minute: 20 },
+        timeEnd: { hour: 11, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 11, minute: 30 },
+        timeEnd: { hour: 12, minute: 20 },
+        courseName: "579 LAW 235",
+      },
+      {
+        timeStart: { hour: 12, minute: 20 },
+        timeEnd: { hour: 13, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 13, minute: 30 },
+        timeEnd: { hour: 14, minute: 20 },
+        courseName: "122 MGT 202",
+      },
+    ],
   },
   E204: {
     name: "E204",
@@ -1011,7 +1227,43 @@ export const rooms: Record<string, Room> = {
         courseName: "64 MGT 305",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 9, minute: 30 },
+        timeEnd: { hour: 10, minute: 20 },
+        courseName: "294 ENG 202",
+      },
+      {
+        timeStart: { hour: 10, minute: 20 },
+        timeEnd: { hour: 10, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "296 ENG 202",
+      },
+      {
+        timeStart: { hour: 11, minute: 20 },
+        timeEnd: { hour: 12, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 12, minute: 30 },
+        timeEnd: { hour: 13, minute: 20 },
+        courseName: "436 IEG 345",
+      },
+      {
+        timeStart: { hour: 13, minute: 20 },
+        timeEnd: { hour: 13, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 13, minute: 30 },
+        timeEnd: { hour: 14, minute: 20 },
+        courseName: "133 MKT 102",
+      },
+    ],
   },
   E206: {
     name: "E206",
@@ -1123,7 +1375,43 @@ export const rooms: Record<string, Room> = {
         courseName: "629 NES 212",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 8, minute: 30 },
+        timeEnd: { hour: 9, minute: 20 },
+        courseName: "185 CIS 221",
+      },
+      {
+        timeStart: { hour: 9, minute: 20 },
+        timeEnd: { hour: 10, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "43 ECO 202",
+      },
+      {
+        timeStart: { hour: 11, minute: 20 },
+        timeEnd: { hour: 13, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 13, minute: 30 },
+        timeEnd: { hour: 14, minute: 20 },
+        courseName: "114 MGT 102",
+      },
+      {
+        timeStart: { hour: 14, minute: 20 },
+        timeEnd: { hour: 15, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 15, minute: 30 },
+        timeEnd: { hour: 16, minute: 20 },
+        courseName: "582 LAW 327",
+      },
+    ],
   },
   E208: {
     name: "E208",
@@ -1285,7 +1573,33 @@ export const rooms: Record<string, Room> = {
         courseName: "366 LAW 223",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 11, minute: 30 },
+        timeEnd: { hour: 12, minute: 20 },
+        courseName: "439 IEG 322",
+      },
+      {
+        timeStart: { hour: 12, minute: 20 },
+        timeEnd: { hour: 13, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 13, minute: 30 },
+        timeEnd: { hour: 14, minute: 20 },
+        courseName: "164 CIS 104",
+      },
+      {
+        timeStart: { hour: 14, minute: 20 },
+        timeEnd: { hour: 15, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 15, minute: 30 },
+        timeEnd: { hour: 16, minute: 20 },
+        courseName: "360 LAW 331 | 540 LAW 429",
+      },
+    ],
   },
   E210: {
     name: "E210",
@@ -1487,7 +1801,73 @@ export const rooms: Record<string, Room> = {
         courseName: "376 LAW 404",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 8, minute: 30 },
+        timeEnd: { hour: 9, minute: 20 },
+        courseName: "643 LAW 235",
+      },
+      {
+        timeStart: { hour: 9, minute: 20 },
+        timeEnd: { hour: 9, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 9, minute: 30 },
+        timeEnd: { hour: 10, minute: 20 },
+        courseName: "346 LAW 225",
+      },
+      {
+        timeStart: { hour: 10, minute: 20 },
+        timeEnd: { hour: 10, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "628 LAW 113 | 571 LAW 203",
+      },
+      {
+        timeStart: { hour: 11, minute: 20 },
+        timeEnd: { hour: 12, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 12, minute: 30 },
+        timeEnd: { hour: 13, minute: 20 },
+        courseName: "180 CIS 103",
+      },
+      {
+        timeStart: { hour: 13, minute: 20 },
+        timeEnd: { hour: 13, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 13, minute: 30 },
+        timeEnd: { hour: 14, minute: 20 },
+        courseName: "633 ENG 201",
+      },
+      {
+        timeStart: { hour: 14, minute: 20 },
+        timeEnd: { hour: 14, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 14, minute: 30 },
+        timeEnd: { hour: 15, minute: 20 },
+        courseName: "581 LAW 218",
+      },
+      {
+        timeStart: { hour: 15, minute: 20 },
+        timeEnd: { hour: 15, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 15, minute: 30 },
+        timeEnd: { hour: 16, minute: 20 },
+        courseName: "343 LAW 312",
+      },
+    ],
   },
   E301: {
     name: "E301",
@@ -1601,7 +1981,13 @@ export const rooms: Record<string, Room> = {
         courseName: "253 ARCH 102",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "615 CIS 201",
+      },
+    ],
   },
   E303: {
     name: "E303",
@@ -1673,7 +2059,13 @@ export const rooms: Record<string, Room> = {
         courseName: "263 ARC 211",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 12, minute: 30 },
+        timeEnd: { hour: 15, minute: 20 },
+        courseName: "642 ARC 314",
+      },
+    ],
   },
   E304: {
     name: "E304",
@@ -1971,7 +2363,43 @@ export const rooms: Record<string, Room> = {
         courseName: "95 STT 102",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 8, minute: 30 },
+        timeEnd: { hour: 9, minute: 20 },
+        courseName: "61 BUS 304",
+      },
+      {
+        timeStart: { hour: 9, minute: 20 },
+        timeEnd: { hour: 9, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 9, minute: 30 },
+        timeEnd: { hour: 10, minute: 20 },
+        courseName: "62 MGT 305",
+      },
+      {
+        timeStart: { hour: 10, minute: 20 },
+        timeEnd: { hour: 10, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "132 MKT 311",
+      },
+      {
+        timeStart: { hour: 11, minute: 20 },
+        timeEnd: { hour: 12, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 12, minute: 30 },
+        timeEnd: { hour: 13, minute: 20 },
+        courseName: "336 LAW 101",
+      },
+    ],
   },
   F007: {
     name: "F007",
@@ -2153,7 +2581,73 @@ export const rooms: Record<string, Room> = {
         courseName: "369 LAW 122",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 8, minute: 30 },
+        timeEnd: { hour: 9, minute: 20 },
+        courseName: "118 MGT 305",
+      },
+      {
+        timeStart: { hour: 9, minute: 20 },
+        timeEnd: { hour: 9, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 9, minute: 30 },
+        timeEnd: { hour: 10, minute: 20 },
+        courseName: "21 ACC 201",
+      },
+      {
+        timeStart: { hour: 10, minute: 20 },
+        timeEnd: { hour: 10, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "22 ACC 201",
+      },
+      {
+        timeStart: { hour: 11, minute: 20 },
+        timeEnd: { hour: 11, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 11, minute: 30 },
+        timeEnd: { hour: 12, minute: 20 },
+        courseName: "430 IEG 400",
+      },
+      {
+        timeStart: { hour: 12, minute: 20 },
+        timeEnd: { hour: 12, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 12, minute: 30 },
+        timeEnd: { hour: 13, minute: 20 },
+        courseName: "431 IEG 400",
+      },
+      {
+        timeStart: { hour: 13, minute: 20 },
+        timeEnd: { hour: 13, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 13, minute: 30 },
+        timeEnd: { hour: 14, minute: 20 },
+        courseName: "23 ACC 201",
+      },
+      {
+        timeStart: { hour: 14, minute: 20 },
+        timeEnd: { hour: 14, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 14, minute: 30 },
+        timeEnd: { hour: 15, minute: 20 },
+        courseName: "298 PHL 101",
+      },
+    ],
   },
   F103: {
     name: "F103",
@@ -2305,7 +2799,33 @@ export const rooms: Record<string, Room> = {
         courseName: "373 LAW 115",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "35 ECO 201",
+      },
+      {
+        timeStart: { hour: 11, minute: 20 },
+        timeEnd: { hour: 11, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 11, minute: 30 },
+        timeEnd: { hour: 12, minute: 20 },
+        courseName: "153 MIS 201",
+      },
+      {
+        timeStart: { hour: 12, minute: 20 },
+        timeEnd: { hour: 13, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 13, minute: 30 },
+        timeEnd: { hour: 14, minute: 20 },
+        courseName: "36 FIN 418",
+      },
+    ],
   },
   F105: {
     name: "F105",
@@ -2477,7 +2997,63 @@ export const rooms: Record<string, Room> = {
         courseName: "53 BUS 302",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 9, minute: 30 },
+        timeEnd: { hour: 10, minute: 20 },
+        courseName: "573 LAW 326",
+      },
+      {
+        timeStart: { hour: 10, minute: 20 },
+        timeEnd: { hour: 10, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "145 MKT 418",
+      },
+      {
+        timeStart: { hour: 11, minute: 20 },
+        timeEnd: { hour: 11, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 11, minute: 30 },
+        timeEnd: { hour: 12, minute: 20 },
+        courseName: "146 MKT 415",
+      },
+      {
+        timeStart: { hour: 12, minute: 20 },
+        timeEnd: { hour: 12, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 12, minute: 30 },
+        timeEnd: { hour: 13, minute: 20 },
+        courseName: "424 PHY 101",
+      },
+      {
+        timeStart: { hour: 13, minute: 20 },
+        timeEnd: { hour: 13, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 13, minute: 30 },
+        timeEnd: { hour: 14, minute: 20 },
+        courseName: "147 MKT 314",
+      },
+      {
+        timeStart: { hour: 14, minute: 20 },
+        timeEnd: { hour: 14, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 14, minute: 30 },
+        timeEnd: { hour: 15, minute: 20 },
+        courseName: "209 SWE 202",
+      },
+    ],
   },
   F107: {
     name: "F107",
@@ -2689,7 +3265,73 @@ export const rooms: Record<string, Room> = {
         courseName: "90 MTH 204",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 8, minute: 30 },
+        timeEnd: { hour: 9, minute: 20 },
+        courseName: "287 ENG 202",
+      },
+      {
+        timeStart: { hour: 9, minute: 20 },
+        timeEnd: { hour: 9, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 9, minute: 30 },
+        timeEnd: { hour: 10, minute: 20 },
+        courseName: "29 ACC 202",
+      },
+      {
+        timeStart: { hour: 10, minute: 20 },
+        timeEnd: { hour: 10, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "30 ACC 411",
+      },
+      {
+        timeStart: { hour: 11, minute: 20 },
+        timeEnd: { hour: 11, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 11, minute: 30 },
+        timeEnd: { hour: 12, minute: 20 },
+        courseName: "288 ENG 101",
+      },
+      {
+        timeStart: { hour: 12, minute: 20 },
+        timeEnd: { hour: 12, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 12, minute: 30 },
+        timeEnd: { hour: 13, minute: 20 },
+        courseName: "86 STT 103",
+      },
+      {
+        timeStart: { hour: 13, minute: 20 },
+        timeEnd: { hour: 13, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 13, minute: 30 },
+        timeEnd: { hour: 14, minute: 20 },
+        courseName: "87 MTH 204",
+      },
+      {
+        timeStart: { hour: 14, minute: 20 },
+        timeEnd: { hour: 14, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 14, minute: 30 },
+        timeEnd: { hour: 15, minute: 20 },
+        courseName: "88 MTH 106",
+      },
+    ],
   },
   F109: {
     name: "F109",
@@ -2901,7 +3543,73 @@ export const rooms: Record<string, Room> = {
         courseName: "532 LAW 229",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 8, minute: 30 },
+        timeEnd: { hour: 9, minute: 20 },
+        courseName: "307 PSY 101",
+      },
+      {
+        timeStart: { hour: 9, minute: 20 },
+        timeEnd: { hour: 9, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 9, minute: 30 },
+        timeEnd: { hour: 10, minute: 20 },
+        courseName: "308 PHL 101",
+      },
+      {
+        timeStart: { hour: 10, minute: 20 },
+        timeEnd: { hour: 10, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "79 MTH 101",
+      },
+      {
+        timeStart: { hour: 11, minute: 20 },
+        timeEnd: { hour: 11, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 11, minute: 30 },
+        timeEnd: { hour: 12, minute: 20 },
+        courseName: "309 SOS 102",
+      },
+      {
+        timeStart: { hour: 12, minute: 20 },
+        timeEnd: { hour: 12, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 12, minute: 30 },
+        timeEnd: { hour: 13, minute: 20 },
+        courseName: "65 MTH 104",
+      },
+      {
+        timeStart: { hour: 13, minute: 20 },
+        timeEnd: { hour: 13, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 13, minute: 30 },
+        timeEnd: { hour: 14, minute: 20 },
+        courseName: "66 MTH 101",
+      },
+      {
+        timeStart: { hour: 14, minute: 20 },
+        timeEnd: { hour: 14, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 14, minute: 30 },
+        timeEnd: { hour: 15, minute: 20 },
+        courseName: "67 MTH 101",
+      },
+    ],
   },
   F203: {
     name: "F203",
@@ -3093,7 +3801,53 @@ export const rooms: Record<string, Room> = {
         courseName: "580 LAW 118",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 9, minute: 30 },
+        timeEnd: { hour: 10, minute: 20 },
+        courseName: "75 MGT 300",
+      },
+      {
+        timeStart: { hour: 10, minute: 20 },
+        timeEnd: { hour: 10, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "99 MGT 101",
+      },
+      {
+        timeStart: { hour: 11, minute: 20 },
+        timeEnd: { hour: 11, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 11, minute: 30 },
+        timeEnd: { hour: 12, minute: 20 },
+        courseName: "76 BUS 401",
+      },
+      {
+        timeStart: { hour: 12, minute: 20 },
+        timeEnd: { hour: 13, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 13, minute: 30 },
+        timeEnd: { hour: 14, minute: 20 },
+        courseName: "100 MGT 101",
+      },
+      {
+        timeStart: { hour: 14, minute: 20 },
+        timeEnd: { hour: 14, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 14, minute: 30 },
+        timeEnd: { hour: 15, minute: 20 },
+        courseName: "620 MGT 101",
+      },
+    ],
   },
   F205: {
     name: "F205",
@@ -3240,7 +3994,53 @@ export const rooms: Record<string, Room> = {
         courseName: "567 LAW 304 | 568 LAW 216",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 8, minute: 30 },
+        timeEnd: { hour: 9, minute: 20 },
+        courseName: "362 LAW 324 | 539 LAW 444",
+      },
+      {
+        timeStart: { hour: 9, minute: 20 },
+        timeEnd: { hour: 10, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "577 LAW 301",
+      },
+      {
+        timeStart: { hour: 11, minute: 20 },
+        timeEnd: { hour: 11, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 11, minute: 30 },
+        timeEnd: { hour: 12, minute: 20 },
+        courseName: "592 LAW 308",
+      },
+      {
+        timeStart: { hour: 12, minute: 20 },
+        timeEnd: { hour: 12, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 12, minute: 30 },
+        timeEnd: { hour: 13, minute: 20 },
+        courseName: "364 LAW 334",
+      },
+      {
+        timeStart: { hour: 13, minute: 20 },
+        timeEnd: { hour: 13, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 13, minute: 30 },
+        timeEnd: { hour: 14, minute: 20 },
+        courseName: "71 MGT 301",
+      },
+    ],
   },
   F207: {
     name: "F207",
@@ -3412,7 +4212,33 @@ export const rooms: Record<string, Room> = {
         courseName: "291 ENG 101",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "608 CIS 202",
+      },
+      {
+        timeStart: { hour: 11, minute: 20 },
+        timeEnd: { hour: 11, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 11, minute: 30 },
+        timeEnd: { hour: 12, minute: 20 },
+        courseName: "414 IEG 321",
+      },
+      {
+        timeStart: { hour: 12, minute: 20 },
+        timeEnd: { hour: 13, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 13, minute: 30 },
+        timeEnd: { hour: 14, minute: 20 },
+        courseName: "58 BUS 304",
+      },
+    ],
   },
   F209: {
     name: "F209",
@@ -3604,7 +4430,63 @@ export const rooms: Record<string, Room> = {
         courseName: "563 SOS 101",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 8, minute: 30 },
+        timeEnd: { hour: 9, minute: 20 },
+        courseName: "370 LAW 313",
+      },
+      {
+        timeStart: { hour: 9, minute: 20 },
+        timeEnd: { hour: 9, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 9, minute: 30 },
+        timeEnd: { hour: 10, minute: 20 },
+        courseName: "574 LAW 201",
+      },
+      {
+        timeStart: { hour: 10, minute: 20 },
+        timeEnd: { hour: 10, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "333 LAW 322",
+      },
+      {
+        timeStart: { hour: 11, minute: 20 },
+        timeEnd: { hour: 11, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 11, minute: 30 },
+        timeEnd: { hour: 12, minute: 20 },
+        courseName: "302 PSY 101",
+      },
+      {
+        timeStart: { hour: 12, minute: 20 },
+        timeEnd: { hour: 14, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 14, minute: 30 },
+        timeEnd: { hour: 15, minute: 20 },
+        courseName: "358 LAW 332",
+      },
+      {
+        timeStart: { hour: 15, minute: 20 },
+        timeEnd: { hour: 15, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 15, minute: 30 },
+        timeEnd: { hour: 16, minute: 20 },
+        courseName: "570 LAW 117",
+      },
+    ],
   },
   G018: {
     name: "G018",
@@ -3822,7 +4704,63 @@ export const rooms: Record<string, Room> = {
         courseName: "607 SWE 312",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 9, minute: 30 },
+        timeEnd: { hour: 10, minute: 20 },
+        courseName: "279 ENG 101",
+      },
+      {
+        timeStart: { hour: 10, minute: 20 },
+        timeEnd: { hour: 10, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "281 ENG 101",
+      },
+      {
+        timeStart: { hour: 11, minute: 20 },
+        timeEnd: { hour: 11, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 11, minute: 30 },
+        timeEnd: { hour: 12, minute: 20 },
+        courseName: "123 PHY 103",
+      },
+      {
+        timeStart: { hour: 12, minute: 20 },
+        timeEnd: { hour: 12, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 12, minute: 30 },
+        timeEnd: { hour: 13, minute: 20 },
+        courseName: "110 ECL 101",
+      },
+      {
+        timeStart: { hour: 13, minute: 20 },
+        timeEnd: { hour: 13, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 13, minute: 30 },
+        timeEnd: { hour: 14, minute: 20 },
+        courseName: "97 PHY 203 | 126 PHY 203",
+      },
+      {
+        timeStart: { hour: 14, minute: 20 },
+        timeEnd: { hour: 14, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 14, minute: 30 },
+        timeEnd: { hour: 15, minute: 50 },
+        courseName: "112 CHM 101",
+      },
+    ],
   },
   G118: {
     name: "G118",
@@ -4224,7 +5162,123 @@ export const rooms: Record<string, Room> = {
         courseName: "637 IEG 322",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 8, minute: 30 },
+        timeEnd: { hour: 9, minute: 20 },
+        courseName: "104 PHY 102",
+      },
+      {
+        timeStart: { hour: 9, minute: 20 },
+        timeEnd: { hour: 10, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "92 STT 102",
+      },
+      {
+        timeStart: { hour: 11, minute: 20 },
+        timeEnd: { hour: 10, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "211 NES 424",
+      },
+      {
+        timeStart: { hour: 11, minute: 20 },
+        timeEnd: { hour: 11, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 11, minute: 30 },
+        timeEnd: { hour: 12, minute: 20 },
+        courseName: "91 STT 203",
+      },
+      {
+        timeStart: { hour: 12, minute: 20 },
+        timeEnd: { hour: 11, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 11, minute: 30 },
+        timeEnd: { hour: 12, minute: 20 },
+        courseName: "504 CIS 316",
+      },
+      {
+        timeStart: { hour: 12, minute: 20 },
+        timeEnd: { hour: 12, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 12, minute: 30 },
+        timeEnd: { hour: 13, minute: 20 },
+        courseName: "624 IEG 302",
+      },
+      {
+        timeStart: { hour: 13, minute: 20 },
+        timeEnd: { hour: 12, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 12, minute: 30 },
+        timeEnd: { hour: 13, minute: 20 },
+        courseName: "204 CIS 304",
+      },
+      {
+        timeStart: { hour: 13, minute: 20 },
+        timeEnd: { hour: 13, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 13, minute: 30 },
+        timeEnd: { hour: 14, minute: 20 },
+        courseName: "208 CIS 351",
+      },
+      {
+        timeStart: { hour: 14, minute: 20 },
+        timeEnd: { hour: 13, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 13, minute: 30 },
+        timeEnd: { hour: 14, minute: 20 },
+        courseName: "105 PHY 103",
+      },
+      {
+        timeStart: { hour: 14, minute: 20 },
+        timeEnd: { hour: 14, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 14, minute: 30 },
+        timeEnd: { hour: 15, minute: 20 },
+        courseName: "93 STT 203",
+      },
+      {
+        timeStart: { hour: 15, minute: 20 },
+        timeEnd: { hour: 14, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 14, minute: 30 },
+        timeEnd: { hour: 15, minute: 20 },
+        courseName: "205 NES 443",
+      },
+      {
+        timeStart: { hour: 15, minute: 20 },
+        timeEnd: { hour: 16, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 16, minute: 30 },
+        timeEnd: { hour: 17, minute: 20 },
+        courseName: "636 IEG 322",
+      },
+    ],
   },
   G122: {
     name: "G122",
@@ -4326,7 +5380,43 @@ export const rooms: Record<string, Room> = {
         courseName: "179 SWE 321",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "199 NES 341",
+      },
+      {
+        timeStart: { hour: 11, minute: 20 },
+        timeEnd: { hour: 12, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 12, minute: 30 },
+        timeEnd: { hour: 13, minute: 20 },
+        courseName: "193 NES 221",
+      },
+      {
+        timeStart: { hour: 13, minute: 20 },
+        timeEnd: { hour: 14, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 14, minute: 30 },
+        timeEnd: { hour: 15, minute: 20 },
+        courseName: "217 SWE 322",
+      },
+      {
+        timeStart: { hour: 15, minute: 20 },
+        timeEnd: { hour: 15, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 15, minute: 30 },
+        timeEnd: { hour: 16, minute: 20 },
+        courseName: "195 CIS 386",
+      },
+    ],
   },
   G216: {
     name: "G216",
@@ -4448,7 +5538,33 @@ export const rooms: Record<string, Room> = {
         courseName: "311 PSY 101",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 12, minute: 20 },
+        courseName: "293 ARC 312",
+      },
+      {
+        timeStart: { hour: 12, minute: 20 },
+        timeEnd: { hour: 13, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 13, minute: 30 },
+        timeEnd: { hour: 14, minute: 20 },
+        courseName: "282 ENG 101",
+      },
+      {
+        timeStart: { hour: 14, minute: 20 },
+        timeEnd: { hour: 14, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 14, minute: 30 },
+        timeEnd: { hour: 15, minute: 50 },
+        courseName: "610 SWE 202",
+      },
+    ],
   },
   G218: {
     name: "G218",
@@ -4580,7 +5696,33 @@ export const rooms: Record<string, Room> = {
         courseName: "340 LAW 343",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "441 IEG 323",
+      },
+      {
+        timeStart: { hour: 11, minute: 20 },
+        timeEnd: { hour: 13, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 13, minute: 30 },
+        timeEnd: { hour: 14, minute: 20 },
+        courseName: "303 PHL 101",
+      },
+      {
+        timeStart: { hour: 14, minute: 20 },
+        timeEnd: { hour: 14, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 14, minute: 30 },
+        timeEnd: { hour: 15, minute: 20 },
+        courseName: "304 PSY 101",
+      },
+    ],
   },
   G220: {
     name: "G220",
@@ -4692,7 +5834,23 @@ export const rooms: Record<string, Room> = {
         courseName: "423 IEG 302",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "198 NES 322",
+      },
+      {
+        timeStart: { hour: 11, minute: 20 },
+        timeEnd: { hour: 14, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 14, minute: 30 },
+        timeEnd: { hour: 16, minute: 20 },
+        courseName: "625 IEG 302",
+      },
+    ],
   },
   G222: {
     name: "G222",
@@ -4834,7 +5992,13 @@ export const rooms: Record<string, Room> = {
         courseName: "457 MEG 211",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 9, minute: 20 },
+        timeEnd: { hour: 12, minute: 20 },
+        courseName: "646 ARC 216",
+      },
+    ],
   },
   H117: {
     name: "H117",
@@ -4886,7 +6050,23 @@ export const rooms: Record<string, Room> = {
         courseName: "103 PHY 203",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 8, minute: 30 },
+        timeEnd: { hour: 10, minute: 30 },
+        courseName: "124 PHY 103",
+      },
+      {
+        timeStart: { hour: 10, minute: 30 },
+        timeEnd: { hour: 14, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 14, minute: 30 },
+        timeEnd: { hour: 16, minute: 20 },
+        courseName: "127 PHY 203",
+      },
+    ],
   },
   H119: {
     name: "H119",
@@ -4958,7 +6138,23 @@ export const rooms: Record<string, Room> = {
         courseName: "197 NES 482",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 8, minute: 30 },
+        timeEnd: { hour: 10, minute: 20 },
+        courseName: "451 IEG 303",
+      },
+      {
+        timeStart: { hour: 10, minute: 20 },
+        timeEnd: { hour: 11, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 11, minute: 30 },
+        timeEnd: { hour: 13, minute: 20 },
+        courseName: "267 NES 485",
+      },
+    ],
   },
   H217: {
     name: "H217",
@@ -5060,7 +6256,33 @@ export const rooms: Record<string, Room> = {
         courseName: "435 IEG 341",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 9, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "418 IEG 301",
+      },
+      {
+        timeStart: { hour: 11, minute: 20 },
+        timeEnd: { hour: 13, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 13, minute: 30 },
+        timeEnd: { hour: 14, minute: 20 },
+        courseName: "467 IEG 450",
+      },
+      {
+        timeStart: { hour: 14, minute: 20 },
+        timeEnd: { hour: 14, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 14, minute: 30 },
+        timeEnd: { hour: 16, minute: 20 },
+        courseName: "468 IEG 450",
+      },
+    ],
   },
   H219: {
     name: "H219",
@@ -5162,6 +6384,32 @@ export const rooms: Record<string, Room> = {
         courseName: "446 IEG 201",
       },
     ],
-    thursday: null,
+    thursday: [
+      {
+        timeStart: { hour: 8, minute: 30 },
+        timeEnd: { hour: 11, minute: 20 },
+        courseName: "413 ENR 201",
+      },
+      {
+        timeStart: { hour: 11, minute: 20 },
+        timeEnd: { hour: 13, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 13, minute: 30 },
+        timeEnd: { hour: 15, minute: 20 },
+        courseName: "459 IEG 332",
+      },
+      {
+        timeStart: { hour: 15, minute: 20 },
+        timeEnd: { hour: 15, minute: 30 },
+        courseName: "",
+      },
+      {
+        timeStart: { hour: 15, minute: 30 },
+        timeEnd: { hour: 16, minute: 20 },
+        courseName: "460 IEG 332",
+      },
+    ],
   },
 };
