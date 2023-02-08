@@ -55,6 +55,7 @@ export default function ClassroomSchedulePage({ room }: Props) {
         {isMobile ? (
           <Swiper
             className="mt-4"
+            loop={true}
             initialSlide={selectedDay}
             onSlideChange={(swiper) =>
               setSelectedDay(days[swiper.activeIndex].key)
