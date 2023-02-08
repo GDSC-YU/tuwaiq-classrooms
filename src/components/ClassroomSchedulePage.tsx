@@ -1,13 +1,17 @@
+import { useState } from "react";
+//swiper stuff
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import { useState, useEffect } from "react";
+//to specify when to show the mobile view
 import { useMediaQuery } from "react-responsive";
+//data
 import type { Room } from "../misc/rooms";
+import { roomTypeMap } from "../misc/data";
+//components
 import Header from "./Header";
 import TextChip from "./TextChip";
-import { roomTypeMap } from "../misc/data";
 import ScheduleDayTimeSlots from "./ScheduleDayTimeSlots";
 import ScheduleLine from "./ScheduleLine";
+
 interface Props {
   room: Room;
 }
@@ -18,16 +22,9 @@ enum Day {
   tuesday,
   wednesday,
   thursday,
-  friday,
-  saturday,
 }
 
 export default function ClassroomSchedulePage({ room }: Props) {
-  const now = new Date(
-    new Date().toLocaleString("en-US", { timeZone: "Asia/Riyadh" })
-  );
-  const isMobile = useMediaQuery({ maxWidth: 1000 });
-  const [selectedDay, setSelectedDay] = useState(now.getDay());
   const days = [
     { day: "Sunday", key: Day.sunday, timeSlots: room.sunday },
     { day: "Monday", key: Day.monday, timeSlots: room.monday },
@@ -35,6 +32,15 @@ export default function ClassroomSchedulePage({ room }: Props) {
     { day: "Wednesday", key: Day.wednesday, timeSlots: room.wednesday },
     { day: "Thursday", key: Day.thursday, timeSlots: room.thursday },
   ];
+
+  const now = new Date(
+    new Date().toLocaleString("en-US", { timeZone: "Asia/Riyadh" })
+  );
+
+  const isMobile = useMediaQuery({ maxWidth: 1000 });
+
+  const [selectedDay, setSelectedDay] = useState(now.getDay());
+
   const { headerColor, occupiedSlotColor, link } =
     roomTypeMap[room.name.charAt(0)] || {};
 
@@ -49,7 +55,6 @@ export default function ClassroomSchedulePage({ room }: Props) {
         {isMobile ? (
           <Swiper
             className="mt-4"
-            navigation={true}
             initialSlide={selectedDay}
             onSlideChange={(swiper) =>
               setSelectedDay(days[swiper.activeIndex].key)
