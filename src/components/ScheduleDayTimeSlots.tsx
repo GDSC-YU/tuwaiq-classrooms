@@ -23,13 +23,13 @@ export default function ScheduleDayTimeSlots({
     <div
       className={`${
         isVisible ? "visible" : "invisible"
-      } spacing-y-0 ml-[5rem] mr-2 flex flex-col pt-5`}
+      } ml-20 mr-2 flex flex-col pt-5`}
       style={{ gridArea: "1 / 1 / 2 / 2" }}
     >
       {timeSlots == null
         ? ""
         : timeSlots.map((timeSlot) => {
-            const isFreeSlot = timeSlot.courseName == "";
+            const isFreeSlot = timeSlot.courseName == "Free";
 
             const isFirst = timeSlots.indexOf(timeSlot) == 0;
             const isLast = timeSlots.indexOf(timeSlot) == timeSlots.length - 1;
@@ -49,7 +49,7 @@ export default function ScheduleDayTimeSlots({
             const minutesTotal =
               (endHour - startHour) * 60 + endMinute - startMinute;
 
-            const minutesRemRatio = 4.66 / 60;
+            const minutesRemRatio = 4.5 / 60;
 
             let scheduleOffset = 0;
             if (
@@ -64,24 +64,34 @@ export default function ScheduleDayTimeSlots({
             return (
               <div
                 key={Math.random() * 51}
-                className={`mx-4 flex flex-col justify-center text-center ${
+                className={`mx-4 flex flex-col justify-center text-center sm:mx-[20%] ${
                   !isFreeSlot ? "bg-light-grey" : occupiedSlotColor
                 } ${isFirst ? "rounded-t-[16px]" : ""} ${
                   isLast ? "rounded-b-[16px]" : ""
                 }`}
                 style={{
-                  height: `${minutesTotal * minutesRemRatio}rem`,
+                  height: `${
+                    isFreeSlot
+                      ? Math.max(1.3, minutesTotal * minutesRemRatio)
+                      : (minutesTotal * minutesRemRatio) / 1.05
+                  }rem`,
                   marginTop: `${scheduleOffset}rem`,
                 }}
               >
                 <p
-                  className="text-cairo text-xl font-bold"
+                  className="text-cairo text-lg font-bold md:text-xl"
                   aria-label={timeSlot.courseName}
                 >
                   {isFreeSlot ? "" : timeSlot.courseName}
                 </p>
-                <p className="text-cairo text-sm font-bold text-black/50">
-                  {startTime} - {endTime}
+                <p
+                  className={`text-cairo font-bold ${
+                    isFreeSlot ? " text-black" : " text-black/50"
+                  }`}
+                >
+                  {isFreeSlot
+                    ? `Free! ${startTime} - ${endTime}`
+                    : `${startTime} - ${endTime}`}
                 </p>
               </div>
             );

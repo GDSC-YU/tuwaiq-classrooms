@@ -30,7 +30,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 9, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 30 },
@@ -40,7 +40,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -50,7 +50,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -60,7 +60,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -77,7 +77,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 10, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 0 },
@@ -87,7 +87,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -97,7 +97,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -114,7 +114,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -124,7 +124,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -134,7 +134,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -151,7 +151,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 10, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 0 },
@@ -161,7 +161,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -171,7 +171,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -188,7 +188,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -198,7 +198,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -218,7 +218,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 9, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 30 },
@@ -228,7 +228,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -238,7 +238,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -248,7 +248,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -258,7 +258,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -268,7 +268,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -285,7 +285,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -295,7 +295,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -305,7 +305,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -322,7 +322,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -332,7 +332,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -342,7 +342,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -352,7 +352,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -369,7 +369,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -379,7 +379,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -396,7 +396,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -406,7 +406,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -416,7 +416,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -426,7 +426,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -446,7 +446,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -456,7 +456,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -466,7 +466,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -483,7 +483,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -493,7 +493,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -510,7 +510,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -520,7 +520,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -530,7 +530,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -547,7 +547,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -557,7 +557,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -574,7 +574,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -584,7 +584,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -594,7 +594,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -614,7 +614,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -624,7 +624,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -634,7 +634,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -651,7 +651,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -661,7 +661,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -671,7 +671,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -688,7 +688,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -698,7 +698,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -708,7 +708,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -725,7 +725,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -735,7 +735,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -745,7 +745,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -762,7 +762,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -772,7 +772,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -782,7 +782,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -802,7 +802,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -812,7 +812,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -829,7 +829,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -846,7 +846,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -856,7 +856,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -866,7 +866,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -883,7 +883,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -893,7 +893,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -910,7 +910,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -920,7 +920,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -940,7 +940,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -950,7 +950,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -960,7 +960,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -977,7 +977,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -987,7 +987,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -1004,7 +1004,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -1014,7 +1014,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -1031,7 +1031,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -1041,7 +1041,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -1058,7 +1058,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 9, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 30 },
@@ -1068,7 +1068,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -1078,7 +1078,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -1088,7 +1088,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -1108,7 +1108,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -1118,7 +1118,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -1135,7 +1135,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 10, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 0 },
@@ -1145,7 +1145,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -1155,7 +1155,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -1172,7 +1172,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -1182,7 +1182,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -1199,7 +1199,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 10, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 0 },
@@ -1209,7 +1209,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -1219,7 +1219,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -1236,7 +1236,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -1246,7 +1246,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -1256,7 +1256,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -1276,7 +1276,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -1286,7 +1286,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 15, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 15, minute: 30 },
@@ -1303,7 +1303,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -1313,7 +1313,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -1330,7 +1330,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -1340,7 +1340,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -1350,7 +1350,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 15, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 15, minute: 30 },
@@ -1367,7 +1367,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -1384,7 +1384,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -1394,7 +1394,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -1404,7 +1404,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 15, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 15, minute: 30 },
@@ -1424,7 +1424,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -1434,7 +1434,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -1444,7 +1444,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 15, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 15, minute: 30 },
@@ -1461,7 +1461,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -1471,7 +1471,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -1481,7 +1481,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 15, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 15, minute: 30 },
@@ -1498,7 +1498,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 9, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 30 },
@@ -1508,7 +1508,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -1518,7 +1518,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -1528,7 +1528,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 15, minute: 20 },
         timeEnd: { hour: 15, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 15, minute: 30 },
@@ -1545,7 +1545,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -1555,7 +1555,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -1565,7 +1565,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 15, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 15, minute: 30 },
@@ -1582,7 +1582,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -1592,7 +1592,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 15, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 15, minute: 30 },
@@ -1612,7 +1612,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 9, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 30 },
@@ -1622,7 +1622,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -1632,7 +1632,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -1642,7 +1642,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -1652,7 +1652,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 15, minute: 20 },
         timeEnd: { hour: 15, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 15, minute: 30 },
@@ -1669,7 +1669,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 10, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 0 },
@@ -1679,7 +1679,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -1689,7 +1689,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -1706,7 +1706,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 9, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 30 },
@@ -1716,7 +1716,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -1726,7 +1726,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -1736,7 +1736,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -1746,7 +1746,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 15, minute: 20 },
         timeEnd: { hour: 15, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 15, minute: 30 },
@@ -1763,7 +1763,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 8, minute: 50 },
         timeEnd: { hour: 9, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 0 },
@@ -1773,7 +1773,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 10, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 0 },
@@ -1783,7 +1783,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -1793,7 +1793,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -1810,7 +1810,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 9, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 30 },
@@ -1820,7 +1820,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -1830,7 +1830,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -1840,7 +1840,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -1850,7 +1850,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -1860,7 +1860,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 15, minute: 20 },
         timeEnd: { hour: 15, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 15, minute: 30 },
@@ -1880,7 +1880,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -1904,7 +1904,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -1939,7 +1939,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -1956,7 +1956,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -1973,7 +1973,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -2007,7 +2007,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 10, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 0 },
@@ -2017,7 +2017,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -2041,7 +2041,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 10, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 0 },
@@ -2051,7 +2051,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -2078,7 +2078,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -2088,7 +2088,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -2112,7 +2112,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -2122,7 +2122,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -2164,7 +2164,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -2224,7 +2224,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 9, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 30 },
@@ -2234,7 +2234,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -2244,7 +2244,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -2261,7 +2261,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 10, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 0 },
@@ -2271,7 +2271,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -2281,7 +2281,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -2298,7 +2298,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 9, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 30 },
@@ -2308,7 +2308,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -2318,7 +2318,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -2335,7 +2335,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 10, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 0 },
@@ -2345,7 +2345,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -2355,7 +2355,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -2372,7 +2372,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 9, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 30 },
@@ -2382,7 +2382,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -2392,7 +2392,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -2412,7 +2412,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 9, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 30 },
@@ -2422,7 +2422,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -2432,7 +2432,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -2442,7 +2442,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -2452,7 +2452,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -2469,7 +2469,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -2479,7 +2479,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -2489,7 +2489,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -2506,7 +2506,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 9, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 30 },
@@ -2516,7 +2516,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -2526,7 +2526,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -2536,7 +2536,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -2553,7 +2553,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -2563,7 +2563,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -2573,7 +2573,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -2590,7 +2590,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 9, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 30 },
@@ -2600,7 +2600,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -2610,7 +2610,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -2620,7 +2620,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -2630,7 +2630,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -2640,7 +2640,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -2660,7 +2660,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -2670,7 +2670,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -2687,7 +2687,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 10, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 0 },
@@ -2697,7 +2697,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -2707,7 +2707,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -2717,7 +2717,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -2734,7 +2734,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -2744,7 +2744,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -2761,7 +2761,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 10, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 0 },
@@ -2771,7 +2771,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -2781,7 +2781,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -2791,7 +2791,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -2808,7 +2808,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -2818,7 +2818,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -2838,7 +2838,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -2848,7 +2848,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -2858,7 +2858,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -2868,7 +2868,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -2878,7 +2878,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -2895,7 +2895,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -2905,7 +2905,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -2922,7 +2922,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -2932,7 +2932,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -2942,7 +2942,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -2952,7 +2952,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -2962,7 +2962,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -2979,7 +2979,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -2989,7 +2989,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -3006,7 +3006,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -3016,7 +3016,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -3026,7 +3026,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -3036,7 +3036,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -3046,7 +3046,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -3066,7 +3066,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 9, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 30 },
@@ -3076,7 +3076,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -3086,7 +3086,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -3096,7 +3096,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -3106,7 +3106,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -3116,7 +3116,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -3133,7 +3133,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -3143,7 +3143,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -3153,7 +3153,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -3170,7 +3170,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 9, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 30 },
@@ -3180,7 +3180,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -3190,7 +3190,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -3200,7 +3200,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -3210,7 +3210,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -3220,7 +3220,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -3237,7 +3237,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -3247,7 +3247,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -3257,7 +3257,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -3274,7 +3274,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 9, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 30 },
@@ -3284,7 +3284,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -3294,7 +3294,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -3304,7 +3304,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -3314,7 +3314,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -3324,7 +3324,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -3344,7 +3344,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 9, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 30 },
@@ -3354,7 +3354,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -3364,7 +3364,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -3374,7 +3374,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -3384,7 +3384,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -3394,7 +3394,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -3411,7 +3411,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -3421,7 +3421,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -3431,7 +3431,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -3448,7 +3448,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 9, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 30 },
@@ -3458,7 +3458,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -3468,7 +3468,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -3478,7 +3478,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -3488,7 +3488,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -3498,7 +3498,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -3515,7 +3515,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -3525,7 +3525,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -3535,7 +3535,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -3552,7 +3552,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 9, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 30 },
@@ -3562,7 +3562,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -3572,7 +3572,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -3582,7 +3582,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -3592,7 +3592,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -3602,7 +3602,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -3622,7 +3622,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -3632,7 +3632,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -3642,7 +3642,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -3652,7 +3652,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -3669,7 +3669,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 10, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 0 },
@@ -3679,7 +3679,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -3689,7 +3689,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -3699,7 +3699,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -3716,7 +3716,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -3726,7 +3726,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -3736,7 +3736,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -3746,7 +3746,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -3763,7 +3763,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 10, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 0 },
@@ -3773,7 +3773,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -3783,7 +3783,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -3793,7 +3793,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -3810,7 +3810,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -3820,7 +3820,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -3830,7 +3830,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -3840,7 +3840,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -3860,7 +3860,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -3870,7 +3870,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -3880,7 +3880,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -3890,7 +3890,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -3907,7 +3907,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -3924,7 +3924,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -3934,7 +3934,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -3944,7 +3944,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -3954,7 +3954,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -3976,7 +3976,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 50 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -3986,7 +3986,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -4003,7 +4003,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -4013,7 +4013,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -4023,7 +4023,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -4033,7 +4033,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -4053,7 +4053,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -4063,7 +4063,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -4080,7 +4080,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 10, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 0 },
@@ -4090,7 +4090,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -4100,7 +4100,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -4110,7 +4110,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -4127,7 +4127,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -4137,7 +4137,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -4147,7 +4147,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -4164,7 +4164,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 8, minute: 50 },
         timeEnd: { hour: 9, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 0 },
@@ -4174,7 +4174,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 10, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 0 },
@@ -4184,7 +4184,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -4194,7 +4194,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -4204,7 +4204,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -4221,7 +4221,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -4231,7 +4231,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -4251,7 +4251,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 9, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 30 },
@@ -4261,7 +4261,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -4271,7 +4271,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -4281,7 +4281,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -4291,7 +4291,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -4301,7 +4301,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 15, minute: 20 },
         timeEnd: { hour: 15, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 15, minute: 30 },
@@ -4318,7 +4318,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 10, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 0 },
@@ -4328,7 +4328,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -4345,7 +4345,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 9, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 30 },
@@ -4355,7 +4355,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -4365,7 +4365,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -4375,7 +4375,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -4385,7 +4385,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -4395,7 +4395,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 15, minute: 20 },
         timeEnd: { hour: 15, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 15, minute: 30 },
@@ -4412,7 +4412,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 8, minute: 50 },
         timeEnd: { hour: 9, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 0 },
@@ -4422,7 +4422,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -4439,7 +4439,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 9, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 30 },
@@ -4449,7 +4449,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -4459,7 +4459,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -4469,7 +4469,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -4479,7 +4479,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 15, minute: 20 },
         timeEnd: { hour: 15, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 15, minute: 30 },
@@ -4525,7 +4525,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -4535,7 +4535,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -4545,7 +4545,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -4555,7 +4555,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -4572,7 +4572,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -4582,7 +4582,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -4592,7 +4592,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -4609,7 +4609,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 9, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 30 },
@@ -4619,7 +4619,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -4629,7 +4629,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -4639,7 +4639,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -4649,7 +4649,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -4659,7 +4659,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -4676,7 +4676,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -4686,7 +4686,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -4696,7 +4696,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -4713,7 +4713,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -4723,7 +4723,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -4733,7 +4733,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -4743,7 +4743,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -4753,7 +4753,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -4773,7 +4773,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -4783,7 +4783,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -4793,7 +4793,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -4803,7 +4803,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -4813,7 +4813,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -4830,7 +4830,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -4847,7 +4847,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -4857,7 +4857,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -4867,7 +4867,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -4877,7 +4877,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -4887,7 +4887,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -4897,7 +4897,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 15, minute: 20 },
         timeEnd: { hour: 15, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 15, minute: 30 },
@@ -4914,7 +4914,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -4931,7 +4931,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -4941,7 +4941,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -4951,7 +4951,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -4961,7 +4961,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -4971,7 +4971,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -4991,7 +4991,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -5001,7 +5001,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -5011,7 +5011,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -5021,7 +5021,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -5031,7 +5031,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -5048,7 +5048,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 10, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 0 },
@@ -5058,7 +5058,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -5068,7 +5068,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -5078,7 +5078,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -5088,7 +5088,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 15, minute: 50 },
         timeEnd: { hour: 16, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 16, minute: 0 },
@@ -5105,7 +5105,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -5115,7 +5115,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -5125,7 +5125,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -5135,7 +5135,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -5145,7 +5145,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -5162,7 +5162,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 10, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 0 },
@@ -5172,7 +5172,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -5182,7 +5182,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -5192,7 +5192,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -5202,7 +5202,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 15, minute: 50 },
         timeEnd: { hour: 16, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 16, minute: 0 },
@@ -5219,7 +5219,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -5229,7 +5229,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -5239,7 +5239,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -5249,7 +5249,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -5259,7 +5259,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 15, minute: 20 },
         timeEnd: { hour: 16, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 16, minute: 30 },
@@ -5279,7 +5279,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -5289,7 +5289,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -5299,7 +5299,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 15, minute: 20 },
         timeEnd: { hour: 15, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 15, minute: 30 },
@@ -5316,7 +5316,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 10, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 0 },
@@ -5326,7 +5326,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -5336,7 +5336,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -5360,7 +5360,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -5377,7 +5377,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -5387,7 +5387,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -5397,7 +5397,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 15, minute: 20 },
         timeEnd: { hour: 15, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 15, minute: 30 },
@@ -5417,7 +5417,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 50 },
         timeEnd: { hour: 11, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 0 },
@@ -5427,7 +5427,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -5437,7 +5437,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -5454,7 +5454,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -5464,7 +5464,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -5481,7 +5481,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 50 },
         timeEnd: { hour: 11, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 0 },
@@ -5491,7 +5491,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -5508,7 +5508,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -5518,7 +5518,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -5535,7 +5535,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -5545,7 +5545,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -5565,7 +5565,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 12, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 0 },
@@ -5575,7 +5575,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -5585,7 +5585,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -5602,7 +5602,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -5612,7 +5612,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -5629,7 +5629,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 12, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 0 },
@@ -5639,7 +5639,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -5649,7 +5649,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -5666,7 +5666,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -5676,7 +5676,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -5693,7 +5693,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -5703,7 +5703,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -5723,7 +5723,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 12, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 0 },
@@ -5733,7 +5733,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -5750,7 +5750,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 10, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 0 },
@@ -5760,7 +5760,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 50 },
         timeEnd: { hour: 12, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 0 },
@@ -5770,7 +5770,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -5787,7 +5787,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 12, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 0 },
@@ -5797,7 +5797,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -5814,7 +5814,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -5831,7 +5831,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -5851,7 +5851,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 50 },
         timeEnd: { hour: 11, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 0 },
@@ -5861,7 +5861,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 15, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 15, minute: 30 },
@@ -5878,7 +5878,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 10, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 0 },
@@ -5888,7 +5888,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 50 },
         timeEnd: { hour: 12, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 0 },
@@ -5898,7 +5898,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -5915,7 +5915,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 50 },
         timeEnd: { hour: 11, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 0 },
@@ -5925,7 +5925,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -5942,7 +5942,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 11, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 0 },
@@ -5952,7 +5952,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -5962,7 +5962,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -5972,7 +5972,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 16, minute: 20 },
         timeEnd: { hour: 16, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 16, minute: 30 },
@@ -5999,7 +5999,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -6030,7 +6030,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 50 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -6047,7 +6047,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 30 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -6067,7 +6067,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 20 },
         timeEnd: { hour: 9, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 9, minute: 30 },
@@ -6084,7 +6084,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 50 },
         timeEnd: { hour: 14, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 0 },
@@ -6101,7 +6101,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 10, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 30 },
@@ -6111,7 +6111,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 12, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 12, minute: 30 },
@@ -6135,7 +6135,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 10, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -6162,7 +6162,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 10, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 0 },
@@ -6172,7 +6172,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -6182,7 +6182,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 50 },
         timeEnd: { hour: 15, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 15, minute: 0 },
@@ -6199,7 +6199,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 50 },
         timeEnd: { hour: 15, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 15, minute: 30 },
@@ -6216,7 +6216,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 9, minute: 50 },
         timeEnd: { hour: 10, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 10, minute: 0 },
@@ -6226,7 +6226,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 12, minute: 20 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -6236,7 +6236,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 50 },
         timeEnd: { hour: 14, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 0 },
@@ -6253,7 +6253,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -6263,7 +6263,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 14, minute: 20 },
         timeEnd: { hour: 14, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 30 },
@@ -6283,7 +6283,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -6300,7 +6300,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -6317,7 +6317,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 11, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 11, minute: 30 },
@@ -6327,7 +6327,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -6337,7 +6337,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 15, minute: 20 },
         timeEnd: { hour: 15, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 15, minute: 30 },
@@ -6354,7 +6354,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 13, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 0 },
@@ -6364,7 +6364,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 13, minute: 50 },
         timeEnd: { hour: 14, minute: 0 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 14, minute: 0 },
@@ -6381,7 +6381,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 11, minute: 20 },
         timeEnd: { hour: 13, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 13, minute: 30 },
@@ -6391,7 +6391,7 @@ export const rooms: Record<string, Room> = {
       {
         timeStart: { hour: 15, minute: 20 },
         timeEnd: { hour: 15, minute: 30 },
-        courseName: "",
+        courseName: "Free",
       },
       {
         timeStart: { hour: 15, minute: 30 },

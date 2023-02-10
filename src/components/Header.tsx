@@ -1,4 +1,4 @@
-import { Children } from "react";
+import { Children, ReactNode } from "react";
 import { FaArrowLeft } from "react-icons/fa/index.js";
 
 export enum HeaderColor {
@@ -11,7 +11,7 @@ export enum HeaderColor {
 interface Props {
   title: string;
   color: HeaderColor;
-  children?: JSX.Element | JSX.Element[] | string | string[];
+  children?: ReactNode;
   backButtonHref: string;
 }
 
@@ -28,6 +28,8 @@ export default function Header({
           <FaArrowLeft className="text-center text-4xl hover:text-white" />
         </a>
         <p className="mx-auto font-cairo text-4xl font-black">{title}</p>
+        {/* This is a hack to make the room name centered */}
+        <FaArrowLeft className="invisible text-center text-4xl hover:text-white" />
       </div>
       {Children.map(children, (child) => child)}
     </header>
