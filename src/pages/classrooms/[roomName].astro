@@ -17,5 +17,5 @@ export function getStaticPaths() {
 ---
 
 <Layout title={roomNameString}>
-  <ClassroomSchedulePage client:only="react" room={chosenRoom} />
+  <ClassroomSchedulePage client:load room={chosenRoom} />
 </Layout>

@@ -1,11 +1,13 @@
-import { useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import { useState, useEffect } from "react";
+import { useMediaQuery } from "react-responsive";
 import type { Room } from "../misc/rooms";
 import Header from "./Header";
+import TextChip from "./TextChip";
 import { roomTypeMap } from "../misc/data";
 import ScheduleDayTimeSlots from "./ScheduleDayTimeSlots";
 import ScheduleLine from "./ScheduleLine";
-import TextChip from "./TextChip";
-
 interface Props {
   room: Room;
 }
@@ -16,12 +18,15 @@ enum Day {
   tuesday,
   wednesday,
   thursday,
+  friday,
+  saturday,
 }
 
 export default function ClassroomSchedulePage({ room }: Props) {
   const now = new Date(
     new Date().toLocaleString("en-US", { timeZone: "Asia/Riyadh" })
   );
+  const isMobile = useMediaQuery({ maxWidth: 1000 });
   const [selectedDay, setSelectedDay] = useState(now.getDay());
   const days = [
     { day: "Sunday", key: Day.sunday, timeSlots: room.sunday },
@@ -34,30 +39,46 @@ export default function ClassroomSchedulePage({ room }: Props) {
     roomTypeMap[room.name.charAt(0)] || {};
 
   return (
-    <div>
+    <>
       <Header
         title={room.name}
         color={headerColor!}
         backButtonHref={link}
         aria-label={`${room.name} header`}
       >
-        <div
-          className="mt-4 flex flex-row flex-nowrap gap-x-5 overflow-x-auto overflow-y-hidden md:justify-center md:gap-x-20"
-          style={{
-            msOverflowStyle: "none",
-            scrollbarWidth: "none",
-          }}
-        >
-          {days.map(({ day, key }) => (
-            <TextChip
-              key={day}
-              text={day}
-              isSelected={selectedDay === key}
-              onClick={() => setSelectedDay(key)}
-              aria-label={`${day} Schedule`}
-            />
-          ))}
-        </div>
+        {isMobile ? (
+          <Swiper
+            className="mt-4"
+            navigation={true}
+            initialSlide={selectedDay}
+            onSlideChange={(swiper) =>
+              setSelectedDay(days[swiper.activeIndex].key)
+            }
+          >
+            {days.map(({ day }) => (
+              <SwiperSlide key={day}>
+                <p
+                  className="text-cairo text-center text-2xl font-black"
+                  aria-label={`${day} Schedule`}
+                >
+                  {day}
+                </p>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        ) : (
+          <div className="mt-4 flex flex-row flex-nowrap justify-center gap-x-20 overflow-x-auto overflow-y-hidden">
+            {days.map(({ day, key }) => (
+              <TextChip
+                key={day}
+                text={day}
+                isSelected={selectedDay === key}
+                onClick={() => setSelectedDay(key)}
+                aria-label={`${day} Schedule`}
+              />
+            ))}
+          </div>
+        )}
       </Header>
       <div className="grid">
         <div
@@ -75,6 +96,6 @@ export default function ClassroomSchedulePage({ room }: Props) {
           />
         ))}
       </div>
-    </div>
+    </>
   );
 }
