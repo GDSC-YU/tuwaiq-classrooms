@@ -29,7 +29,7 @@ export default function ScheduleDayTimeSlots({
       {timeSlots == null
         ? ""
         : timeSlots.map((timeSlot) => {
-            const isFreeSlot = timeSlot.courseName == "";
+            const isFreeSlot = timeSlot.courseName == "Free";
 
             const isFirst = timeSlots.indexOf(timeSlot) == 0;
             const isLast = timeSlots.indexOf(timeSlot) == timeSlots.length - 1;
@@ -49,7 +49,7 @@ export default function ScheduleDayTimeSlots({
             const minutesTotal =
               (endHour - startHour) * 60 + endMinute - startMinute;
 
-            const minutesRemRatio = 4.66 / 60;
+            const minutesRemRatio = 4.5 / 60;
 
             let scheduleOffset = 0;
             if (
@@ -70,7 +70,11 @@ export default function ScheduleDayTimeSlots({
                   isLast ? "rounded-b-[16px]" : ""
                 }`}
                 style={{
-                  height: `${minutesTotal * minutesRemRatio}rem`,
+                  height: `${
+                    isFreeSlot
+                      ? Math.max(1.3, minutesTotal * minutesRemRatio)
+                      : (minutesTotal * minutesRemRatio) / 1.05
+                  }rem`,
                   marginTop: `${scheduleOffset}rem`,
                 }}
               >
@@ -80,8 +84,14 @@ export default function ScheduleDayTimeSlots({
                 >
                   {isFreeSlot ? "" : timeSlot.courseName}
                 </p>
-                <p className="text-cairo text-sm font-bold text-black/50">
-                  {startTime} - {endTime}
+                <p
+                  className={`text-cairo font-bold ${
+                    isFreeSlot ? " text-black" : " text-black/50"
+                  }`}
+                >
+                  {isFreeSlot
+                    ? `Free! ${startTime} - ${endTime}`
+                    : `${startTime} - ${endTime}`}
                 </p>
               </div>
             );
