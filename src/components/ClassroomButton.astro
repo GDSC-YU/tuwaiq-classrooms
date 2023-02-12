@@ -18,9 +18,11 @@ const { text, color, href } = Astro.props;
 <a
   href={href}
   class={`${color} rounded-[16px] mx-4 my-5 py-8 hover:scale-90 transition-all duration-400`}
-  aria-label="corners buttons"
 >
-  <p class="text-center text-2xl font-bold">
+  <p
+    class="text-center text-2xl font-bold"
+    aria-label={`${text.endsWith("r") ? `${text} Rooms` : `${text} Schedule`}`}
+  >
     {text}
   </p>
 </a>

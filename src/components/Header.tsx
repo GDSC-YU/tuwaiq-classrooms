@@ -13,6 +13,7 @@ interface Props {
   color: HeaderColor;
   children?: ReactNode;
   backButtonHref: string;
+  aria: string;
 }
 
 export default function Header({
@@ -20,14 +21,23 @@ export default function Header({
   color,
   children,
   backButtonHref,
+  aria,
 }: Props) {
   return (
     <header className={`${color} rounded-b-[16px] p-5`}>
       <div className="flex">
-        <a href={backButtonHref} aria-label="Go Back Button">
-          <FaArrowLeft className="text-center text-4xl hover:text-white" />
+        <a href={backButtonHref}>
+          <FaArrowLeft
+            className="text-center text-4xl hover:text-white"
+            aria-label="Go Back Button"
+          />
         </a>
-        <p className="mx-auto font-cairo text-4xl font-black">{title}</p>
+        <p
+          className="mx-auto font-cairo text-4xl font-black"
+          aria-label={`${title} ${aria}`}
+        >
+          {title}
+        </p>
         {/* This is a hack to make the room name centered */}
         <FaArrowLeft className="invisible text-center text-4xl hover:text-white" />
       </div>

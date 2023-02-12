@@ -10,7 +10,7 @@ export default function TextChip({ text, isSelected, onClick }: Props) {
   } font-black`;
 
   return (
-    <p onClick={onClick} className={className}>
+    <p onClick={onClick} className={className} aria-label={`${text} Schedule`}>
       {text}
     </p>
   );
