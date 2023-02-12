@@ -56,6 +56,7 @@ export default function ClassroomSchedulePage({ room }: Props) {
         {isMobile ? (
           <Swiper
             className="mt-4"
+            speed={250}
             pagination={{
               clickable: true,
             }}

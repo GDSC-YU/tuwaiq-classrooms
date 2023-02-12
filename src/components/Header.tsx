@@ -1,4 +1,4 @@
-import { Children } from "react";
+import { Children, ReactNode } from "react";
 import { FaArrowLeft } from "react-icons/fa/index.js";
 
 export enum HeaderColor {
@@ -11,7 +11,7 @@ export enum HeaderColor {
 interface Props {
   title: string;
   color: HeaderColor;
-  children?: JSX.Element | JSX.Element[] | string | string[];
+  children?: ReactNode;
   backButtonHref: string;
 }
 

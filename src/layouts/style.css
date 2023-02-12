@@ -1,3 +1,7 @@
+.swiper-container {
+  will-change: transform;
+}
+
 .swiper-pagination {
   position: relative;
   margin-top: 1rem;
