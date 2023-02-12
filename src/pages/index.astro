@@ -7,10 +7,7 @@ import ClassroomButton, {
 ---
 
 <Layout title="Tuwaiq Classrooms">
-  <div
-    class="flex h-screen flex-col justify-center py-5 text-center"
-    aria-label="Tuwaiq's corners buttons"
-  >
+  <div class="flex h-screen flex-col justify-center py-5 text-center">
     <div class="flex h-screen flex-col items-center justify-center gap-y-6">
       <h1
         class="font-cairo text-[42px] font-bold transition-all duration-500 ease-in-out lg:text-7xl"
@@ -32,7 +29,7 @@ import ClassroomButton, {
       <a
         href="#main-section"
         class="text-2xl font-bold transition-all ease-in-out hover:scale-110 group-hover:text-orangee"
-        aria-label="scroll down">Scroll Down</a
+        aria-label="Scroll Down">Scroll Down</a
       >
       <Icon
         name="ic:round-keyboard-arrow-down"
@@ -50,35 +47,33 @@ import ClassroomButton, {
           text="E Corner"
           color={ClassroomButtonColor.paleBlue}
           href="/corners/E"
-          aria-label="Corner E button"
         />
         <ClassroomButton
           text="F Corner"
           color={ClassroomButtonColor.paleRed}
           href="/corners/F"
-          aria-label="Corner F button"
         />
         <ClassroomButton
           text="G Corner"
           color={ClassroomButtonColor.paleYellow}
           href="/corners/G"
-          aria-label="Corner G button"
         />
         <ClassroomButton
           text="H Corner"
           color={ClassroomButtonColor.paleGreen}
           href="/corners/H"
-          aria-label="Corner H button"
         />
       </div>
     </div>
-    <footer class="text-center">
+    <footer role="contentinfo" class="text-center">
       <div class="mb-2 flex justify-center gap-x-3">
-        <p class="text-lg font-bold">GDSC:</p>
+        <p class="text-lg font-bold" aria-label="Google Developer Student Club">
+          GDSC:
+        </p>
         <a
           href="https://twitter.com/gdsc_yu"
           target="_blank"
-          aria-label="Twitter button"
+          aria-label="Twitter Button"
         >
           <Icon
             name="uil:twitter-alt"
@@ -96,7 +91,9 @@ import ClassroomButton, {
           />
         </a>
         <p class="text-lg font-bold">|</p>
-        <p class="text-lg font-bold">IEC:</p>
+        <p class="text-lg font-bold" aria-label="Industrial Engineering Club">
+          IEC:
+        </p>
         <a
           href="https://twitter.com/ieclub_yu"
           target="_blank"
@@ -118,7 +115,10 @@ import ClassroomButton, {
           />
         </a>
       </div>
-      <p class="font-cairo text-xl font-semibold hover:scale-110 md:text-2xl">
+      <p
+        class="font-cairo text-xl font-semibold hover:scale-110 md:text-2xl"
+        aria-label="Made With Love (heart emoji) By The GDSC & IEC Team"
+      >
         Made With ❤️ By The GDSC & IEC Team
       </p>
     </footer>

@@ -80,7 +80,11 @@ export default function ScheduleDayTimeSlots({
               >
                 <p
                   className="text-cairo text-lg font-bold md:text-xl"
-                  aria-label={timeSlot.courseName}
+                  aria-label={`${
+                    isFreeSlot
+                      ? "Free Room"
+                      : `Occupied Cause Of Course ${timeSlot.courseName}`
+                  } `}
                 >
                   {isFreeSlot ? "" : timeSlot.courseName}
                 </p>
@@ -88,6 +92,11 @@ export default function ScheduleDayTimeSlots({
                   className={`text-cairo font-bold ${
                     isFreeSlot ? " text-black" : " text-black/50"
                   }`}
+                  aria-label={`${
+                    isFreeSlot
+                      ? `From ${startTime} till ${endTime} time`
+                      : `From ${startTime} till ${endTime} time`
+                  } `}
                 >
                   {isFreeSlot
                     ? `Free! ${startTime} - ${endTime}`

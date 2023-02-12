@@ -51,7 +51,7 @@ export default function ClassroomSchedulePage({ room }: Props) {
         title={room.name}
         color={headerColor!}
         backButtonHref={link}
-        aria-label={`${room.name} header`}
+        aria={"Classroom"}
       >
         {isMobile ? (
           <Swiper
@@ -69,10 +69,7 @@ export default function ClassroomSchedulePage({ room }: Props) {
           >
             {days.map(({ day }) => (
               <SwiperSlide key={day}>
-                <p
-                  className="text-cairo text-center text-2xl font-black"
-                  aria-label={`${day} Schedule`}
-                >
+                <p className="text-cairo text-center text-2xl font-black">
                   {day}
                 </p>
               </SwiperSlide>
@@ -86,13 +83,12 @@ export default function ClassroomSchedulePage({ room }: Props) {
                 text={day}
                 isSelected={selectedDay === key}
                 onClick={() => setSelectedDay(key)}
-                aria-label={`${day} Schedule`}
               />
             ))}
           </div>
         )}
       </Header>
-      <div className="grid">
+      <main className="grid">
         <div
           className="flex flex-col space-y-12 p-4"
           style={{ gridArea: "1 / 1 / 2 / 2" }}
@@ -107,7 +103,7 @@ export default function ClassroomSchedulePage({ room }: Props) {
             isVisible={selectedDay === key}
           />
         ))}
-      </div>
+      </main>
     </>
   );
 }
