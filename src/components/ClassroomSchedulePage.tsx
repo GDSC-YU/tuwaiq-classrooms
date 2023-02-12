@@ -1,6 +1,7 @@
 import { useState } from "react";
 //swiper stuff
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper";
 //to specify when to show the mobile view
 import { useMediaQuery } from "react-responsive";
 //data
@@ -37,7 +38,7 @@ export default function ClassroomSchedulePage({ room }: Props) {
     new Date().toLocaleString("en-US", { timeZone: "Asia/Riyadh" })
   );
 
-  const isMobile = useMediaQuery({ maxWidth: 1000 });
+  const isMobile = useMediaQuery({ maxWidth: 905 });
 
   const [selectedDay, setSelectedDay] = useState(now.getDay());
 
@@ -55,6 +56,10 @@ export default function ClassroomSchedulePage({ room }: Props) {
         {isMobile ? (
           <Swiper
             className="mt-4"
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Pagination]}
             loop={true}
             initialSlide={selectedDay}
             onSlideChange={(swiper) =>
@@ -73,7 +78,7 @@ export default function ClassroomSchedulePage({ room }: Props) {
             ))}
           </Swiper>
         ) : (
-          <div className="mt-4 flex flex-row flex-nowrap justify-center gap-x-20 overflow-x-auto overflow-y-hidden">
+          <div className="mt-5 flex flex-row flex-nowrap justify-center gap-x-20 overflow-x-auto overflow-y-hidden">
             {days.map(({ day, key }) => (
               <TextChip
                 key={day}

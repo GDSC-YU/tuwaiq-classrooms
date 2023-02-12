@@ -64,7 +64,7 @@ export default function ScheduleDayTimeSlots({
             return (
               <div
                 key={Math.random() * 51}
-                className={`mx-4 flex flex-col justify-center text-center ${
+                className={`mx-4 flex flex-col justify-center text-center lg:mx-72 ${
                   !isFreeSlot ? "bg-light-grey" : occupiedSlotColor
                 } ${isFirst ? "rounded-t-[16px]" : ""} ${
                   isLast ? "rounded-b-[16px]" : ""
