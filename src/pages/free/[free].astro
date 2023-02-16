@@ -44,5 +44,5 @@ switch (free) {
     backButtonHref={`/corners/${free}`}
     aria=""
   />
-  <FreeRooms client:load rooms={rooms} corner={`${free}`} />
+  <FreeRooms client:only="react" rooms={rooms} corner={`${free}`} />
 </Layout>
