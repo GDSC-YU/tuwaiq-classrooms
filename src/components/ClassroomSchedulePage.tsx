@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 //to specify when to show the mobile view
-import { useMediaQuery } from "react-responsive";
+import useMediaQuery from "../hooks/useMediaQuery";
 //data
 import type { Room } from "../misc/rooms";
 import { roomTypeMap } from "../misc/data";
@@ -38,7 +38,7 @@ export default function ClassroomSchedulePage({ room }: Props) {
     new Date().toLocaleString("en-US", { timeZone: "Asia/Riyadh" })
   );
 
-  const isMobile = useMediaQuery({ maxWidth: 905 });
+  const isMobile = useMediaQuery({ query: "(max-width: 905px)" });
 
   const [selectedDay, setSelectedDay] = useState(now.getDay());
 

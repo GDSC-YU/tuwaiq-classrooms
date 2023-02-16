@@ -1,0 +1,48 @@
+---
+import Header, { HeaderColor } from "../../components/Header";
+import Layout from "../../layouts/Layout.astro";
+import FreeRooms from "../../components/FreeRooms";
+import { rooms } from "../../misc/rooms";
+
+interface Props {
+  free: string;
+}
+
+const { free } = Astro.params;
+
+export function getStaticPaths() {
+  return [
+    { params: { free: "E" } },
+    { params: { free: "F" } },
+    { params: { free: "G" } },
+    { params: { free: "H" } },
+  ];
+}
+
+let headerColor: HeaderColor;
+
+switch (free) {
+  case "E":
+    headerColor = HeaderColor.paleBlue;
+    break;
+  case "F":
+    headerColor = HeaderColor.paleRed;
+    break;
+  case "G":
+    headerColor = HeaderColor.paleYellow;
+    break;
+  case "H":
+    headerColor = HeaderColor.paleGreen;
+    break;
+}
+---
+
+<Layout title={`${free} Classrooms`}>
+  <Header
+    title={`Free ${free} Rooms!`}
+    color={headerColor!}
+    backButtonHref={`/corners/${free}`}
+    aria=""
+  />
+  <FreeRooms client:load rooms={rooms} corner={`${free}`} />
+</Layout>

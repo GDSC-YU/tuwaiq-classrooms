@@ -21,9 +21,9 @@ export function getStaticPaths() {
   ];
 }
 
-let color: ClassroomButtonColor;
+let color = ClassroomButtonColor.paleRed;
 let headerColor: HeaderColor;
-let gridCols: string = " grid-cols-3 ";
+let gridCols: string = "grid-cols-3";
 switch (corner) {
   case "E":
     color = ClassroomButtonColor.paleBlue;
@@ -40,7 +40,7 @@ switch (corner) {
   case "H":
     color = ClassroomButtonColor.paleGreen;
     headerColor = HeaderColor.paleGreen;
-    gridCols = " grid-cols-1 ";
+    gridCols = "grid-cols-1";
     break;
 }
 
@@ -59,7 +59,8 @@ for (const key in rooms) {
     backButtonHref="/"
     aria=""
   />
-  <div class={"grid" + gridCols + "lg:grid-cols-5"}>
+  <div class={`grid ${gridCols} lg:grid-cols-5`}>
+    <ClassroomButton text="Free" color={color} href={`/free/${corner}`} />
     {
       chosenRooms.map((chosenRoomName) => {
         return (
