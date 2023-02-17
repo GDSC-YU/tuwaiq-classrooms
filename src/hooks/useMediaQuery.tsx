@@ -6,8 +6,13 @@ type Props = {
 
 function useMediaQuery({ query }: Props) {
   const [matches, setMatches] = useState(true);
-
+  // Prevents SSR issues
   useEffect(() => {
+    const isClient = typeof window === "object";
+    if (!isClient) {
+      return;
+    }
+
     const media = window.matchMedia(query);
     if (media.matches !== matches) {
       setMatches(media.matches);
