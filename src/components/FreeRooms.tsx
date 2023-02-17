@@ -1,7 +1,7 @@
 import type { Room, TimeSlot, TimeOfDay } from "../misc/rooms";
 import { getAmPmFromHours } from "../misc/utils";
 import { useState, useEffect } from "react";
-import { useMediaQuery } from "react-responsive";
+import useMediaQuery from "../hooks/useMediaQuery";
 import { AiOutlineArrowUp } from "react-icons/ai/index.js";
 
 interface Props {
@@ -18,9 +18,9 @@ const cornerColor: Record<string, string> = {
 
 export default function FreeRooms({ rooms, corner }: Props) {
   const groupedRooms = groupRoomsByCategory(rooms);
-  const isMobile = useMediaQuery({ maxWidth: 1300 });
   const [searchTerm, setSearchTerm] = useState("");
   const [showScrollButton, setShowScrollButton] = useState(false);
+  const isMobile = useMediaQuery({ query: "(max-width: 1355px)" });
 
   useEffect(() => {
     const handleScrollButtonVisibility = () => {
