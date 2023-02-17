@@ -5,7 +5,7 @@ type Props = {
 };
 
 function useMediaQuery({ query }: Props) {
-  const [matches, setMatches] = useState(false);
+  const [matches, setMatches] = useState(true);
 
   useEffect(() => {
     const media = window.matchMedia(query);
