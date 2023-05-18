@@ -1,0 +1,27 @@
+---
+import CornerButton, { ButtonColor } from "../components/ui/CornerButton.astro";
+import Footer from "../components/ui/Footer.astro";
+---
+
+<section
+  id="Corners"
+  class="relative flex h-screen flex-col items-center justify-center gap-y-5 text-center"
+>
+  <!-- Title -->
+  <h1 class="py-5 text-4xl font-bold md:text-5xl lg:text-7xl">
+    The Corners of <span class="text-yu-orange-dark">Tuwaiq</span> 🌄
+  </h1>
+  <!-- Corners Buttons -->
+  <div class="grid w-full grid-cols-2 justify-items-center gap-5 p-10">
+    <CornerButton text="E Corner" href="/corners/E" color={ButtonColor.Blue} />
+    <CornerButton text="F Corner" href="/corners/F" color={ButtonColor.Red} />
+    <CornerButton
+      text="G Corner"
+      href="/corners/G"
+      color={ButtonColor.Yellow}
+    />
+    <CornerButton text="H Corner" href="/corners/H" color={ButtonColor.Green} />
+  </div>
+  <!-- Footer -->
+  <Footer />
+</section>

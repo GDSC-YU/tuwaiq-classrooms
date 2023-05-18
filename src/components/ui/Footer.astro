@@ -1,0 +1,67 @@
+---
+import { Icon } from "astro-icon";
+---
+
+<footer class="absolute bottom-0 pb-4">
+  <div class="mb-2 flex justify-center gap-x-3">
+    <!-- GDSC Links -->
+    <p class="text-lg font-bold" aria-label="Google Developer Student Club">
+      GDSC:
+    </p>
+    <!-- Twitter -->
+    <a
+      href="https://twitter.com/gdsc_yu"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Icon name="uil:twitter-alt" class="hover:text-twitter-blue" />
+    </a>
+    <!-- Instagram -->
+    <a
+      href="https://www.instagram.com/gdsc_yu/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Icon name="uil:instagram" class="hover:text-instagram-pink" />
+    </a>
+    <!-- GitHub -->
+    <a
+      href="https://github.com/GDSC-YU"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Icon name="uil:github" class="hover:text-github-purple" />
+    </a>
+    <!-- Seperator -->
+    <p class="text-lg font-bold">|</p>
+    <!-- IEC Links -->
+    <p class="text-lg font-bold">IEC:</p>
+    <!-- Twitter -->
+    <a
+      href="https://twitter.com/ieclub_yu"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Icon name="uil:twitter-alt" class="hover:text-twitter-blue" />
+    </a>
+    <!-- Instagram -->
+    <a
+      href="https://www.instagram.com/ieclub_yu/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Icon name="uil:instagram" class="hover:text-instagram-pink" />
+    </a>
+  </div>
+  <p
+    class="text-xl font-semibold transition-all duration-200 md:text-2xl md:hover:scale-110"
+  >
+    Made With ❤️ By The GDSC Team
+  </p>
+</footer>
+
+<style>
+  svg {
+    @apply h-7 transition-all duration-200 hover:scale-110;
+  }
+</style>

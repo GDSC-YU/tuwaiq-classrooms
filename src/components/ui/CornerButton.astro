@@ -1,0 +1,25 @@
+---
+export enum ButtonColor {
+  Blue = "bg-pale-blue dark:bg-google-blue",
+  Red = "bg-pale-red dark:bg-google-red",
+  Yellow = "bg-pale-yellow dark:bg-google-yellow",
+  Green = "bg-pale-green dark:bg-google-green",
+}
+
+interface Props {
+  text: string;
+  color: ButtonColor;
+  href: string;
+}
+
+const { text, color, href } = Astro.props;
+---
+
+<a
+  href={href}
+  class={`duration-400 w-5/6 rounded-2xl ${color} py-8 transition-all hover:scale-110`}
+>
+  <p class="text-center text-2xl font-bold">
+    {text}
+  </p>
+</a>
