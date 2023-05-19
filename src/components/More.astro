@@ -1,5 +1,6 @@
 ---
-import CornerButton, { ButtonColor } from "../components/ui/CornerButton.astro";
+import CornerButton from "../components/ui/CornerButton.astro";
+import { GoogleColor } from "../data/data";
 import Footer from "../components/ui/Footer.astro";
 ---
 
@@ -15,14 +16,10 @@ import Footer from "../components/ui/Footer.astro";
   <div
     class="grid w-full grid-cols-1 justify-items-center gap-4 p-10 md:grid-cols-2"
   >
-    <CornerButton text="E Corner" href="/corners/E" color={ButtonColor.Blue} />
-    <CornerButton text="F Corner" href="/corners/F" color={ButtonColor.Red} />
-    <CornerButton
-      text="G Corner"
-      href="/corners/G"
-      color={ButtonColor.Yellow}
-    />
-    <CornerButton text="H Corner" href="/corners/H" color={ButtonColor.Green} />
+    <CornerButton text="E Corner" href="/corner/E" color={GoogleColor.Blue} />
+    <CornerButton text="F Corner" href="/corner/F" color={GoogleColor.Red} />
+    <CornerButton text="G Corner" href="/corner/G" color={GoogleColor.Yellow} />
+    <CornerButton text="H Corner" href="/corner/H" color={GoogleColor.Green} />
   </div>
   <!-- Footer -->
   <Footer />

@@ -1,0 +1,32 @@
+---
+import type { GoogleColor } from "../../data/data";
+
+import { Icon } from "astro-icon";
+
+import DarkMode from "../ui/DarkMode.svelte";
+
+interface Props {
+  backButtonHref: string;
+  title: string;
+  color: GoogleColor;
+}
+const { backButtonHref, title, color } = Astro.props;
+---
+
+<header class={`rounded-b-2xl ${color} p-5`}>
+  <div class="flex items-center justify-between">
+    <a href={backButtonHref}>
+      <Icon
+        name="fa:arrow-circle-left"
+        class="h-7 transition-all duration-200 hover:scale-110 md:h-11"
+      />
+    </a>
+    <p class="text-4xl font-black tracking-wide">
+      {title}
+    </p>
+    <DarkMode
+      Style="h-8 transition-all duration-200 hover:scale-110 md:h-12"
+      client:only="svelte"
+    />
+  </div>
+</header>

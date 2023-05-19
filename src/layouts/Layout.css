@@ -9,5 +9,5 @@
 /* The Man, The Myth, The Legend */
 
 .default {
-  @apply bg-stone-200 text-black dark:bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] dark:from-gray-800 dark:via-gray-900 dark:to-black dark:text-white;
+  @apply bg-stone-200 text-slate-900 dark:bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] dark:from-gray-800 dark:via-gray-900 dark:to-black dark:text-white;
 }
