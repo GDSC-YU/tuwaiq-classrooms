@@ -1,6 +1,6 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import Header from "../../components/ui/Header.astro";
+import Header from "../../components/ui/Header.svelte";
 import GoogleButton from "../../components/ui/GoogleButton.astro";
 import { GoogleColor } from "../../data/data";
 import { rooms } from "../../data/rooms";
@@ -45,7 +45,12 @@ for (const key in rooms) {
 ---
 
 <Layout title={`${corner} Classrooms`}>
-  <Header backButtonHref="/" title={`${corner} Classrooms`} color={color!} />
+  <Header
+    backButtonHref="/"
+    title={`${corner} Classrooms`}
+    color={color!}
+    client:load
+  />
   <div class="grid grid-cols-2 justify-items-center gap-6 py-10 lg:grid-cols-4">
     {
       chosenRooms.map((roomName) => {
