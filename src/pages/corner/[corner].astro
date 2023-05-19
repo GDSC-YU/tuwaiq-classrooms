@@ -1,0 +1,62 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/ui/Header.astro";
+import GoogleButton from "../../components/ui/GoogleButton.astro";
+import { GoogleColor } from "../../data/data";
+import { rooms } from "../../data/rooms";
+
+interface Props {
+  corner: string;
+}
+
+export async function getStaticPaths() {
+  return [
+    { params: { corner: "E" } },
+    { params: { corner: "F" } },
+    { params: { corner: "G" } },
+    { params: { corner: "H" } },
+  ];
+}
+
+const { corner } = Astro.params;
+
+let color = GoogleColor.Red;
+switch (corner) {
+  case "E":
+    color = GoogleColor.Blue;
+    break;
+  case "F":
+    color = GoogleColor.Red;
+    break;
+  case "G":
+    color = GoogleColor.Yellow;
+    break;
+  case "H":
+    color = GoogleColor.Green;
+    break;
+}
+
+let chosenRooms: Array<string> = [];
+for (const key in rooms) {
+  if (key.charAt(0) == corner) {
+    chosenRooms.push(key);
+  }
+}
+---
+
+<Layout title={`${corner} Classrooms`}>
+  <Header backButtonHref="/" title={`${corner} Classrooms`} color={color!} />
+  <div class="grid grid-cols-2 justify-items-center gap-6 py-10 lg:grid-cols-4">
+    {
+      chosenRooms.map((roomName) => {
+        return (
+          <GoogleButton
+            text={roomName}
+            color={color}
+            href={`/classroom/${roomName}`}
+          />
+        );
+      })
+    }
+  </div>
+</Layout>
