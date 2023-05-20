@@ -1,8 +1,4 @@
 ---
-import "swiper/css";
-import "swiper/css/pagination";
-import "./style.css";
-
 interface Props {
   title: string;
 }
@@ -10,102 +6,28 @@ interface Props {
 const { title } = Astro.props;
 ---
 
-<!DOCTYPE html>
-<html class="scroll-smooth" lang="en">
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
-
-    <link rel="shortcut icon" href="/favicons/favicon.ico" />
-    <link rel="icon" sizes="16x16 32x32 64x64" href="/favicons/favicon.ico" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="196x196"
-      href="/favicons/favicon-192.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="160x160"
-      href="/favicons/favicon-160.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="96x96"
-      href="/favicons/favicon-96.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="64x64"
-      href="/favicons/favicon-64.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/favicons/favicon-32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/favicons/favicon-16.png"
-    />
-    <link rel="apple-touch-icon" href="/favicons/favicon-57.png" />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="/favicons/favicon-114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="/favicons/favicon-72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="/favicons/favicon-144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="60x60"
-      href="/favicons/favicon-60.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="/favicons/favicon-120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="/favicons/favicon-76.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="/favicons/favicon-152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/favicons/favicon-180.png"
-    />
-    <meta name="msapplication-TileColor" content="#FFFFFF" />
-    <meta name="msapplication-TileImage" content="/favicons/favicon-144.png" />
-    <meta name="msapplication-config" content="//faviconsbrowserconfig.xml" />
-
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&family=Roboto:wght@300;400;700;900&display=swap");
-    </style>
   </head>
-  <body class="min-h-screen overflow-x-hidden bg-off-white">
+  <body class="default min-h-screen">
     <slot />
   </body>
 </html>
+
+<style>
+  * {
+    scroll-behavior: smooth;
+  }
+
+  /* The Man, The Myth, The Legend */
+
+  .default {
+    @apply bg-stone-200 text-slate-900 dark:bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] dark:from-gray-800 dark:via-gray-900 dark:to-black dark:text-white;
+  }
+</style>
