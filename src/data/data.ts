@@ -5,31 +5,39 @@ export enum GoogleColor {
   Green = "bg-pale-green dark:bg-google-green",
 }
 
+export enum Day {
+  Sunday,
+  Monday,
+  Tuesday,
+  Wednesday,
+  Thursday,
+}
+
 export const roomTypeMap: {
   [key: string]: {
     headerColor: GoogleColor;
-    occupiedSlotColor: GoogleColor;
+    freeColor: GoogleColor;
     link: string;
   };
 } = {
   E: {
     headerColor: GoogleColor.Blue,
-    occupiedSlotColor: GoogleColor.Blue,
+    freeColor: GoogleColor.Blue,
     link: "/corner/E",
   },
   F: {
     headerColor: GoogleColor.Red,
-    occupiedSlotColor: GoogleColor.Red,
+    freeColor: GoogleColor.Red,
     link: "/corner/F",
   },
   G: {
     headerColor: GoogleColor.Yellow,
-    occupiedSlotColor: GoogleColor.Yellow,
+    freeColor: GoogleColor.Yellow,
     link: "/corner/G",
   },
   H: {
     headerColor: GoogleColor.Green,
-    occupiedSlotColor: GoogleColor.Green,
+    freeColor: GoogleColor.Green,
     link: "/corner/H",
   },
 };

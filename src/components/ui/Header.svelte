@@ -13,7 +13,7 @@
   <div class="flex items-center justify-between">
     <a href={backButtonHref}>
       <Icon
-        icon="fa:arrow-circle-left"
+        icon="fa:arrow-left"
         class="h-7 w-7 transition-all duration-200 hover:scale-110 md:h-10 md:w-10"
       />
     </a>
@@ -24,4 +24,5 @@
       Style="h-8 w-8 transition-all duration-200 hover:scale-110 md:h-12 md:w-12"
     />
   </div>
+  <slot />
 </header>

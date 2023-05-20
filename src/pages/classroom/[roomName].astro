@@ -17,5 +17,5 @@ export function getStaticPaths() {
 ---
 
 <Layout title={roomNameString}>
-  <SchedulePage room={chosenRoom} client:load />
+  <SchedulePage room={chosenRoom} client:only="svelte" />
 </Layout>

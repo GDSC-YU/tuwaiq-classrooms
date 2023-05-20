@@ -23,6 +23,8 @@ module.exports = {
         "twitter-blue": "#00acee",
         "github-purple": "#6e5494",
         "instagram-pink": "#C13584",
+        /* other colors */
+        "dark-grey": "#DADADA",
       },
     },
   },
