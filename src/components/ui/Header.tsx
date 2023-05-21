@@ -10,6 +10,7 @@ interface Props {
   backButtonHref: string;
   title: string;
   color: GoogleColor;
+  padding?: string;
   children?: ReactNode;
 }
 
@@ -17,10 +18,11 @@ export default function Header({
   backButtonHref,
   title,
   color,
+  padding,
   children,
 }: Props) {
   return (
-    <header className={`rounded-b-2xl ${color} p-5`}>
+    <header className={`rounded-b-2xl ${color} p-5 ${padding}`}>
       <div className="flex items-center justify-between">
         <a href={backButtonHref}>
           <Icon

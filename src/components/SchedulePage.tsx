@@ -36,7 +36,12 @@ export default function SchedulePage({ room }: Props) {
 
   return (
     <>
-      <Header backButtonHref={link} title={room.name} color={headerColor!}>
+      <Header
+        backButtonHref={link}
+        title={room.name}
+        color={headerColor!}
+        padding="pb-2"
+      >
         {isMobile ? (
           <Swiper
             className="mt-3"
@@ -44,7 +49,6 @@ export default function SchedulePage({ room }: Props) {
             pagination={{
               clickable: true,
             }}
-            loop={true}
             initialSlide={selectedDay}
             onSlideChange={(swiper) =>
               setSelectedDay(days[swiper.activeIndex].key)
