@@ -36,13 +36,13 @@ export default function SchedulePage({ room }: Props) {
 
   return (
     <>
-      <Header
-        backButtonHref={link}
-        title={room.name}
-        color={headerColor!}
-        padding="pb-2"
-      >
-        {isMobile ? (
+      {isMobile ? (
+        <Header
+          backButtonHref={link}
+          title={room.name}
+          color={headerColor!}
+          padding="pb-2"
+        >
           <Swiper
             className="mt-3"
             modules={[Pagination]}
@@ -65,8 +65,10 @@ export default function SchedulePage({ room }: Props) {
               </SwiperSlide>
             ))}
           </Swiper>
-        ) : (
-          <div className="mt-5 flex flex-row flex-nowrap justify-center gap-x-20">
+        </Header>
+      ) : (
+        <Header backButtonHref={link} title={room.name} color={headerColor!}>
+          <div className="mt-5 flex flex-row flex-nowrap justify-center gap-x-20 overflow-x-auto">
             {days.map(({ day, key }) => (
               <TextChip
                 key={day}
@@ -76,8 +78,8 @@ export default function SchedulePage({ room }: Props) {
               />
             ))}
           </div>
-        )}
-      </Header>
+        </Header>
+      )}
       <main className="grid">
         <div
           className="flex flex-col space-y-12 p-4"
