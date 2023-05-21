@@ -1,4 +1,4 @@
-export default function ScheduleLine() {
+export default function ScheduleLines() {
   const times = [
     "07 am",
     "08 am",

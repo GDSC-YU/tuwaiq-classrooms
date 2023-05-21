@@ -4,29 +4,31 @@ import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 
-// Data & Data Types
+// Data & Data Types & Stores
 import type { Room } from "../data/rooms";
 import { roomTypeMap, getDays } from "../data/data";
+import { globalDarkMode } from "./ui/DarkMode";
 
 // Components
 import Header from "./ui/Header";
 import TextChip from "./schedule/TexChip";
+import ScheduleLines from "./schedule/ScheduleLines";
 import TheSchedule from "./schedule/TheSchedule";
-import ScheduleLine from "./schedule/ScheduleLines";
 
 interface Props {
   room: Room;
 }
 
-export default function ClassroomSchedulePage({ room }: Props) {
+export default function SchedulePage({ room }: Props) {
   const days = getDays(room);
 
   const isMobile = window.innerWidth < 905;
 
+  const dark = globalDarkMode().get();
+
   const [selectedDay, setSelectedDay] = useState(new Date().getDay());
 
-  const { headerColor, freeColor, link } =
-    roomTypeMap[room.name.charAt(0)] || {};
+  const { headerColor, freeColor, link } = roomTypeMap[room.name.charAt(0)];
 
   return (
     <>
@@ -46,6 +48,7 @@ export default function ClassroomSchedulePage({ room }: Props) {
             style={
               {
                 "--swiper-pagination-bottom": "auto",
+                "--swiper-pagination-color": dark ? "white" : "black",
               } as React.CSSProperties
             }
           >
@@ -73,7 +76,7 @@ export default function ClassroomSchedulePage({ room }: Props) {
           className="flex flex-col space-y-12 p-4"
           style={{ gridArea: "1 / 1 / 2 / 2" }}
         >
-          <ScheduleLine />
+          <ScheduleLines />
         </div>
         {days.map(({ key, timeSlots }) => (
           <TheSchedule
