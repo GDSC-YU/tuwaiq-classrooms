@@ -1,10 +1,10 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import { writable } from "svelte/store";
+  import Icon from "@iconify/svelte";
+
+  import { isDark } from "../../stores/darkMode";
 
   export let Style: string;
-
-  const isDark = writable(false);
 
   onMount(() => {
     if (
@@ -18,26 +18,9 @@
       document.documentElement.classList.remove("dark");
       isDark.set(false);
     }
-
-    const toggleDarkIcon = document.getElementById("darkIcon") as HTMLElement;
-    const toggleLightIcon = document.getElementById("lightIcon") as HTMLElement;
-
-    // changing the icon depending on the theme
-    if ($isDark) {
-      toggleLightIcon.classList.remove("hidden");
-    } else {
-      toggleDarkIcon.classList.remove("hidden");
-    }
   });
 
   function toggleTheme() {
-    const toggleDarkIcon = document.getElementById("darkIcon") as HTMLElement;
-    const toggleLightIcon = document.getElementById("lightIcon") as HTMLElement;
-
-    // toggle icons inside button
-    toggleDarkIcon.classList.toggle("hidden");
-    toggleLightIcon.classList.toggle("hidden");
-
     // if set via local storage previously
     if (localStorage.getItem("color-theme")) {
       if (localStorage.getItem("color-theme") === "light") {
@@ -65,18 +48,5 @@
 </script>
 
 <button type="button" on:click={toggleTheme}>
-  <!-- Moon Icon -->
-  <img
-    id="darkIcon"
-    class={`hidden ${Style}`}
-    alt="Moon Icon"
-    src="/assets/icons/moon.svg"
-  />
-  <!-- Sun Icon -->
-  <img
-    id="lightIcon"
-    class={`hidden ${Style}`}
-    alt="Sun Icon"
-    src="/assets/icons/sun.svg"
-  />
+  <Icon icon="gg:dark-mode" class={`${Style}`} />
 </button>

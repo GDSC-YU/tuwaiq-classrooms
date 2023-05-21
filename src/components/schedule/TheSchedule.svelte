@@ -3,7 +3,7 @@
   import type { TimeSlot } from "../../data/rooms";
   import { calculateSlotData } from "../utils/timeSlotHelper";
 
-  export let timeSlots: TimeSlot[];
+  export let timeSlots: TimeSlot[] | null;
   export let freeColor: GoogleColor;
 
   let calculatedSlots: { [key: string]: any }[];

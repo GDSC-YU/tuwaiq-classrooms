@@ -14,7 +14,7 @@
     <a href={backButtonHref}>
       <Icon
         icon="fa:arrow-left"
-        class="h-7 w-7 transition-all duration-200 hover:scale-110 md:h-10 md:w-10"
+        class="h-8 w-8 transition-all duration-200 hover:scale-110 md:h-12 md:w-12"
       />
     </a>
     <p class="text-3xl font-black tracking-wide md:text-4xl">
