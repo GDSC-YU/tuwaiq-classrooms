@@ -2,6 +2,29 @@
 import GoogleButton from "../components/ui/GoogleButton.astro";
 import { GoogleColor } from "../data/data";
 import Footer from "../components/ui/Footer.astro";
+
+const corners = [
+  {
+    name: "E Corner",
+    href: "/corners/E",
+    color: GoogleColor.Blue,
+  },
+  {
+    name: "F Corner",
+    href: "/corners/F",
+    color: GoogleColor.Red,
+  },
+  {
+    name: "G Corner",
+    href: "/corners/G",
+    color: GoogleColor.Yellow,
+  },
+  {
+    name: "H Corner",
+    href: "/corners/H",
+    color: GoogleColor.Green,
+  },
+];
 ---
 
 <section
@@ -16,10 +39,17 @@ import Footer from "../components/ui/Footer.astro";
   <div
     class="grid w-full grid-cols-1 justify-items-center gap-4 p-10 md:grid-cols-2"
   >
-    <GoogleButton text="E Corner" href="/corner/E" color={GoogleColor.Blue} />
-    <GoogleButton text="F Corner" href="/corner/F" color={GoogleColor.Red} />
-    <GoogleButton text="G Corner" href="/corner/G" color={GoogleColor.Yellow} />
-    <GoogleButton text="H Corner" href="/corner/H" color={GoogleColor.Green} />
+    {
+      corners.map((corner) => {
+        return (
+          <GoogleButton
+            text={corner.name}
+            href={corner.href}
+            color={corner.color}
+          />
+        );
+      })
+    }
   </div>
   <!-- Footer -->
   <Footer />

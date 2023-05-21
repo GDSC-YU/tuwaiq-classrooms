@@ -25,22 +25,22 @@ export const roomTypeMap: {
   E: {
     headerColor: GoogleColor.Blue,
     freeColor: GoogleColor.Blue,
-    link: "/corner/E",
+    link: "/corners/E",
   },
   F: {
     headerColor: GoogleColor.Red,
     freeColor: GoogleColor.Red,
-    link: "/corner/F",
+    link: "/corners/F",
   },
   G: {
     headerColor: GoogleColor.Yellow,
     freeColor: GoogleColor.Yellow,
-    link: "/corner/G",
+    link: "/corners/G",
   },
   H: {
     headerColor: GoogleColor.Green,
     freeColor: GoogleColor.Green,
-    link: "/corner/H",
+    link: "/corners/H",
   },
 };
 

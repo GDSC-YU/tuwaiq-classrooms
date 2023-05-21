@@ -8,53 +8,28 @@ interface Props {
   Style: string;
 }
 
-const wrapState = (d: State<boolean>) => ({
+const globalDark = hookstate(localStorage.getItem("theme") ?? "light");
+
+const wrapState = (d: State<string>) => ({
   get: () => d.value,
 });
 
-const darkMode = hookstate(false);
-
-export const globalDarkMode = () => wrapState(useHookstate(darkMode));
+export const useGlobalDark = () => wrapState(useHookstate(globalDark));
 
 const DarkMode = ({ Style }: Props) => {
-  const dark = useHookstate(darkMode);
+  const theme = useHookstate(globalDark);
 
   useEffect(() => {
-    if (
-      localStorage.getItem("color-theme") === "dark" ||
-      (!("color-theme" in localStorage) &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
-    ) {
+    if (theme.get() === "dark") {
       document.documentElement.classList.add("dark");
-      dark.set(true);
     } else {
       document.documentElement.classList.remove("dark");
-      dark.set(false);
     }
-  }, []);
+    localStorage.setItem("theme", theme.get());
+  }, [theme]);
 
   const toggleTheme = () => {
-    if (localStorage.getItem("color-theme")) {
-      if (localStorage.getItem("color-theme") === "light") {
-        document.documentElement.classList.add("dark");
-        localStorage.setItem("color-theme", "dark");
-        dark.set(true);
-      } else {
-        document.documentElement.classList.remove("dark");
-        localStorage.setItem("color-theme", "light");
-        dark.set(false);
-      }
-    } else {
-      if (document.documentElement.classList.contains("dark")) {
-        document.documentElement.classList.remove("dark");
-        localStorage.setItem("color-theme", "light");
-        dark.set(false);
-      } else {
-        document.documentElement.classList.add("dark");
-        localStorage.setItem("color-theme", "dark");
-        dark.set(true);
-      }
-    }
+    theme.set(theme.get() === "light" ? "dark" : "light");
   };
 
   return (
