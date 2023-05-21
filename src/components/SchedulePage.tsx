@@ -68,7 +68,7 @@ const SchedulePage = ({ room }: Props) => {
         </Header>
       ) : (
         <Header backButtonHref={link} title={room.name} color={headerColor!}>
-          <div className="mt-5 flex flex-row flex-nowrap justify-center gap-x-20 overflow-x-auto">
+          <div className="mt-5 flex flex-row flex-nowrap justify-center gap-x-20 overflow-hidden">
             {days.map(({ day, key }) => (
               <TextChip
                 key={day}
