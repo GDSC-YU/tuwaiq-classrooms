@@ -1,8 +1,12 @@
 import { useState } from "react";
 
-// Swiper imports
+/* Swiper Imports */
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
+// Swiper Styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "../layouts/swiper.css";
 
 // Data & Data Types & Stores
 import type { Room } from "../data/rooms";
@@ -35,7 +39,7 @@ export default function SchedulePage({ room }: Props) {
       <Header backButtonHref={link} title={room.name} color={headerColor!}>
         {isMobile ? (
           <Swiper
-            className="mt-3 pb-5"
+            className="mt-3"
             modules={[Pagination]}
             pagination={{
               clickable: true,
@@ -47,7 +51,6 @@ export default function SchedulePage({ room }: Props) {
             }
             style={
               {
-                "--swiper-pagination-bottom": "auto",
                 "--swiper-pagination-color": dark ? "white" : "black",
               } as React.CSSProperties
             }
@@ -59,7 +62,7 @@ export default function SchedulePage({ room }: Props) {
             ))}
           </Swiper>
         ) : (
-          <div className="mt-5 flex flex-row flex-nowrap justify-center gap-x-20 overflow-x-auto overflow-y-hidden">
+          <div className="mt-5 flex flex-row flex-nowrap justify-center gap-x-20">
             {days.map(({ day, key }) => (
               <TextChip
                 key={day}
