@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tc.gdscyu.com/sitemap-index.xml
