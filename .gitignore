@@ -1,5 +1,7 @@
 # build output
 dist/
+# generated types
+.astro/
 
 # dependencies
 node_modules/
@@ -17,11 +19,3 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
-
-# user-specific files
-.vscode
-
-# playwright
-/test-results/
-/playwright-report/
-/playwright/.cache/
