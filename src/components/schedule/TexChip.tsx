@@ -4,7 +4,7 @@ interface Props {
   onClick: React.MouseEventHandler<HTMLParagraphElement>;
 }
 
-export default function TextChip({ text, isSelected, onClick }: Props) {
+const TextChip = ({ text, isSelected, onClick }: Props) => {
   const className = `text-2xl font-black ${
     isSelected
       ? "text-slate-900 dark:text-white"
@@ -16,4 +16,6 @@ export default function TextChip({ text, isSelected, onClick }: Props) {
       {text}
     </p>
   );
-}
+};
+
+export default TextChip;

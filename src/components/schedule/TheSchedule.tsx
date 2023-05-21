@@ -7,11 +7,7 @@ interface Props {
   isVisible: boolean;
 }
 
-export default function TheSchedule({
-  timeSlots,
-  freeColor,
-  isVisible,
-}: Props) {
+const TheSchedule = ({ timeSlots, freeColor, isVisible }: Props) => {
   return (
     <div
       className={`${
@@ -104,4 +100,6 @@ export default function TheSchedule({
           })}
     </div>
   );
-}
+};
+
+export default TheSchedule;

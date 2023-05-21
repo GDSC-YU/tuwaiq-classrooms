@@ -8,11 +8,11 @@ interface Props {
   Style: string;
 }
 
-const darkMode = hookstate(false);
-
 const wrapState = (d: State<boolean>) => ({
   get: () => d.value,
 });
+
+const darkMode = hookstate(false);
 
 export const globalDarkMode = () => wrapState(useHookstate(darkMode));
 

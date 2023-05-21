@@ -23,7 +23,7 @@ interface Props {
   room: Room;
 }
 
-export default function SchedulePage({ room }: Props) {
+const SchedulePage = ({ room }: Props) => {
   const days = getDays(room);
 
   const isMobile = window.innerWidth < 905;
@@ -98,4 +98,6 @@ export default function SchedulePage({ room }: Props) {
       </main>
     </>
   );
-}
+};
+
+export default SchedulePage;

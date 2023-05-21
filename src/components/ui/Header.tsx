@@ -14,13 +14,7 @@ interface Props {
   children?: ReactNode;
 }
 
-export default function Header({
-  backButtonHref,
-  title,
-  color,
-  padding,
-  children,
-}: Props) {
+const Header = ({ backButtonHref, title, color, padding, children }: Props) => {
   return (
     <header className={`rounded-b-2xl ${color} p-5 ${padding}`}>
       <div className="flex items-center justify-between">
@@ -36,4 +30,6 @@ export default function Header({
       {Children.map(children, (child) => child)}
     </header>
   );
-}
+};
+
+export default Header;
