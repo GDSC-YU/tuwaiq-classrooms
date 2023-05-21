@@ -11,7 +11,7 @@ import "../layouts/swiper.css";
 // Data & Data Types & Stores
 import type { Room } from "../data/rooms";
 import { roomTypeMap, getDays } from "../data/data";
-import { globalDarkMode } from "./ui/DarkMode";
+import { useGlobalDark } from "./ui/DarkMode";
 
 // Components
 import Header from "./ui/Header";
@@ -28,21 +28,19 @@ const SchedulePage = ({ room }: Props) => {
 
   const isMobile = window.innerWidth < 905;
 
-  const dark = globalDarkMode().get();
-
   const [selectedDay, setSelectedDay] = useState(new Date().getDay());
 
   const { headerColor, freeColor, link } = roomTypeMap[room.name.charAt(0)];
 
   return (
     <>
-      {isMobile ? (
-        <Header
-          backButtonHref={link}
-          title={room.name}
-          color={headerColor!}
-          padding="pb-2"
-        >
+      <Header
+        backButtonHref={link}
+        title={room.name}
+        color={headerColor!}
+        padding={isMobile ? "pb-2" : undefined}
+      >
+        {isMobile ? (
           <Swiper
             className="mt-3"
             modules={[Pagination]}
@@ -55,7 +53,8 @@ const SchedulePage = ({ room }: Props) => {
             }
             style={
               {
-                "--swiper-pagination-color": dark ? "white" : "black",
+                "--swiper-pagination-color":
+                  useGlobalDark().get() === "light" ? "black" : "white",
               } as React.CSSProperties
             }
           >
@@ -65,10 +64,8 @@ const SchedulePage = ({ room }: Props) => {
               </SwiperSlide>
             ))}
           </Swiper>
-        </Header>
-      ) : (
-        <Header backButtonHref={link} title={room.name} color={headerColor!}>
-          <div className="mt-5 flex flex-row flex-nowrap justify-center gap-x-20 overflow-x-auto">
+        ) : (
+          <div className="mt-5 flex flex-row flex-nowrap justify-center gap-x-20 overflow-hidden">
             {days.map(({ day, key }) => (
               <TextChip
                 key={day}
@@ -78,8 +75,8 @@ const SchedulePage = ({ room }: Props) => {
               />
             ))}
           </div>
-        </Header>
-      )}
+        )}
+      </Header>
       <main className="grid">
         <div
           className="flex flex-col space-y-12 p-4"
