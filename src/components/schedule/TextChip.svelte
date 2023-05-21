@@ -1,6 +1,6 @@
 <script lang="ts">
   export let text: string;
-  export let isSelected: boolean;
+  export let isSelected: any;
   export let onClick: () => void;
 
   let style: string;
