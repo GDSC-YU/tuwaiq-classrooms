@@ -1,3 +1,5 @@
+import type { Room } from "../data/rooms";
+
 export enum GoogleColor {
   Blue = "bg-pale-blue dark:bg-google-blue",
   Red = "bg-pale-red dark:bg-google-red",
@@ -40,4 +42,14 @@ export const roomTypeMap: {
     freeColor: GoogleColor.Green,
     link: "/corner/H",
   },
+};
+
+export const getDays = (room: Room) => {
+  return [
+    { day: "Sunday", key: Day.Sunday, timeSlots: room.sunday },
+    { day: "Monday", key: Day.Monday, timeSlots: room.monday },
+    { day: "Tuesday", key: Day.Tuesday, timeSlots: room.tuesday },
+    { day: "Wednesday", key: Day.Wednesday, timeSlots: room.wednesday },
+    { day: "Thursday", key: Day.Thursday, timeSlots: room.thursday },
+  ];
 };

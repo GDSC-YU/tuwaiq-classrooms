@@ -1,11 +1,15 @@
 <script lang="ts">
+  // svlete imports
   import { onMount } from "svelte";
 
+  // data, data types, and stores
   import type { Room } from "../data/rooms";
-  import { roomTypeMap, Day } from "../data/data";
+  import { Day, roomTypeMap, getDays } from "../data/data";
 
+  // props
   export let room: Room;
 
+  // components
   import Header from "../components/ui/Header.svelte";
   import TextChip from "./schedule/TextChip.svelte";
   import ScheduleLines from "./schedule/ScheduleLines.svelte";
@@ -13,13 +17,7 @@
 
   const { headerColor, freeColor, link } = roomTypeMap[room.name.charAt(0)];
 
-  const days = [
-    { day: "Sunday", key: Day.Sunday, timeSlots: room.sunday },
-    { day: "Monday", key: Day.Monday, timeSlots: room.monday },
-    { day: "Tuesday", key: Day.Tuesday, timeSlots: room.tuesday },
-    { day: "Wednesday", key: Day.Wednesday, timeSlots: room.wednesday },
-    { day: "Thursday", key: Day.Thursday, timeSlots: room.thursday },
-  ];
+  const days = getDays(room);
 
   let selectedDay: Day | null;
 
@@ -45,7 +43,7 @@
 
 <Header backButtonHref={link} title={room.name} color={headerColor}>
   <div
-    class="mt-3 flex flex-nowrap justify-center gap-x-20 overflow-x-auto overflow-y-hidden"
+    class="mt-3 flex flex-nowrap justify-center gap-x-5 overflow-x-auto overflow-y-hidden md:gap-x-20"
   >
     {#each days as { day, key }}
       <TextChip
