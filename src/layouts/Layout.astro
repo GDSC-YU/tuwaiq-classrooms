@@ -1,18 +1,20 @@
 ---
 interface Props {
   title: string;
+  description: string;
 }
 
-const { title } = Astro.props;
+const { title, description } = Astro.props;
 ---
 
-<html lang="en">
+<html lang="en" class="scroll-smooth lg:snap-y lg:snap-mandatory">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
     <title>{title}</title>
   </head>
   <body class="default min-h-screen overflow-x-hidden">
@@ -21,14 +23,10 @@ const { title } = Astro.props;
 </html>
 
 <style>
-  * {
-    scroll-behavior: smooth;
-  }
-
   /* The Man, The Myth, The Legend */
 
   .default {
-    @apply bg-stone-200 text-slate-900 dark:bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] dark:from-gray-800 dark:via-gray-900 dark:to-black dark:text-white;
+    @apply bg-stone-100 text-slate-900 dark:bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] dark:from-gray-800 dark:via-gray-900 dark:to-black dark:text-white;
   }
 </style>
 

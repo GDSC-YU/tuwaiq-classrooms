@@ -3,24 +3,43 @@ import { Icon } from "astro-icon";
 import DarkMode from "../components/ui/DarkMode";
 ---
 
-<section class="h-screen">
+<section class="h-[100svh] lg:snap-center" aria-label="Hero Section">
   <div
     class="absolute inset-0 flex flex-col items-center justify-center gap-y-5 text-center"
   >
-    <!-- Yu & GDSC Logos -->
+    <!-- Logos -->
+
     <div class="inline-flex gap-x-2">
-      <a href="https://yu.edu.sa/" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://gdscyu.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="GDSC Al-Yamamah's Logo - Click To Visit Website"
+      >
+        <img src="/logos/gdsc.png" alt="GDSC Logo" />
+      </a>
+      <a
+        href="https://yu.edu.sa/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Al-Yamamah Univeristy Logo - Click To Visit Website"
+      >
         <img src="/logos/Yu.png" alt="Yu Logo" />
       </a>
-      <a href="https://gdscyu.com/" target="_blank" rel="noopener noreferrer">
-        <img src="/logos/gdsc.png" alt="GDSC Logo" />
+      <a
+        href="https://linkedin.com/company/ieclub-yu/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="IEC Al-Yamamah's Logo - Click To Visit LinkedIn"
+      >
+        <img src="/logos/iec.png" alt="IEC Logo" />
       </a>
     </div>
     <!-- Title -->
     <h1 class="text-4xl font-bold md:text-5xl lg:text-7xl">
       <span>Tuwaiq</span> Classrooms <span>Availability</span>
     </h1>
-    <h2 class="text-2xl md:text-4xl lg:text-5xl">
+    <h2 class="text-2xl font-medium md:text-4xl lg:text-5xl">
       Find <span>Empty Rooms</span> Easily<span>!</span>
     </h2>
     <!-- DarkMode Button -->
@@ -32,9 +51,11 @@ import DarkMode from "../components/ui/DarkMode";
   <!-- Scroll Down -->
   <a
     href="#Corners"
-    class="absolute bottom-0 flex w-full flex-col items-center justify-center p-4 transition-all duration-200 hover:scale-110 hover:text-yu-orange-dark"
+    class="absolute bottom-0 flex w-full flex-col items-center justify-center p-4 transition-all duration-200 hover:text-yu-orange-dark lg:hover:scale-110"
   >
-    <span class="text-2xl font-bold md:text-3xl">Scroll Down</span>
+    <span class="text-xl font-bold md:text-3xl" aria-label="Scroll Down Button">
+      Scroll Down
+    </span>
     <span>
       <Icon name="ic:round-keyboard-arrow-down" class="h-8" />
     </span>
