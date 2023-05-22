@@ -1,9 +1,0 @@
-/* dealing with swiper is actually painful */
-
-.swiper-container {
-  will-change: transform;
-}
-.swiper-pagination {
-  position: relative !important;
-  margin-top: 0.5rem;
-}

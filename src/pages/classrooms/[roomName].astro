@@ -16,6 +16,9 @@ export function getStaticPaths() {
 }
 ---
 
-<Layout title={roomNameString}>
+<Layout
+  title={roomNameString}
+  description={`${roomNameString} Classroom in Tuwaiq Building`}
+>
   <SchedulePage room={chosenRoom} client:only="react" />
 </Layout>

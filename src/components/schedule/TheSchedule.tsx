@@ -60,7 +60,7 @@ const TheSchedule = ({ timeSlots, freeColor, isVisible }: Props) => {
               <div
                 key={Math.random() * 51}
                 className={`mx-4 flex flex-col justify-center text-center sm:mx-[20%] ${
-                  isFreeSlot ? freeColor : "bg-slate-600 dark:bg-stone-200"
+                  isFreeSlot ? freeColor : "bg-slate-600 dark:bg-stone-100"
                 } ${isFirst ? "rounded-t-2xl" : ""} ${
                   isLast ? "rounded-b-2xl" : ""
                 }`}
@@ -73,27 +73,24 @@ const TheSchedule = ({ timeSlots, freeColor, isVisible }: Props) => {
                   marginTop: `${scheduleOffset}rem`,
                 }}
               >
-                <p
-                  className="text-lg font-bold text-stone-200 dark:text-slate-900 md:text-xl"
-                  aria-label={`${
-                    isFreeSlot
-                      ? "Free Room"
-                      : `Occupied Cause Of Course ${timeSlot.courseName}`
-                  } `}
-                >
+                <p className="text-lg font-bold text-stone-100 dark:text-slate-900 md:text-xl">
+                  <span
+                    role="text"
+                    aria-label={`${
+                      isFreeSlot
+                        ? "The Room Is Free!"
+                        : "Occupied Cause Of Course:"
+                    }`}
+                  />
                   {isFreeSlot ? "" : timeSlot.courseName}
                 </p>
                 <p
                   className={`font-bold ${
                     isFreeSlot ? "" : "text-white/60 dark:text-slate-900"
                   }`}
-                  aria-label={`${
-                    isFreeSlot
-                      ? `From ${startTime} till ${endTime} time`
-                      : `From ${startTime} till ${endTime} time`
-                  } `}
                 >
-                  {`${startTime} - ${endTime}`}
+                  <span role="text" aria-label="From" />
+                  {startTime} <span role="text" aria-label="Til" /> - {endTime}
                 </p>
               </div>
             );
