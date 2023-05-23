@@ -2,7 +2,11 @@
 import { Icon } from "astro-icon";
 ---
 
-<footer class="absolute bottom-0 pb-5">
+<footer
+  role="complementary"
+  class="absolute bottom-0 pb-5"
+  aria-label="Credits"
+>
   <div class="mb-2 flex justify-center gap-x-3">
     <!-- GDSC Links -->
     <p class="font-bold md:text-lg" aria-label="GDSC YU Club Social Accounts">
@@ -36,7 +40,7 @@ import { Icon } from "astro-icon";
       <Icon name="uil:github" class="hover:text-github-purple" />
     </a>
     <!-- Seperator -->
-    <p class="font-bold md:text-lg">|</p>
+    <p class="font-bold md:text-lg" aria-label="Seperator">|</p>
     <!-- IEC Links -->
     <p class="font-bold md:text-lg" aria-label="IEC YU Club Social Links">
       IEC:
