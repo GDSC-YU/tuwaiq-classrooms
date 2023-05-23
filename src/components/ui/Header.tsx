@@ -16,7 +16,7 @@ interface Props {
 
 const Header = ({ backButtonHref, title, color, padding, children }: Props) => {
   return (
-    <header className={`rounded-b-2xl ${color} p-5 ${padding}`}>
+    <header role="banner" className={`rounded-b-2xl ${color} p-5 ${padding}`}>
       <div className="flex items-center justify-between">
         <a href={backButtonHref} rel="prefetch" aria-label="Go Back Button">
           <Icon
@@ -24,7 +24,12 @@ const Header = ({ backButtonHref, title, color, padding, children }: Props) => {
             className="h-7 w-8 transition-all duration-200 hover:scale-110 md:h-11 md:w-12"
           />
         </a>
-        <h1 className="text-3xl font-black tracking-wide md:text-4xl">
+        <h1
+          className="text-3xl font-black tracking-wide md:text-4xl"
+          aria-label={`${
+            title.charAt(2) === "C" ? title : `${title} Classroom`
+          }`}
+        >
           {title}
         </h1>
         <DarkMode Style="h-8 w-8 transition-all duration-200 hover:scale-110 md:h-12 md:w-12" />

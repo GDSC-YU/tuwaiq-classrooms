@@ -73,27 +73,24 @@ const TheSchedule = ({ timeSlots, freeColor, isVisible }: Props) => {
                   marginTop: `${scheduleOffset}rem`,
                 }}
               >
-                <p
-                  className="text-lg font-bold text-stone-200 dark:text-slate-900 md:text-xl"
-                  aria-label={`${
-                    isFreeSlot
-                      ? "Free Room"
-                      : `Occupied Cause Of Course ${timeSlot.courseName}`
-                  } `}
-                >
+                <p className="text-lg font-bold text-stone-200 dark:text-slate-900 md:text-xl">
+                  <span
+                    role="text"
+                    aria-label={`${
+                      isFreeSlot
+                        ? "The Room Is Free!"
+                        : "Occupied Cause Of Course:"
+                    }`}
+                  />
                   {isFreeSlot ? "" : timeSlot.courseName}
                 </p>
                 <p
                   className={`font-bold ${
                     isFreeSlot ? "" : "text-white/60 dark:text-slate-900"
                   }`}
-                  aria-label={`${
-                    isFreeSlot
-                      ? `From ${startTime} till ${endTime} time`
-                      : `From ${startTime} till ${endTime} time`
-                  } `}
                 >
-                  {`${startTime} - ${endTime}`}
+                  <span role="text" aria-label="From" />
+                  {startTime} <span role="text" aria-label="Til" /> - {endTime}
                 </p>
               </div>
             );

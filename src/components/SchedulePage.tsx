@@ -39,7 +39,7 @@ const SchedulePage = ({ room }: Props) => {
     days.findIndex((day) => day.key === selectedDay)
   );
   const [loaded, setLoaded] = useState(false);
-  const [sliderRef, instanceRef] = useKeenSlider<HTMLDivElement>({
+  const [sliderRef] = useKeenSlider<HTMLDivElement>({
     initial: currentSlide,
 
     slideChanged(slider) {
@@ -106,7 +106,7 @@ const SchedulePage = ({ room }: Props) => {
           </div>
         )}
       </Header>
-      <main className="grid">
+      <main className="grid" aria-label={`${room.name} Room's Schedule`}>
         <div
           className="flex flex-col space-y-12 p-4"
           style={{ gridArea: "1 / 1 / 2 / 2" }}
