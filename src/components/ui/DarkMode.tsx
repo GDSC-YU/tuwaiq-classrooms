@@ -1,39 +1,33 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 import { Icon } from "@iconify/react";
-
-import { hookstate, useHookstate, State } from "@hookstate/core";
 
 interface Props {
   Style: string;
 }
 
-const globalDark = hookstate(localStorage.getItem("theme") ?? "light");
-
-const wrapState = (d: State<string>) => ({
-  get: () => d.value,
-});
-
-export const useGlobalDark = () => wrapState(useHookstate(globalDark));
-
 const DarkMode = ({ Style }: Props) => {
-  const theme = useHookstate(globalDark);
+  const [theme, setTheme] = useState(localStorage.getItem("theme") ?? "light");
 
   useEffect(() => {
-    if (theme.get() === "dark") {
+    if (theme === "dark") {
       document.documentElement.classList.add("dark");
     } else {
       document.documentElement.classList.remove("dark");
     }
-    localStorage.setItem("theme", theme.get());
+    localStorage.setItem("theme", theme);
   }, [theme]);
 
   const toggleTheme = () => {
-    theme.set(theme.get() === "light" ? "dark" : "light");
+    setTheme(theme === "light" ? "dark" : "light");
   };
 
   return (
-    <button type="button" onClick={toggleTheme}>
+    <button
+      type="button"
+      onClick={toggleTheme}
+      aria-label="Dark Mode Toggle Button"
+    >
       <Icon icon="gg:dark-mode" className={Style} />
     </button>
   );

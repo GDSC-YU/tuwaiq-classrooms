@@ -2,10 +2,14 @@
 import { Icon } from "astro-icon";
 ---
 
-<footer class="absolute bottom-0 pb-5">
+<footer
+  role="complementary"
+  class="absolute bottom-0 pb-5"
+  aria-label="Credits"
+>
   <div class="mb-2 flex justify-center gap-x-3">
     <!-- GDSC Links -->
-    <p class="font-bold md:text-lg" aria-label="Google Developer Student Club">
+    <p class="font-bold md:text-lg" aria-label="GDSC YU Club Social Accounts">
       GDSC:
     </p>
     <!-- Twitter -->
@@ -13,6 +17,7 @@ import { Icon } from "astro-icon";
       href="https://twitter.com/gdsc_yu"
       target="_blank"
       rel="noopener noreferrer"
+      aria-label="GDSC YU Twitter Icon Link"
     >
       <Icon name="uil:twitter-alt" class="hover:text-twitter-blue" />
     </a>
@@ -21,6 +26,7 @@ import { Icon } from "astro-icon";
       href="https://www.instagram.com/gdsc_yu/"
       target="_blank"
       rel="noopener noreferrer"
+      aria-label="GDSC YU Instagram Icon Link"
     >
       <Icon name="uil:instagram" class="hover:text-instagram-pink" />
     </a>
@@ -29,18 +35,22 @@ import { Icon } from "astro-icon";
       href="https://github.com/GDSC-YU"
       target="_blank"
       rel="noopener noreferrer"
+      aria-label="GDSC YU GitHub Icon Link"
     >
       <Icon name="uil:github" class="hover:text-github-purple" />
     </a>
     <!-- Seperator -->
-    <p class="font-bold md:text-lg">|</p>
+    <p class="font-bold md:text-lg" aria-label="Seperator">|</p>
     <!-- IEC Links -->
-    <p class="font-bold md:text-lg">IEC:</p>
+    <p class="font-bold md:text-lg" aria-label="IEC YU Club Social Links">
+      IEC:
+    </p>
     <!-- Twitter -->
     <a
       href="https://twitter.com/ieclub_yu"
       target="_blank"
       rel="noopener noreferrer"
+      aria-label="IEC YU Twitter Icon Link"
     >
       <Icon name="uil:twitter-alt" class="hover:text-twitter-blue" />
     </a>
@@ -49,12 +59,14 @@ import { Icon } from "astro-icon";
       href="https://www.instagram.com/ieclub_yu/"
       target="_blank"
       rel="noopener noreferrer"
+      aria-label="IEC YU Instagram Icon Link"
     >
       <Icon name="uil:instagram" class="hover:text-instagram-pink" />
     </a>
   </div>
   <p
     class="text-xl font-semibold transition-all duration-200 md:text-2xl md:hover:scale-110"
+    aria-label="Made With Love *heart emoji* By The GDSC Team"
   >
     Made With ❤️ By The GDSC Team
   </p>

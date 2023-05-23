@@ -3,16 +3,26 @@ import { Icon } from "astro-icon";
 import DarkMode from "../components/ui/DarkMode";
 ---
 
-<section class="h-screen">
+<section class="h-screen" aria-label="Hero Section">
   <div
     class="absolute inset-0 flex flex-col items-center justify-center gap-y-5 text-center"
   >
     <!-- Yu & GDSC Logos -->
     <div class="inline-flex gap-x-2">
-      <a href="https://yu.edu.sa/" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://yu.edu.sa/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Al-Yamamah Univeristy Logo - Click To Visit Website"
+      >
         <img src="/logos/Yu.png" alt="Yu Logo" />
       </a>
-      <a href="https://gdscyu.com/" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://gdscyu.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="GDSC Al-Yamamah's Univeristy Logo - Click To Visit Website"
+      >
         <img src="/logos/gdsc.png" alt="GDSC Logo" />
       </a>
     </div>
@@ -34,7 +44,9 @@ import DarkMode from "../components/ui/DarkMode";
     href="#Corners"
     class="absolute bottom-0 flex w-full flex-col items-center justify-center p-4 transition-all duration-200 hover:scale-110 hover:text-yu-orange-dark"
   >
-    <span class="text-2xl font-bold md:text-3xl">Scroll Down</span>
+    <span class="text-2xl font-bold md:text-3xl" aria-label="Scroll Down Button"
+      >Scroll Down</span
+    >
     <span>
       <Icon name="ic:round-keyboard-arrow-down" class="h-8" />
     </span>
