@@ -33,7 +33,11 @@ const DarkMode = ({ Style }: Props) => {
   };
 
   return (
-    <button type="button" onClick={toggleTheme}>
+    <button
+      type="button"
+      onClick={toggleTheme}
+      aria-label="Dark Mode Toggle Button"
+    >
       <Icon icon="gg:dark-mode" className={Style} />
     </button>
   );
