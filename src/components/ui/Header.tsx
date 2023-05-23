@@ -18,7 +18,7 @@ const Header = ({ backButtonHref, title, color, padding, children }: Props) => {
   return (
     <header className={`rounded-b-2xl ${color} p-5 ${padding}`}>
       <div className="flex items-center justify-between">
-        <a href={backButtonHref} rel="prefetch">
+        <a href={backButtonHref} rel="prefetch" aria-label="Go Back Button">
           <Icon
             icon="fa:arrow-left"
             className="h-7 w-8 transition-all duration-200 hover:scale-110 md:h-11 md:w-12"
