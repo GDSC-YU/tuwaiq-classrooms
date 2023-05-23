@@ -24,7 +24,9 @@ const Header = ({ backButtonHref, title, color, padding, children }: Props) => {
             className="h-7 w-8 transition-all duration-200 hover:scale-110 md:h-11 md:w-12"
           />
         </a>
-        <p className="text-3xl font-black tracking-wide md:text-4xl">{title}</p>
+        <h1 className="text-3xl font-black tracking-wide md:text-4xl">
+          {title}
+        </h1>
         <DarkMode Style="h-8 w-8 transition-all duration-200 hover:scale-110 md:h-12 md:w-12" />
       </div>
       {Children.map(children, (child) => child)}
