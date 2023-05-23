@@ -1,11 +1,26 @@
+import { useState } from "react";
+
 interface Props {
   text: string;
   isSelected: boolean;
   onClick: React.MouseEventHandler<HTMLButtonElement>;
-  ariaLabel: string;
 }
 
-const TextChip = ({ text, isSelected, onClick, ariaLabel }: Props) => {
+const TextChip = ({ text, isSelected, onClick }: Props) => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
+  const ariaLabel = isSelected
+    ? `${text}'s Schedule Button - Currently Selected`
+    : `View ${text}'s Schedule Button`;
+
   const className = `text-2xl font-black ${
     isSelected
       ? "text-slate-900 dark:text-white"
@@ -13,7 +28,13 @@ const TextChip = ({ text, isSelected, onClick, ariaLabel }: Props) => {
   }`;
 
   return (
-    <button onClick={onClick} className={className} aria-label={ariaLabel}>
+    <button
+      onClick={onClick}
+      className={className}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      aria-label={ariaLabel}
+    >
       {text}
     </button>
   );

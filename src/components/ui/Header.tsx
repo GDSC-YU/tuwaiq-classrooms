@@ -16,7 +16,15 @@ interface Props {
 
 const Header = ({ backButtonHref, title, color, padding, children }: Props) => {
   return (
-    <header role="banner" className={`rounded-b-2xl ${color} p-5 ${padding}`}>
+    <header
+      role="banner"
+      aria-label={`${
+        title.charAt(2) === "C"
+          ? `${title} Header`
+          : `${title} Classroom  Header`
+      }`}
+      className={`rounded-b-2xl ${color} p-5 ${padding}`}
+    >
       <div className="flex items-center justify-between">
         <a href={backButtonHref} rel="prefetch" aria-label="Go Back Button">
           <Icon
