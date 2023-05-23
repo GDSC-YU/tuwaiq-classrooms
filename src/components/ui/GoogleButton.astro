@@ -4,14 +4,16 @@ interface Props {
   text: string;
   color: GoogleColor;
   href: string;
+  label: string;
 }
 
-const { text, color, href } = Astro.props;
+const { text, color, href, label } = Astro.props;
 ---
 
 <a
   href={href}
   rel="prefetch"
+  aria-label={label}
   class={`w-11/12 rounded-2xl ${color} py-8 transition-all duration-200 hover:scale-110 md:w-5/6`}
 >
   <p class="text-center text-2xl font-bold">
