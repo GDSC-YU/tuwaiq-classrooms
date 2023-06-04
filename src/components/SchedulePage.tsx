@@ -28,27 +28,25 @@ const SchedulePage = ({ room }: Props) => {
   const isMobile = window.innerWidth < 905;
 
   // selected day state (the initial day is the current day)
-  const [selectedDay, setSelectedDay] = useState(new Date().getDay());
-
+  const [selectedDay, setSelectedDay] = useState(() => {
+    const currentDay = new Date().getDay();
+    if (isMobile && (currentDay === 5 || currentDay === 6)) {
+      return 0; // Set initial day to Sunday (index 0) if it's Friday or Saturday on mobile
+    }
+    return currentDay;
+  });
   // header color, free slot color, and back ref links
   const { headerColor, freeColor, link } = roomTypeMap[room.name.charAt(0)];
 
   // Keen Slider Logic
-  const [currentSlide, setCurrentSlide] = useState<number | undefined>(
-    days.findIndex((day) => day.key === selectedDay)
-  );
   const [loaded, setLoaded] = useState(false);
   const [sliderRef, instanceRef] = useKeenSlider<HTMLDivElement>({
-    initial: currentSlide,
+    initial: selectedDay,
     dragSpeed: 1,
 
     slideChanged(slider) {
       const currentSlideIndex = slider.track.details.rel;
-      setCurrentSlide(currentSlideIndex);
-
-      if (currentSlideIndex !== undefined) {
-        setSelectedDay(days[currentSlideIndex].key);
-      }
+      setSelectedDay(days[currentSlideIndex].key);
     },
 
     created() {
@@ -56,7 +54,7 @@ const SchedulePage = ({ room }: Props) => {
     },
   });
 
-  // Keybaord Navigation Instead of Swiping
+  // Keyboard / Global Swipe Navigation
   useEffect(() => {
     let touchStartX = 0;
     let touchEndX = 0;
@@ -122,9 +120,9 @@ const SchedulePage = ({ room }: Props) => {
                 role="slider"
                 aria-valuemin={1}
                 aria-valuemax={5}
-                aria-valuenow={currentSlide! + 1}
+                aria-valuenow={selectedDay! + 1}
                 aria-label={`This Is a Carousel of Days - Swipe Anywhere in the Screen To Change the Day! - Current Day Is ${
-                  days[currentSlide!].day
+                  days[selectedDay!].day
                 }`}
               >
                 {days.map(({ day }) => (
