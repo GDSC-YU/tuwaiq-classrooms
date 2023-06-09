@@ -7,7 +7,7 @@ interface Props {
 const { title, description } = Astro.props;
 ---
 
-<html lang="en">
+<html lang="en" class="scroll-smooth lg:snap-y lg:snap-mandatory">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
@@ -23,10 +23,6 @@ const { title, description } = Astro.props;
 </html>
 
 <style>
-  * {
-    scroll-behavior: smooth;
-  }
-
   /* The Man, The Myth, The Legend */
 
   .default {

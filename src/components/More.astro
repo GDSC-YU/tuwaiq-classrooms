@@ -1,7 +1,6 @@
 ---
 import GoogleButton from "../components/ui/GoogleButton.astro";
 import { GoogleColor } from "../data/data";
-import Footer from "../components/ui/Footer.astro";
 
 const corners = [
   {
@@ -27,32 +26,30 @@ const corners = [
 ];
 ---
 
-<section
-  id="Corners"
-  class="relative flex min-h-screen flex-col items-center justify-center gap-y-5 text-center"
-  aria-label="Main Content"
->
-  <!-- Title -->
-  <h1 class="px-3 text-5xl font-bold md:text-7xl">
-    The Corners of <span class="text-yu-orange-dark">Tuwaiq!</span> 🌄
-  </h1>
-  <!-- Corners Buttons -->
+<section id="Corners" class="h-[100lvh] snap-center" aria-label="Main Content">
   <div
-    class="grid w-full grid-cols-1 justify-items-center gap-4 p-10 md:grid-cols-2"
+    class="flex h-full flex-col items-center justify-center gap-y-5 text-center md:gap-y-10"
   >
-    {
-      corners.map((corner) => {
-        return (
-          <GoogleButton
-            text={corner.name}
-            href={corner.href}
-            color={corner.color}
-            ariaLabel={corner.name}
-          />
-        );
-      })
-    }
+    <!-- Title -->
+    <h1 class="px-3 text-5xl font-bold md:text-7xl">
+      The Corners of <span class="text-yu-orange-dark">Tuwaiq!</span> 🌄
+    </h1>
+    <!-- Corners Buttons -->
+    <div
+      class="grid w-full grid-cols-1 justify-items-center gap-4 p-10 md:grid-cols-2"
+    >
+      {
+        corners.map((corner) => {
+          return (
+            <GoogleButton
+              text={corner.name}
+              href={corner.href}
+              color={corner.color}
+              ariaLabel={corner.name}
+            />
+          );
+        })
+      }
+    </div>
   </div>
-  <!-- Footer -->
-  <Footer />
 </section>
