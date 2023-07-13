@@ -21,8 +21,8 @@ const ScheduleLines = () => {
           key={time}
           aria-hidden="true"
         >
-          <p className="font-bold dark:text-stone-300">{time}</p>
-          <div className="ml-5 h-0 grow border border-slate-900 dark:border-stone-300"></div>
+          <p className="font-bold text-stone-300">{time}</p>
+          <div className="ml-5 h-0 grow border border-stone-300"></div>
         </div>
       ))}
     </>

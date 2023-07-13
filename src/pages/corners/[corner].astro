@@ -20,7 +20,7 @@ export async function getStaticPaths() {
 
 const { corner } = Astro.params;
 
-let color = GoogleColor.Red;
+let color : GoogleColor;
 switch (corner) {
   case "E":
     color = GoogleColor.Blue;
@@ -45,24 +45,21 @@ for (const key in rooms) {
 ---
 
 <Layout
-  title={`${corner} Classrooms`}
-  description={`${corner} Section Classrooms in Tuwaiq Building`}
+  title={`${corner} Rooms`}
+  description={`${corner} Section Rooms in Tuwaiq Building`}
 >
-  <Header
-    backButtonHref="/#Corners"
-    title={`${corner} Classrooms`}
-    color={color!}
-    client:load
-  />
-  <div class="grid grid-cols-2 justify-items-center gap-6 py-10 lg:grid-cols-4">
+  <Header backButtonHref="/" title={`${corner} Rooms`} color={color!} />
+  <div
+    class="grid grid-cols-2 justify-items-center gap-6 px-5 py-10 lg:grid-cols-4"
+  >
     {
       chosenRooms.map((roomName) => {
         return (
           <GoogleButton
             text={roomName}
             color={color}
-            href={`/classroom/${roomName}`}
-            ariaLabel={`Go to ${roomName} Classroom`}
+            href={`/classrooms/${roomName}`}
+            ariaLabel={`Go to ${roomName} Room`}
           />
         );
       })

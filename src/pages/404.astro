@@ -1,0 +1,39 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Error 404 | Tuwaiq Rooms" description="">
+	<div class="flex h-[calc(100vh-80px)] items-center justify-center p-5 w-full">
+        <div class="text-center">
+          <div class="inline-flex rounded-full bg-red-100 p-4">
+            <div class="rounded-full stroke-red-600 bg-red-200 p-4">
+              <svg
+                class="w-16 h-16"
+                viewBox="0 0 28 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.0002 9.33337V14M14.0002 18.6667H14.0118M25.6668 14C25.6668 20.4434 20.4435 25.6667 14.0002 25.6667C7.55684 25.6667 2.3335 20.4434 2.3335 14C2.3335 7.55672 7.55684 2.33337 14.0002 2.33337C20.4435 2.33337 25.6668 7.55672 25.6668 14Z"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <h1 class="mt-5 text-[36px] font-bold lg:text-[50px]">
+            404 - Page not found
+          </h1>
+          <p class="mt-5 lg:text-lg">
+            The page you are looking for doesn't exist or has been removed.
+          </p>
+          <a
+            href="/"
+            class="inline-flex text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-red-900 my-4"
+          > 
+            <span>Back to Homepage</span> 
+          </a>
+        </div>
+    </div>
+</Layout>

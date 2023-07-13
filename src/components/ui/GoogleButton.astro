@@ -10,13 +10,14 @@ interface Props {
 const { text, color, href, ariaLabel } = Astro.props;
 ---
 
-<a
-  href={href}
-  rel="prefetch"
-  aria-label={ariaLabel}
-  class={`w-11/12 rounded-2xl ${color} py-8 transition-all duration-200 hover:scale-110 md:w-5/6`}
->
-  <p class="text-center text-2xl font-bold">
+<a href={href} rel="prefetch" class={color} aria-label={ariaLabel}>
+  <span class="text-2xl font-bold">
     {text}
-  </p>
+  </span>
 </a>
+
+<style>
+  a {
+    @apply w-11/12 rounded-2xl py-9 text-center transition duration-300 ease-in-out hover:scale-110 md:w-5/6;
+  }
+</style>

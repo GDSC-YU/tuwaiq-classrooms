@@ -1,14 +1,38 @@
 ---
 import Layout from "../layouts/Layout.astro";
 
-import Hero from "../components/Hero.astro";
-import More from "../components/More.astro";
+import Logos from "../components/ui/Logos.astro";
+import GoogleButton from "../components/ui/GoogleButton.astro";
+
+import { corners } from "../data/data";
 ---
 
 <Layout
-  title="Tuwaiq Classrooms"
-  description="Find Empty Rooms at Al-Yamamah's University Tuwaiq Building Easily!"
+  title="Tuwaiq Rooms"
+  description="Looking for an empty classroom to study in? We’ve got you covered! Easily explore and access room schedules to plan your study sessions effectively. Discover the perfect study space at Al-Yamamah University’s Tuwaiq building & enhance your study experience!"
 >
-  <Hero />
-  <More />
+  <main
+    class="flex h-[100lvh] flex-col items-center justify-center p-5 text-center md:gap-y-10"
+  >
+    <Logos />
+    <h1 class="text-5xl font-bold leading-normal md:text-7xl">
+      <span class="text-yu-orange-dark">Tuwaiq</span> Rooms!
+    </h1>
+    <div
+      class="cards grid w-full grid-cols-2 justify-items-center gap-4 py-10 lg:w-2/3"
+    >
+      {
+        corners.map((corner) => {
+          return (
+            <GoogleButton
+              href={corner.href}
+              color={corner.color}
+              ariaLabel={`${corner.name} Classrooms`}
+              text={corner.name}
+            />
+          );
+        })
+      }
+    </div>
+  </main>
 </Layout>

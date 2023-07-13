@@ -1,4 +1,6 @@
 ---
+import { pwaInfo } from "virtual:pwa-info";
+
 interface Props {
   title: string;
   description: string;
@@ -7,44 +9,50 @@ interface Props {
 const { title, description } = Astro.props;
 ---
 
-<html lang="en" class="scroll-smooth lg:snap-y lg:snap-mandatory">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon-180x180.png">
     <link rel="sitemap" href="/sitemap-index.xml" />
+
+    <meta name="theme-color" content="#0a0a0a"/>
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={description} />
     <title>{title}</title>
+
+    {pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />}
+
   </head>
-  <body class="default min-h-screen overflow-x-hidden">
+  <body class="overflow-x-hidden bg-neutral-950 text-slate-100">
     <slot />
+    <script>
+      import { registerSW } from "virtual:pwa-register";
+      import Snackbar from "node-snackbar";
+
+      // pwa stuff
+      if ("serviceWorker" in navigator) {
+        const updateSW = registerSW({
+          onOfflineReady() {
+            Snackbar.show({
+              text: "Offline ready.",
+              actionTextColor: '#ffffff',
+            });
+          },
+          onNeedRefresh() {
+            Snackbar.show({
+              text: "Update available.",
+              actionText: "Update",
+              actionTextColor: '#ffffff',
+              onActionClick: function () {
+                updateSW(true);
+              },
+            });
+          },
+        });
+      }
+    </script>
   </body>
 </html>
-
-<style>
-  /* The Man, The Myth, The Legend */
-
-  .default {
-    @apply bg-stone-100 text-slate-900 dark:bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] dark:from-gray-800 dark:via-gray-900 dark:to-black dark:text-white;
-  }
-</style>
-
-<script is:inline>
-  const theme = (() => {
-    if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
-      return localStorage.getItem("theme");
-    }
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      return "dark";
-    }
-    return "light";
-  })();
-
-  if (theme === "light") {
-    document.documentElement.classList.remove("dark");
-  } else {
-    document.documentElement.classList.add("dark");
-  }
-  window.localStorage.setItem("theme", theme);
-</script>

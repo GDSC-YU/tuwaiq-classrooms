@@ -59,8 +59,8 @@ const TheSchedule = ({ timeSlots, freeColor, isVisible }: Props) => {
             return (
               <div
                 key={Math.random() * 51}
-                className={`mx-4 flex flex-col justify-center text-center sm:mx-[20%] ${
-                  isFreeSlot ? freeColor : "bg-slate-600 dark:bg-stone-100"
+                className={`mx-4 flex flex-col justify-center text-center sm:mx-[20%] lg:mx-[30%] ${
+                  isFreeSlot ? freeColor : "bg-stone-100"
                 } ${isFirst ? "rounded-t-2xl" : ""} ${
                   isLast ? "rounded-b-2xl" : ""
                 }`}
@@ -73,7 +73,7 @@ const TheSchedule = ({ timeSlots, freeColor, isVisible }: Props) => {
                   marginTop: `${scheduleOffset}rem`,
                 }}
               >
-                <p className="text-lg font-bold text-stone-100 dark:text-slate-900 md:text-xl">
+                <p className="text-lg font-bold text-slate-900 md:text-xl">
                   <span
                     role="text"
                     aria-label={`${
@@ -85,9 +85,7 @@ const TheSchedule = ({ timeSlots, freeColor, isVisible }: Props) => {
                   {isFreeSlot ? "" : timeSlot.courseName}
                 </p>
                 <p
-                  className={`font-bold ${
-                    isFreeSlot ? "" : "text-white/60 dark:text-slate-900"
-                  }`}
+                  className={`font-bold ${isFreeSlot ? "" : "text-slate-900"}`}
                 >
                   <span role="text" aria-label="From" />
                   {startTime} <span role="text" aria-label="Til" /> - {endTime}
