@@ -20,7 +20,7 @@ Tuwaiq Rooms is a student-made project at Al-Yamamah University that allows all 
 
 ## Usage 💻
 
-Simply visit the [website](https://tr.gdscyu.com/) and get going!
+Simply visit the [website](https://tc.gdscyu.com/) and get going!
 
 Or
 
