@@ -15,10 +15,14 @@ export default defineConfig({
     prefetch(),
     sitemap(),
     AstroPWA({
+      injectRegister: null,
+      workbox: {
+        navigateFallback: "/404",
+        globPatterns: ["**/*.{css,js,html,svg,png,ico,txt}"],
+      },
       manifest: {
-        base: "/",
-        scope: "/",
-        orientation: "portrait-primary",
+        lang: "en",
+        dir: "ltr",
         name: "Tuwaiq Rooms",
         short_name: "Tuwaiq Rooms",
         description:
@@ -47,11 +51,6 @@ export default defineConfig({
             label: "F205 Room Schedule",
           },
         ],
-        start_url: "/",
-        theme_color: "#0a0a0a",
-        background_color: "#0a0a0a",
-        display: "standalone",
-        includeAssets: ["*.{png,ico,svg,jpg,xml}"],
         icons: [
           {
             src: "pwa-64x64.png",
@@ -76,10 +75,13 @@ export default defineConfig({
             purpose: "maskable",
           },
         ],
-      },
-      workbox: {
-        navigateFallback: "/404",
-        globPatterns: ["**/*.{css,js,html,svg,png,ico,txt}"],
+        scope: "/",
+        start_url: "/",
+        display: "standalone",
+        orientation: "portrait-primary",
+        theme_color: "#0a0a0a",
+        background_color: "#0a0a0a",
+        includeAssets: ["**"],
       },
     }),
   ],

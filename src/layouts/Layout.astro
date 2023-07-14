@@ -1,5 +1,7 @@
 ---
 import { pwaInfo } from "virtual:pwa-info";
+import ReloadPrompt from '../components/ReloadPrompt.astro';
+
 
 interface Props {
   title: string;
@@ -28,31 +30,6 @@ const { title, description } = Astro.props;
   </head>
   <body class="overflow-x-hidden bg-neutral-950 text-slate-100">
     <slot />
-    <script>
-      import { registerSW } from "virtual:pwa-register";
-      import Snackbar from "node-snackbar";
-
-      // pwa stuff
-      if ("serviceWorker" in navigator) {
-        const updateSW = registerSW({
-          onOfflineReady() {
-            Snackbar.show({
-              text: "The Website is ready to be used offline!",
-              actionTextColor: "#ffffff",
-            });
-          },
-          onNeedRefresh() {
-            Snackbar.show({
-              text: "A newer version of this web app is available, reload to update?",
-              actionText: "Yes!",
-              actionTextColor: "#ffffff",
-              onActionClick: function () {
-                updateSW(true);
-              },
-            });
-          },
-        });
-      }
-    </script>
+    <ReloadPrompt />
   </body>
 </html>
