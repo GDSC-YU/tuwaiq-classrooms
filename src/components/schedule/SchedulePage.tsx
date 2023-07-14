@@ -14,7 +14,7 @@ import { roomTypeMap, getDays } from "../../data/data";
 import Header from "../ui/Header";
 import TextChip from "./TexChip";
 import ScheduleLines from "./ScheduleLines";
-import TheSchedule from "./TheSchedule";
+import ScheduleSlots from "./ScheduleSlots";
 
 interface Props {
   room: Room;
@@ -171,7 +171,7 @@ const SchedulePage = ({ room }: Props) => {
           <ScheduleLines />
         </div>
         {days.map(({ key, timeSlots }) => (
-          <TheSchedule
+          <ScheduleSlots
             key={key}
             timeSlots={timeSlots}
             freeColor={freeColor!}
