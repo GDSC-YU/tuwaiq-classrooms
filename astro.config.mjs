@@ -81,7 +81,7 @@ export default defineConfig({
         orientation: "portrait-primary",
         theme_color: "#0a0a0a",
         background_color: "#0a0a0a",
-        includeAssets: ["**"],
+        includeAssets: ["*.{png,ico,svg,jpg,xml}"],
       },
     }),
   ],
