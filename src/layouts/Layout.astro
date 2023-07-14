@@ -13,18 +13,18 @@ const { title, description } = Astro.props;
   <head>
     <meta charset="utf-8" />
 
-    <link rel="icon" href="/favicon.ico" sizes="any">
-    <link rel="apple-touch-icon" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon-180x180.png" />
     <link rel="sitemap" href="/sitemap-index.xml" />
 
-    <meta name="theme-color" content="#0a0a0a"/>
+    <meta name="theme-color" content="#0a0a0a" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={description} />
+
     <title>{title}</title>
 
     {pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />}
-
   </head>
   <body class="overflow-x-hidden bg-neutral-950 text-slate-100">
     <slot />
@@ -37,15 +37,15 @@ const { title, description } = Astro.props;
         const updateSW = registerSW({
           onOfflineReady() {
             Snackbar.show({
-              text: "Offline ready.",
-              actionTextColor: '#ffffff',
+              text: "The Website is ready to be used offline!",
+              actionTextColor: "#ffffff",
             });
           },
           onNeedRefresh() {
             Snackbar.show({
-              text: "Update available.",
-              actionText: "Update",
-              actionTextColor: '#ffffff',
+              text: "A newer version of this web app is available, reload to update?",
+              actionText: "Yes!",
+              actionTextColor: "#ffffff",
               onActionClick: function () {
                 updateSW(true);
               },
