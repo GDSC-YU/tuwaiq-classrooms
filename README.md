@@ -2,9 +2,9 @@
 
 <div align="center">
 
-![GitHub](https://img.shields.io/github/license/GDSC-YU/tuwaiq-rooms?style=for-the-badge)
-[![GitHub Issues](https://img.shields.io/github/issues/GDSC-YU/tuwaiq-rooms?style=for-the-badge)](https://github.com/GDSC-YU/tuwaiq-rooms/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/GDSC-YU/tuwaiq-rooms?style=for-the-badge)](https://github.com/GDSC-YU/tuwaiq-rooms/pulls)
+![GitHub](https://img.shields.io/github/license/GDSC-YU/tuwaiq-classrooms?style=for-the-badge)
+[![GitHub Issues](https://img.shields.io/github/issues/GDSC-YU/tuwaiq-classrooms?style=for-the-badge)](https://github.com/GDSC-YU/tuwaiq-classrooms/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/GDSC-YU/tuwaiq-classrooms?style=for-the-badge)](https://github.com/GDSC-YU/tuwaiq-classrooms/pulls)
 
 </div>
 
