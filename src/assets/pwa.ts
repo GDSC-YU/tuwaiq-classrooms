@@ -42,7 +42,7 @@ window.addEventListener("load", () => {
     },
     onNeedRefresh() {
       pwaToastMessage.innerHTML =
-        "New content available, click on reload button to update :)";
+        "New content available, <br /> click reload to update :)";
       showPwaToast(false);
     },
     onRegisteredSW(swScriptUrl) {

@@ -7,8 +7,8 @@ import "keen-slider/keen-slider.min.css";
 import "../layouts/keen.css";
 
 // Data & Data Types & Stores
-import type { Room } from "../data/rooms";
-import { roomTypeMap, getDays } from "../data/data";
+import type { Room } from "../assets/data/rooms";
+import { roomTypeMap, getDays } from "../assets/data/data";
 
 // Components
 import Header from "./ui/Header";

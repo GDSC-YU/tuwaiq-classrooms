@@ -1,6 +1,6 @@
 import { Children, ReactNode } from "react";
 
-import type { GoogleColor } from "../../data/data";
+import type { GoogleColor } from "../../assets/data/data";
 
 interface Props {
   backButtonHref: string;

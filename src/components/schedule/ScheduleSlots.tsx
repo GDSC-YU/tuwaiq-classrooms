@@ -1,5 +1,5 @@
-import type { TimeSlot } from "../../data/rooms";
-import type { GoogleColor } from "../../data/data";
+import type { TimeSlot } from "../../assets/data/rooms";
+import type { GoogleColor } from "../../assets/data/data";
 
 interface Props {
   timeSlots: Array<TimeSlot> | null;
