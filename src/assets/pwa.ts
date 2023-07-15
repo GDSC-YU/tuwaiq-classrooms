@@ -45,8 +45,5 @@ window.addEventListener("load", () => {
         "New content available, <br /> click reload to update :)";
       showPwaToast(false);
     },
-    onRegisteredSW(swScriptUrl) {
-      console.log("SW registered: ", swScriptUrl);
-    },
   });
 });
