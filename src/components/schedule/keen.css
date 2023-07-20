@@ -1,0 +1,19 @@
+.navigation-wrapper {
+  @apply relative;
+}
+
+.dots {
+  @apply flex justify-center;
+  padding: 10px 0;
+}
+
+.dot {
+  @apply cursor-none rounded-full border-none bg-slate-900/60 p-1 focus:outline-none;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+}
+
+.dot.active {
+  @apply bg-white;
+}

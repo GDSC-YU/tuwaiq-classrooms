@@ -1,10 +1,10 @@
-import type { Room } from "../data/rooms";
+import type { Room } from "./rooms";
 
 export enum GoogleColor {
-  Blue = "bg-pale-blue dark:bg-google-blue",
-  Red = "bg-pale-red dark:bg-google-red",
-  Yellow = "bg-pale-yellow dark:bg-google-yellow",
-  Green = "bg-pale-green dark:bg-google-green",
+  Blue = "bg-google-blue",
+  Red = "bg-google-red",
+  Yellow = "bg-google-yellow",
+  Green = "bg-google-green",
 }
 
 export enum Day {
@@ -14,6 +14,29 @@ export enum Day {
   Wednesday,
   Thursday,
 }
+
+export const corners = [
+  {
+    name: "E Corner",
+    href: "/corners/E",
+    color: GoogleColor.Blue,
+  },
+  {
+    name: "F Corner",
+    href: "/corners/F",
+    color: GoogleColor.Red,
+  },
+  {
+    name: "G Corner",
+    href: "/corners/G",
+    color: GoogleColor.Yellow,
+  },
+  {
+    name: "H Corner",
+    href: "/corners/H",
+    color: GoogleColor.Green,
+  },
+];
 
 export const roomTypeMap: {
   [key: string]: {

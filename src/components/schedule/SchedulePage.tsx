@@ -4,17 +4,17 @@ import { useState, useEffect } from "react";
    Swiper Not Swiping.. */
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
-import "../layouts/keen.css";
+import "./keen.css";
 
 // Data & Data Types & Stores
-import type { Room } from "../assets/data/rooms";
-import { roomTypeMap, getDays } from "../assets/data/data";
+import type { Room } from "../../assets/data/rooms";
+import { roomTypeMap, getDays } from "../../assets/data/data";
 
 // Components
-import Header from "./ui/Header";
-import TextChip from "./schedule/TexChip";
-import ScheduleLines from "./schedule/ScheduleLines";
-import ScheduleSlots from "./schedule/ScheduleSlots";
+import Header from "../ui/Header";
+import TextChip from "./TexChip";
+import ScheduleLines from "./ScheduleLines";
+import ScheduleSlots from "./ScheduleSlots";
 
 interface Props {
   room: Room;
@@ -126,13 +126,13 @@ const SchedulePage = ({ room }: Props) => {
                 }`}
               >
                 {days.map(({ day }) => (
-                  <p
+                  <span
                     key={day}
                     className="keen-slider__slide text-2xl font-black"
                     aria-hidden="true"
                   >
                     {day}
-                  </p>
+                  </span>
                 ))}
               </div>
             </div>

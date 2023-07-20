@@ -1,4 +1,4 @@
-# Tuwaiq Classrooms 📚
+# Tuwaiq Rooms 📚
 
 <div align="center">
 
@@ -8,17 +8,17 @@
 
 </div>
 
-Tuwaiq Classrooms is a student-made project for other students at Al-Yamamah University. It allows you to check any room schedule in the Tuwaiq building by reading the data from a JSON file and displaying it in an organized manner so students can use classes to their advantage.
+Tuwaiq Rooms is a student-made project at Al-Yamamah University that allows all university affiliates to check the schedule of any room in the Tuwaiq building. We wrote it in a way that reads data from a JSON file and displays it in an organized manner, so that students can take advantage of empty classes efficiently.
 
-## Features
+## Features ⭐
 
-- View any room schedule on any selected day
-- Free slots page for each room (it highlights when said room will be free)
+- View any room schedule on any selected day of the week
 - Display of the schedule is simple and organized
 - Access the schedule from any device (responsive design)
-- Search functionality (coming soon!)
+- Enjoy the convenience of using it as a Progressive Web App (PWA)!
+- Easy to update at the start of each semester by effortlessly running the [Excel Rooms Converter](https://github.com/GDSC-YU/excel-rooms-converter)
 
-## Usage
+## Usage 💻
 
 Simply visit the [website](https://tc.gdscyu.com/) and get going!
 
@@ -31,18 +31,19 @@ Get your hands dirty by following these steps:
 3. Open the project using your favourite editor
 4. Run the app using `npm run dev` to see the changes you make apply as you go
 
-## Useful Resources
+## Useful Resources 📚
 
-- Icons library: https://icones.js.org & https://react-icons.github.io/react-icons/search
 - Tailwind CSS docs: https://tailwindcss.com
 - Astro docs: https://astro.build
 - React docs: https://react.dev/learn
 
-## Contributing
+## Contributing 🤝
 
 We welcome all contributions to this project, as it was made by students for students.
 
 - Open an issue for any bug you find or feature requests.
 - Open a pull request fixing or enhancing something.
 
-Get in touch with the project maintainers if you have any questions.
+Get in touch with the project maintainers if you have any questions! 🚀
+
+[Khalil Melhem](https://github.com/g9wz) - [Yazeed AlKhalaf](https://github.com/YazeedAlKhalaf)
