@@ -1,7 +1,7 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import { Room, rooms } from "../../data/rooms";
-import SchedulePage from "../../components/SchedulePage";
+import { Room, rooms } from "../../assets/data/rooms";
+import SchedulePage from "../../components/schedule/SchedulePage";
 
 const { roomName } = Astro.params;
 const roomNameString = roomName!.toString();
@@ -18,7 +18,7 @@ export function getStaticPaths() {
 
 <Layout
   title={roomNameString}
-  description={`${roomNameString} Classroom in Tuwaiq Building`}
+  description={`${roomNameString} Room in Tuwaiq Building`}
 >
   <SchedulePage room={chosenRoom} client:only="react" />
 </Layout>
