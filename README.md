@@ -1,26 +1,33 @@
 # Tuwaiq Rooms 📚
 
 <div align="center">
+  <figure>
+    <img src="./public/logos/AppIcon.png" width="250px" />
+    <figcaption>
+      <p>
+        <em>sitting on top of a mountain studying in peace</em>
+      </p>
+    </figcaption>
+  </figure>
 
-![GitHub](https://img.shields.io/github/license/GDSC-YU/tuwaiq-classrooms?style=for-the-badge)
-[![GitHub Issues](https://img.shields.io/github/issues/GDSC-YU/tuwaiq-classrooms?style=for-the-badge)](https://github.com/GDSC-YU/tuwaiq-classrooms/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/GDSC-YU/tuwaiq-classrooms?style=for-the-badge)](https://github.com/GDSC-YU/tuwaiq-classrooms/pulls)
-
+  ![GitHub](https://img.shields.io/github/license/GDSC-YU/tuwaiq-classrooms?style=for-the-badge)
+  [![GitHub Issues](https://img.shields.io/github/issues/GDSC-YU/tuwaiq-classrooms?style=for-the-badge)](https://github.com/GDSC-YU/tuwaiq-classrooms/issues)
+  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/GDSC-YU/tuwaiq-classrooms?style=for-the-badge)](https://github.com/GDSC-YU/tuwaiq-classrooms/pulls)
 </div>
 
-Tuwaiq Rooms is a student-made project at Al-Yamamah University that allows all university affiliates to check the schedule of any room in the Tuwaiq building. We wrote it in a way that reads data from a JSON file and displays it in an organized manner, so that students can take advantage of empty classes efficiently.
+Hey there 👋🏻, have you heard of Tuwaiq Rooms? It's a cool student-made project at Al-Yamamah University built to help you make the most of any empty class & get your work done efficiently! 
 
 ## Features ⭐
 
 - View any room schedule on any selected day of the week
-- Display of the schedule is simple and organized
-- Access the schedule from any device (responsive design)
-- Enjoy the convenience of using it as a Progressive Web App (PWA)!
+- Display of the schedule is simple, organized, and easy to use
+- Access the website from any device (responsive design)
+- Enjoy the convenience of using it offline since it's a Progressive Web App (PWA)!
 - Easy to update at the start of each semester by effortlessly running the [Excel Rooms Converter](https://github.com/GDSC-YU/excel-rooms-converter)
 
 ## Usage 💻
 
-Simply visit the [website](https://tc.gdscyu.com/) and get going!
+Simply visit our [website](https://tc.gdscyu.com/) and get going!
 
 Or
 
@@ -33,13 +40,15 @@ Get your hands dirty by following these steps:
 
 ## Useful Resources 📚
 
-- Tailwind CSS docs: https://tailwindcss.com
-- Astro docs: https://astro.build
-- React docs: https://react.dev/learn
+- Tailwind CSS: https://tailwindcss.com
+- Astro: https://astro.build
+- React: https://react.dev/
+- Keen-Slider: https://keen-slider.io/
+- Vite PWA: https://vite-pwa-org.netlify.app/
 
 ## Contributing 🤝
 
-We welcome all contributions to this project, as it was made by students for students.
+We welcome all contributions to this project, as it was made by students for students ❤️
 
 - Open an issue for any bug you find or feature requests.
 - Open a pull request fixing or enhancing something.
