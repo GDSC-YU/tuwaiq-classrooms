@@ -8,7 +8,7 @@ import prefetch from "@astrojs/prefetch";
 import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
-  site: "https://tc.gdscyu.com",
+  site: "https://tc-gdscyu.netlify.app",
   integrations: [
     react(),
     tailwind(),
