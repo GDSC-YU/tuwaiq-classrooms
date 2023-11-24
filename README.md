@@ -23,11 +23,11 @@ Hey there 👋🏻, have you heard of Tuwaiq Rooms? It's a cool student-made pro
 - Display of the schedule is simple, organized, and easy to use
 - Access the website from any device (responsive design)
 - Enjoy the convenience of using it offline since it's a Progressive Web App (PWA)!
-- Easy to update at the start of each semester by effortlessly running the [Excel Rooms Converter](https://github.com/GDSC-YU/excel-rooms-converter)
+- Easy to update at the start of each semester by effortlessly running the [Rooms Data Extractor](https://github.com/GDSC-YU/rooms-data-extractor)
 
 ## Usage 💻
 
-Simply visit our [website](https://tc.gdscyu.com/) and get going!
+Simply visit our [website](https://tc-gdscyu.netlify.app/) and get going!
 
 Or
 

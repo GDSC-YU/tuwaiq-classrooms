@@ -7,9 +7,6 @@ interface Props {
   description: string;
 }
 
-const ogImage = "https://tc.gdscyu.com/opengraph.jpeg";
-const siteURL = "https://tc.gdscyu.com/";
-
 const { title, description } = Astro.props;
 ---
 
@@ -20,20 +17,6 @@ const { title, description } = Astro.props;
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="apple-touch-icon" href="/apple-touch-icon-180x180.png" />
     <link rel="sitemap" href="/sitemap-index.xml" />
-
-    <!-- Twitter -->
-    <meta property="twitter:title" content={title} />
-    <meta property="twitter:description" content={description} />
-    <meta property="twitter:image" content={ogImage} />
-    <meta property="twitter:url" content={siteURL} />
-    <meta property="twitter:card" content="summary_large_image" />
-
-    <!-- Facebook -->
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-    <meta property="og:url" content={siteURL} />
-    <meta property="og:image" content={ogImage} />
-    <meta property="og:type" content="website" />
 
     <meta name="theme-color" content="#0a0a0a" />
     <meta name="viewport" content="width=device-width" />
